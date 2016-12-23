@@ -5,6 +5,7 @@ from math import *
 
 r = sqrt
 
+# 4 + 5
 
 def md(*t, **kwargs):
 	t = kwargs.get('sep', ' ').join([str(el) for el in t])
@@ -21,6 +22,9 @@ def em(*t, **kwargs):
 def quote(s):
 	return '"{}"'.format(s)
 
+def replace(view, region, text):
+	region = [region.a, region.b]
+	view.run_command('fm_edit_replace')
 
 
 # tester("some arg", 0.5 + 0.5 * 5)
@@ -90,11 +94,10 @@ class MathsExpressionCalculatorCommand(sublime_plugin.TextCommand):
 			em('maths_expression_calculator: Unable to run the expression \n{}\n. Error message: {} '.format(repr(str(expression)), e.msg))
 		else:
 			if type(result) == float and result.is_integer(): result = int(result)
-			with Edit(self.view) as edit:
-				if self.replace_expression:
-					edit.replace(region.get_region(), str(result))
-				else:
-					edit.insert(region.get_region().end(), " = {}".format(result))
+			if self.replace_expression:
+				self.view.replace(self.edit, region.get_region(), str(result))
+			else:
+				self.view.insert(self.edit, region.get_region().end(), " = " + str(result))
 
 	def __is_an_expression_char(self, char):
 		return char in self.ok_chars_list
@@ -124,7 +127,7 @@ class MathsExpressionCalculatorCommand(sublime_plugin.TextCommand):
 		return new, abs(opening - closing)
 
 	def run(self, edit, *args, **kwargs):
-
+		self.edit = edit
 		self.window = self.view.window()
 		self.selection = sublime.Selection(self.view.id())
 		self.settings = self.view.settings()

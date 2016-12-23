@@ -70,6 +70,7 @@
 	"ignored_packages":
 	[
 		"AdvancedNewFile",
+		"Anaconda",
 		"ASCII Decorator",
 		"AutoFileName",
 		"Better CoffeeScript",
