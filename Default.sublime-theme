@@ -1,0 +1,60 @@
+[
+    {
+        "class": "icon_file_type",
+        "content_margin": [0, 0]
+    },
+    {
+        "class": "icon_folder",
+        "layer0.texture": "",
+        "layer0.opacity": 0,
+        "content_margin": [0, 0]
+    },
+    // Regex search button
+    {
+        "class": "icon_regex",
+        "layer0.texture": "Theme - Spacegray/Spacegray/regex.png",
+        "layer0.opacity": 1,
+        "content_margin": 8
+
+    },
+
+    // Case sensitive search button
+    {
+        "class": "icon_case",
+        "layer0.texture": "Theme - Spacegray/Spacegray/casesens.png",
+        "layer0.opacity": 1,
+        "content_margin": 8
+    },
+
+    // Match whole word search button
+    {
+        "class": "icon_whole_word",
+        "layer0.texture": "Theme - Spacegray/Spacegray/wholeword.png",
+        "layer0.opacity": 1,
+        "content_margin": 8
+    },
+
+    // Highlight results button
+    {
+        "class": "icon_highlight",
+        "layer0.texture": "Theme - Spacegray/Spacegray/highlight.png",
+        "layer0.tint": [167, 173, 186], // 04
+        "layer0.opacity": 1,
+        "content_margin": 8
+    },
+
+    {
+        "class": "tree_row",
+        "layer0.texture": "Theme - Default/row_highlight_dark.png",
+        "layer0.opacity": 0.0,
+        "layer0.inner_margin": [1, 1]
+    },
+
+    {
+        "class": "tree_row",
+        "attributes": ["selected"],
+        "layer0.opacity": 0.8
+        // TODO: fix selected row color & shadow
+    },
+
+]

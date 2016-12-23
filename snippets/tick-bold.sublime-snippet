@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+&#10004;
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tickbold</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>text.html.markdown</scope> -->
+	<!-- Optional: Set a description to your snippet -->
+	<description>Done!</description>
+</snippet>

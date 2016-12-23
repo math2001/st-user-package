@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+	background-image: linear-gradient(to ${1:bottom|top|right|left}, #fff 0%, #f78133 100%);
+	background-image: -webkit-linear-gradient(${1:?top ?bottom ?left ?right}, #fff 0%, #f78133 100%);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gr</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

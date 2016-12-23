@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+, { "keys": ["ctrl+${1:une_combinaison_de_touche}"], "command": "${2:une_commande}" }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>k</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.json</scope>
+</snippet>

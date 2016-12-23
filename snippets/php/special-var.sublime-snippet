@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+\$post = \$_POST;
+\$session = \$_SESSION;
+\$get = \$_GET;
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>specialvar</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<!-- Optional: Set a description to your snippet -->
+	<!-- <description>description</description> -->
+</snippet>

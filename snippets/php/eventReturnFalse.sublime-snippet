@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+onsubmit="$1event.returnValue=false; return false;"
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>subfalse</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php, text.html</scope>
+	<!-- Optional: Set a description to your snippet -->
+	<!-- <description>description</description> -->
+</snippet>

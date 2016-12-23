@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+from __future__ import print_function, division
+${1/.+/from pygame import *
+/}from pygame${1:.locals} import *
+from colors import *
+from funcs import *
+from screen import Screen, S
+
+${1/[^ ]+/pygame./}init()
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>importbase</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+Screen.screen.
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ss</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+	<!-- Optional: Set a description to your snippet -->
+	<description>Screen.screen.</description>
+</snippet>

@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+try {
+	\$bdd = new PDO(
+		'mysql:host=${1:local.dev};dbname=${2:table};charset=utf8', 
+		'root', 
+		'', 
+		[PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]
+	);
+}
+catch (Exception \$e) {
+	die('Erreur : ' . \$e->getMessage());
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cobdd</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<!-- Optional: Set a description to your snippet -->
+	<description>connexion to bdd</description>
+</snippet>

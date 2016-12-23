@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+print("$TM_FILENAME:$TM_LINE_NUMBER", $1)
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>print</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+	<!-- Optional: Set a description to your snippet -->
+	<description>nice print for debug</description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<script type="text/javascript" src="$1">${0}</script>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>script</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php, text.html</scope>
+	<!-- Optional: Set a description to your snippet -->
+	<!-- <description>description</description> -->
+</snippet>

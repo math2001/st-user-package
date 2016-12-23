@@ -1,0 +1,22 @@
+[
+    {
+        "class": "tab_control",
+        "settings": ["!show_tab_close_buttons"],
+        "attributes": ["dirty"],
+        "content_margin": 0
+    },
+    {
+        "class": "tab_close_button",
+        "settings": ["!show_tab_close_buttons"],
+        "parents": [{"class": "tab_control","attributes": ["dirty"]}],
+        "content_margin": [0, 0],
+        "layer0.opacity": 1
+    },
+    {
+        "class": "tab_control",
+        "settings": ["!show_tab_close_buttons"],
+        "attributes": ["dirty"],
+        "content_margin": [8, 0]
+    },
+
+]

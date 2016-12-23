@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+die("<pre><i>die(): </i><b>". __FILE__."</b> at lign <b>".__LINE__."</b></pre>");
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>die</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<!-- Optional: Set a description to your snippet -->
+	<description>die() file-line</description>
+</snippet>

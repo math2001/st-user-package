@@ -1,0 +1,10 @@
+%YAML 1.2
+---
+# See http://www.sublimetext.com/docs/3/syntax.html
+file_extensions:
+  - mocha.js
+scope: source.mocha.js
+contexts:
+  main:
+    - match: ''
+      push: 'scope:source.js'

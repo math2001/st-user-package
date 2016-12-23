@@ -1,0 +1,9 @@
+[
+    {
+        "class": "quick_panel_label",
+        "fg": [241, 241, 241, 255],
+        "match_fg": [241, 241, 241, 255],
+        "selected_fg": [241, 241, 241, 255],
+        "selected_match_fg": [241, 241, 241, 255]
+    }
+]

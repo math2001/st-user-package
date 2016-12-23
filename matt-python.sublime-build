@@ -1,0 +1,5 @@
+{
+    "cmd": ["python", "-u", "$file"],
+    "selector": "source.python",
+    "quiet": true
+}

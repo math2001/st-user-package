@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+background-color lighten(${1:red}, ${2:90}%) /* debug */
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>debug</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.stylus</scope>
+	<!-- Optional: Set a description to your snippet -->
+	<description>debug by bgc</description>
+</snippet>

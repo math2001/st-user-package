@@ -1,0 +1,25 @@
+[
+	{
+		"args":
+		{
+			"to": "line"
+		},
+		"command": "expand_selection"
+	},
+	{
+		"args": null,
+		"command": "cut"
+	},
+	{
+		"command": "move",
+		"args": {
+			"by": "characters", "forward": true
+		}
+	},
+	{
+		"command": "move",
+		"args": {
+			"by": "characters", "forward": false
+		}
+	}
+]

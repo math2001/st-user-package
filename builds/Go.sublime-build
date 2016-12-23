@@ -1,0 +1,5 @@
+{
+    "cmd": ["go", "run", "$file"],
+    "selector": "source.go",
+    "quiet": true
+}

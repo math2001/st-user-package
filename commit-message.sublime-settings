@@ -1,0 +1,6 @@
+// These settings override both User and Default settings for the commit-message syntax
+{
+    "rulers": [50, 72],
+    "vintage_start_in_command_mode": false,
+    "spell_check": true
+}

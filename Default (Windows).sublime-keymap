@@ -1,0 +1,359 @@
+[
+    // VIM shortcuts
+    {"keys": ["j", "j"], "command": "exit_insert_mode", "context":
+        [
+            { "key": "setting.command_mode", "operand": false },
+            { "key": "setting.is_widget", "operand": false }
+        ]
+    },
+    { "keys": ["alt+h"], "command": "unindent" },
+    { "keys": ["alt+l"], "command": "indent" },
+    { "keys": ["alt+j"], "command": "swap_line_down" },
+    { "keys": ["alt+k"], "command": "swap_line_up" },
+    { "keys": ["ctrl+alt+k"], "command": "select_lines", "args": { "forward": false } },
+    { "keys": ["ctrl+alt+j"], "command": "select_lines", "args": { "forward": true } },
+    // ---- simple mode shortcuts ----
+    {
+        "keys": ["f8"], "command": "chain",
+        "args": {
+            "commands": [
+                ["save"],
+                ["close_window"]
+            ]
+        }
+    },
+    {"keys": ["ctrl+."], "command": "run_emmet_action",
+        "args": {"action": "next_edit_point"}
+    },
+    {"keys": ["ctrl+k", "ctrl+i"], "command": "reindent",
+        "args": {"single_line": false}
+    },
+    {"keys": ["f7"], "command": "matt_simple_refresh"},
+    {"keys": ["ctrl+alt+shift+t"], "command": "expand_tabs",
+        "args": {"set_translate_tabs": true} },
+    {"keys": ["alt+q"], "command": "change_quotes"},
+    {"keys": ["alt+s"], "command": "open_file_from_text"},
+    {"keys": ["alt+f"], "command": "fold_function"},
+    {"keys": ["alt+i"], "command": "image_previewer"},
+    {"keys": ["alt+c"], "command": "color_previewer"},
+    {"keys": ["backspace"], "command": "run_macro_file",
+        "args": {"file": "Packages/User/macros/double_delete.sublime-macro"},
+        "context": [
+            {"key": "preceding_text", "operator": "regex_contains", "operand": "\\(\\)$"},
+            {"key": "following_text", "operator": "regex_contains", "operand": "^\\)"}
+        ]
+    },
+    {"keys": [".", "."], "command": "run_macro_file",
+        "args": {"file": "Packages/User/macros/sort-css.sublime-macro"},
+        "context": [
+            {"key": "selector", "operator": "equal", "operand": "meta.property-list.css"}
+        ]
+    },
+    { "keys": ["ctrl+shift+c"], "command": "sublime_command_runner" },
+    { "keys": ["shift+enter"], "command": "center_screen" },
+
+    { "keys": ["shift+alt+c"], "command": "plain_tasks_cancel", "context": [{"key": "selector", "operator": "equal", "operand": "text.todo" }] },
+
+    // Packages
+    { "keys": ["ctrl+q"], "command": "transform_php" },
+
+    { "keys": ["p", "y", "s"], "command": "run_existing_window_command",
+        "args": {"file": "config/Python/Main.sublime-menu", "id": "repl_python"}
+    },
+    { "keys": ["shift+ctrl+o"], "command": "open_dir", "args": {"dir": "$packages"}},
+    { "keys": ["ctrl+shift+u"], "command": "open_dir", "args": { "dir": "$packages/User" } },
+
+
+    // lign mover
+    { "keys": ["alt+up"], "command": "swap_line_up"},
+    { "keys": ["alt+down"], "command": "swap_line_down"},
+    { "keys": ["alt+right"], "command": "indent" },
+    { "keys": ["alt+left"], "command": "unindent" },
+
+
+    { "keys": ["ctrl+g", "h"], "command": "wrap_as_you_type" },
+    { "keys": ["ctrl+g", "f"], "command": "insert_snippet",
+        "args": { "contents": "$1($SELECTION)" } },
+
+    // case
+        { "keys": ["ctrl+t"], "command": "title_case" },
+        { "keys": ["ctrl+u"], "command": "upper_case" },
+        { "keys": ["ctrl+l"], "command": "lower_case" },
+
+
+    // Emmet (ex Zen-coding)
+        { "keys": ["ctrl+alt+left"], "command": "run_emmet_action", "args": {"action": "decrement_number_by_1"} },
+        { "keys": ["ctrl+alt+right"], "command": "run_emmet_action", "args": {"action": "increment_number_by_1"} },
+
+        { "keys": ["ctrl+shift+left"], "command": "run_emmet_action", "args": {"action": "decrement_number_by_10"} },
+        { "keys": ["ctrl+shift+right"], "command": "run_emmet_action", "args": {"action": "increment_number_by_10"} },
+
+    // scroll
+        { "keys": ["ctrl+up"], "command": "scroll_lines", "args": { "amount": 3.0} },
+        { "keys": ["ctrl+down"], "command": "scroll_lines", "args": { "amount": -3.0 } },
+
+    // macro
+        { "keys": ["ctrl+alt+;"], "command": "run_macro_file", "args": {"file": "Packages/User/macros/vide-la-ligne.sublime-macro"} },
+        { "keys": ["ctrl+;"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Line.sublime-macro"}},
+        { "keys": ["ctrl+alt+keypad_plus"], "command": "run_macro_file", "args": {"file": "Packages/User/macros/duplicate-multi-lines.sublime-macro" } },
+
+
+
+    // indentation
+        { "keys": ["ctrl+i"], "command": "reindent", "args": {"single_line": true} },
+
+    // edit
+        { "keys": ["ctrl+r"],
+          "command": "permute_selection",
+          "args": {"operation": "reverse"},
+          "context": [
+            { "key": "num_selections", "operator": "equal", "operand": 2 }
+          ] },
+        {"keys": ["ctrl+r"], "command": "run_macro_file",
+            "args": {
+                "file": "Packages/User/macros/reverse-empty-line.sublime-macro"
+            },
+            "context": [
+                { "key": "num_selections", "operator": "equal", "operand": 2 },
+                { "key": "selection_empty", "match_all": true }
+            ]
+        },
+
+
+    // setup
+    { "keys": ["ctrl+alt+p"], "command": "project_manager", "args": { "action": "switch" } },
+    { "keys": ["alt+p"], "command": "project_manager", "args": {"action": "new"} },
+    { "keys": ["ctrl+alt+enter"], "command": "clear_console" },
+    { "keys": ["ctrl+shift+keypad_plus"], "command": "increase_font_size" },
+    { "keys": ["ctrl+shift+keypad_minus"], "command": "decrease_font_size" },
+
+
+
+    { "keys": ["escape"], "command": "single_selection", "context":
+        [
+            { "key": "num_selections", "operator": "not_equal", "operand": 1 }
+        ]
+    },
+
+    // view menu
+    { "keys": ["ctrl+k", "ctrl+o"], "command": "toggle_show_open_files" },
+    { "keys": ["ctrl+k", "ctrl+s"], "command": "toggle_side_bar" },
+    { "keys": ["ctrl+k", "ctrl+m"], "command": "toggle_minimap" },
+    { "keys": ["ctrl+k", "ctrl+c"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+    { "keys": ["ctrl+k", "ctrl+f"], "command": "toggle_full_screen" },
+    { "keys": ["ctrl+k", "ctrl+t"], "command": "toggle_tabs" },
+
+    { "keys": ["alt+z"], "command": "transform_php" },
+
+
+    {
+        "keys": ["alt+e"],
+        "command": "insert_snippet",
+        "args": {
+            "contents": "enumerate($SELECTION)"
+        },
+        "context": [
+            { "key": "selection_empty", "operator": "equal", "operand": false },
+            {
+                "key": "selector",
+                "operator": "equal",
+                "match_all": true,
+                "operand": "source.python"
+            }
+        ]
+    },
+    {
+        "keys": ["alt+e"],
+        "command": "insert_snippet",
+        "args": {
+            "contents": "enumerate($1)"
+        },
+        "context": [
+            { "key": "selection_empty", "operator": "equal", "operand": true },
+            {
+                "key": "selector",
+                "operator": "equal",
+                "match_all": true,
+                "operand": "source.python"
+            }
+        ]
+    },
+    {
+        "keys": ["enter"],
+        "command": "insert_snippet",
+        "args": {
+            "contents": "\n\t${0}\n"
+        },
+        "context": [
+            { "key": "selector", "operator": "equal", "operand": "comment.block.documentation.python, string.quoted.double.heredoc.coffee" },
+            { "key": "preceding_text", "operator": "regex_contains", "operand": "\"\"\" ?$" },
+            { "key": "following_text", "operator": "regex_contains", "operand": "^ ?\"\"\"" },
+            { "key": "selection_empty", "match_all": true }
+        ]
+    },
+    { "keys": [" "], "command": "insert_snippet", "args": {"contents": " $0 "}, "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "comment.block.documentation.python, string.quoted.double.heredoc.coffee" },
+            { "key": "selection_empty", "match_all": true },
+            { "key": "following_text", "operator": "regex_contains", "operand": "^\"\"\"" },
+            { "key": "preceding_text", "operator": "regex_contains", "operand": "\"\"\"$" }
+        ]
+    },
+    // {|} to { | } when press space
+    { "keys": [" "], "command": "insert_snippet", "args": {"contents": " $0 "}, "context":
+        [
+            { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+            // { "key": "selector", "operator": "equal", "operand": "meta.structure.dictionary.json, ", "match_all": true },
+            { "key": "preceding_text", "operator": "regex_contains", "operand": "\\{$", "match_all": true },
+            { "key": "following_text", "operator": "regex_contains", "operand": "^\\}", "match_all": true }
+        ]
+    },
+    // { | } to {|} when press backspace
+    { "keys": ["backspace"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Left Right.sublime-macro"},
+        "context": [
+            { "key": "selection_empty", "match_all": true },
+            { "key": "following_text", "operator": "regex_contains", "operand": "^ \\}" },
+            { "key": "preceding_text", "operator": "regex_contains", "operand": "\\{ $" }
+        ]
+    },
+    { "keys": ["backspace"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Left Right.sublime-macro"},
+        "context": [
+            { "key": "selector", "operator": "equal", "operand": "comment.block.documentation.python" },
+            { "key": "selection_empty", "match_all": true },
+            { "key": "following_text", "operator": "regex_contains", "operand": "^ \"\"\"" },
+            { "key": "preceding_text", "operator": "regex_contains", "operand": "\"\"\" $" }
+        ]
+    },
+    { "keys": ["}"], "command": "run_macro_file", "args": { "file": "Packages/User/macros/move-multi-blank-and-move-left.sublime-macro" },
+    "context": [
+        { "key": "following_text", "operator": "regex_contains", "operand": "^\\s+\\}" }
+    ] },
+
+
+
+    // PHP
+    { "keys": ["enter"], "command": "run_macro_file", "args": {"file": "Packages/User/macros/Delete Left Right Enter.sublime-macro"},
+        "context": [
+            { "key": "selection_empty", "match_all": true },
+            { "key": "following_text", "operator": "regex_contains", "operand": "^ \\?>" },
+            { "key": "preceding_text", "operator": "regex_contains", "operand": "<\\?(php)? $" }
+        ]
+    },
+    { "keys": ["f5"], "command": "python_runner" },
+	{
+        "keys": ["keypad_multiply"],
+        "command": "insert",
+        "args": {
+            "characters": "*"
+        },
+        "context": []
+    },
+    { "keys": ["alt+d"], "command": "write_date" },
+	{
+        "keys": ["@"],
+        "args": {"attribute": "style"},
+        "command": "emmet_insert_attribute",
+        "context": [
+            {
+                "operand": "text.html meta.tag -string -punctuation.definition.tag.begin.html -meta.scope.between-tag-pair.html -source -meta.tag.template.value.twig",
+                "operator": "equal",
+                "match_all": true,
+                "key": "selector"
+            }
+        ]
+    },
+	{"keys": ["ctrl+shift+y"], "command": "maths_expression_calculator" },
+	{"keys": ["ctrl+alt+y"], "command": "maths_expression_calculator", "args": { "replace_expression": false } },
+	{"keys": ["ctrl+shift+f"], "command": "find_in_files"},
+
+    {"keys": [".", "."], "command": "insert_snippet", "args": {"contents": "self."},
+        "context": [
+            { "key": "selector", "operator": "equal", "operand": "source.python" },
+            { "key": "selector", "operator": "not_equal", "operand": "string.quoted" }
+        ]
+    },
+    {
+        "keys": [".", "."], "command": "insert_snippet", "args": {"contents": "this."}, "context": [
+            { "key": "selector", "operator": "equal", "operand": "source.js" },
+            { "key": "selector", "operator": "not_equal", "operand": "string.quoted" }
+        ]
+    },
+
+    //
+    // layout
+    //
+    {
+        "keys": ["ctrl+keypad1"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 1.0],
+            "rows": [0.0, 1.0],
+            "cells": [[0, 0, 1, 1]]
+        }
+    },
+	{
+        "keys": ["ctrl+keypad2"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 0.5, 1.0],
+            "rows": [0.0, 1.0],
+            "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+        }
+    },
+	{
+        "keys": ["ctrl+keypad3"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 0.33, 0.66, 1.0],
+            "rows": [0.0, 1.0],
+            "cells": [[0, 0, 1, 1], [1, 0, 2, 1], [2, 0, 3, 1]]
+        }
+    },
+	{
+        "keys": ["ctrl+keypad4"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 0.25, 0.5, 0.75, 1.0],
+            "rows": [0.0, 1.0],
+            "cells": [[0, 0, 1, 1], [1, 0, 2, 1], [2, 0, 3, 1], [3, 0, 4, 1]]
+        }
+    },
+	{
+        "keys": ["ctrl+keypad8"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 1.0],
+            "rows": [0.0, 0.5, 1.0],
+            "cells": [[0, 0, 1, 1], [0, 1, 1, 2]]
+        }
+    },
+	{
+        "keys": ["ctrl+keypad9"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 1.0],
+            "rows": [0.0, 0.33, 0.66, 1.0],
+            "cells": [[0, 0, 1, 1], [0, 1, 1, 2], [0, 2, 1, 3]]
+        }
+    },
+	{
+        "keys": ["ctrl+keypad5"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 0.5, 1.0],
+            "rows": [0.0, 0.5, 1.0],
+            "cells":
+            [
+                [0, 0, 1, 1], [1, 0, 2, 1],
+                [0, 1, 1, 2], [1, 1, 2, 2]
+            ]
+        }
+    }
+]

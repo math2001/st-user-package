@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[${1/(.)/\l$1/g} ${1/(.+)/=/} $1${1/(.+)/\(\)/}]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ins</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+	<!-- Optional: Set a description to your snippet -->
+	<description>Create an instance of a class</description>
+</snippet>

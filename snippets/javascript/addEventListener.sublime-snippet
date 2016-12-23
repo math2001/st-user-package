@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+${1:document}.addEventListener("${2:click}", function (e){
+	$4
+}, ${3:false})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>add</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
