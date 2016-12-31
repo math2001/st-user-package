@@ -11,5 +11,11 @@
         }
     ],
     "index_folder_separator": " ",
-    // "save_after_creating": true
+    "save_after_creating": true,
+    "aliases": {
+        "st": "$packages",
+        "des": "~/Desktop",
+        "stu": "$st/User",
+        "cr": "C:/courses/"
+    }
 }

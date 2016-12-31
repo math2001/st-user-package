@@ -144,12 +144,7 @@
 		"command": "escape_backslashes"
 	},
 	{
-		"caption": "JSON: Remove Trailling Comma",
+		"caption": "Math2001: Json Comma Fixer",
 		"command": "json_fixer"
-	},
-	{
-		"caption": "Sublime: Logger",
-		"command": "logger"
 	}
-
 ]

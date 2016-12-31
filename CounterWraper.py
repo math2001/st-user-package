@@ -34,15 +34,15 @@ class CounterWraperCommand(sublime_plugin.TextCommand):
 
 		for region in self.view.sel():
 			region = self.view.full_line(region)
-			indent = get_indent(self.view.substr(region))
+			# indent = get_indent(self.view.substr(region))
+			indent = self.view.indentation_level(region.begin())
 			nb = str(rnd(100, 1000))
 			code = ' # counter' + nb
-			text = ('\t' * indent) + 'counter = 0' + code + '\n'
+			text = ('\t' * indent) + 'counter' + nb + ' = 0\n'
 			text += self.view.substr(region)
-			text += ('\t' * indent) + '\tcounter += 1' + code + '\n'
-			text += ('\t' * indent) + '\tif counter > 100:' + code + '\n'
-			text += ('\t' * indent) + '\t\tprint("end up counter ' + nb + '")' + code + '\n'
+			text += ('\t' * indent) + '\tcounter' + nb + ' += 1\n'
+			text += ('\t' * indent) + '\tif counter' + nb + ' > 100:\n'
+			text += ('\t' * indent) + '\t\tprint("end up counter' + nb + '")\n'
 			text += ('\t' * indent) + '\t\treturn False' + code + '\n'
 
 			self.view.replace(edit, region, text)
-

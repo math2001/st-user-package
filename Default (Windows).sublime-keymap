@@ -6,13 +6,32 @@
             { "key": "setting.is_widget", "operand": false }
         ]
     },
+    {"keys": ["ctrl+alt+shift+z"], "args": {"action": "select_next_item"},
+        "command": "run_emmet_action",
+        "context": [
+            {
+                "key": "emmet_action_enabled.select_next_item"
+            }
+        ]
+    },
     { "keys": ["alt+h"], "command": "unindent" },
     { "keys": ["alt+l"], "command": "indent" },
     { "keys": ["alt+j"], "command": "swap_line_down" },
     { "keys": ["alt+k"], "command": "swap_line_up" },
     { "keys": ["ctrl+alt+k"], "command": "select_lines", "args": { "forward": false } },
     { "keys": ["ctrl+alt+j"], "command": "select_lines", "args": { "forward": true } },
+
+    {
+        "keys": ["shift+space"],
+        "command": "say_hello"
+    },
+
     // ---- simple mode shortcuts ----
+    { "keys": ["ctrl+o"], "command": "markdown_preview", "args": { "target": "browser",
+                                                                   "parser": "github" },
+      "context": [
+        { "key": "selector", "operator": "equal", "operand": "text.html.markdown" }
+    ] },
     {
         "keys": ["f8"], "command": "chain",
         "args": {
@@ -76,48 +95,48 @@
         "args": { "contents": "$1($SELECTION)" } },
 
     // case
-        { "keys": ["ctrl+t"], "command": "title_case" },
-        { "keys": ["ctrl+u"], "command": "upper_case" },
-        { "keys": ["ctrl+l"], "command": "lower_case" },
+    { "keys": ["ctrl+t"], "command": "title_case" },
+    { "keys": ["ctrl+u"], "command": "upper_case" },
+    { "keys": ["ctrl+l"], "command": "lower_case" },
 
 
     // Emmet (ex Zen-coding)
-        { "keys": ["ctrl+alt+left"], "command": "run_emmet_action", "args": {"action": "decrement_number_by_1"} },
-        { "keys": ["ctrl+alt+right"], "command": "run_emmet_action", "args": {"action": "increment_number_by_1"} },
+    { "keys": ["ctrl+alt+left"], "command": "run_emmet_action", "args": {"action": "decrement_number_by_1"} },
+    { "keys": ["ctrl+alt+right"], "command": "run_emmet_action", "args": {"action": "increment_number_by_1"} },
 
-        { "keys": ["ctrl+shift+left"], "command": "run_emmet_action", "args": {"action": "decrement_number_by_10"} },
-        { "keys": ["ctrl+shift+right"], "command": "run_emmet_action", "args": {"action": "increment_number_by_10"} },
+    { "keys": ["ctrl+shift+left"], "command": "run_emmet_action", "args": {"action": "decrement_number_by_10"} },
+    { "keys": ["ctrl+shift+right"], "command": "run_emmet_action", "args": {"action": "increment_number_by_10"} },
 
     // scroll
-        { "keys": ["ctrl+up"], "command": "scroll_lines", "args": { "amount": 3.0} },
-        { "keys": ["ctrl+down"], "command": "scroll_lines", "args": { "amount": -3.0 } },
+    { "keys": ["ctrl+up"], "command": "scroll_lines", "args": { "amount": 3.0} },
+    { "keys": ["ctrl+down"], "command": "scroll_lines", "args": { "amount": -3.0 } },
 
     // macro
-        { "keys": ["ctrl+alt+;"], "command": "run_macro_file", "args": {"file": "Packages/User/macros/vide-la-ligne.sublime-macro"} },
-        { "keys": ["ctrl+;"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Line.sublime-macro"}},
-        { "keys": ["ctrl+alt+keypad_plus"], "command": "run_macro_file", "args": {"file": "Packages/User/macros/duplicate-multi-lines.sublime-macro" } },
+    { "keys": ["ctrl+alt+;"], "command": "run_macro_file", "args": {"file": "Packages/User/macros/vide-la-ligne.sublime-macro"} },
+    { "keys": ["ctrl+;"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Line.sublime-macro"}},
+    { "keys": ["ctrl+alt+keypad_plus"], "command": "run_macro_file", "args": {"file": "Packages/User/macros/duplicate-multi-lines.sublime-macro" } },
 
 
 
     // indentation
-        { "keys": ["ctrl+i"], "command": "reindent", "args": {"single_line": true} },
+    { "keys": ["ctrl+i"], "command": "reindent", "args": {"single_line": true} },
 
     // edit
-        { "keys": ["ctrl+r"],
-          "command": "permute_selection",
-          "args": {"operation": "reverse"},
-          "context": [
-            { "key": "num_selections", "operator": "equal", "operand": 2 }
-          ] },
-        {"keys": ["ctrl+r"], "command": "run_macro_file",
-            "args": {
-                "file": "Packages/User/macros/reverse-empty-line.sublime-macro"
-            },
-            "context": [
-                { "key": "num_selections", "operator": "equal", "operand": 2 },
-                { "key": "selection_empty", "match_all": true }
-            ]
+    { "keys": ["ctrl+r"],
+      "command": "permute_selection",
+      "args": {"operation": "reverse"},
+      "context": [
+        { "key": "num_selections", "operator": "equal", "operand": 2 }
+      ] },
+    {"keys": ["ctrl+r"], "command": "run_macro_file",
+        "args": {
+            "file": "Packages/User/macros/reverse-empty-line.sublime-macro"
         },
+        "context": [
+            { "key": "num_selections", "operator": "equal", "operand": 2 },
+            { "key": "selection_empty", "match_all": true }
+        ]
+    },
 
 
     // setup
@@ -128,10 +147,11 @@
     { "keys": ["ctrl+shift+keypad_minus"], "command": "decrease_font_size" },
 
 
-
-    { "keys": ["escape"], "command": "single_selection", "context":
-        [
-            { "key": "num_selections", "operator": "not_equal", "operand": 1 }
+    {
+        "keys": ["alt+s"],
+        "command": "toggle_in_selection",
+        "context": [
+            { "key": "setting.is_widget", "operator": "equal", "operand": true }
         ]
     },
 
