@@ -25,13 +25,18 @@ class JsonFixerCommand(sublime_plugin.TextCommand):
 
     def add_needed_comma(self, edit):
         v = self.view
-        regions = v.find_all(r'[\}\]]\s*[\{\[]')
-        for i, region in enumerate(regions):
+        regions = v.find_all(r'[\}\]"]\s*["\{\[]')
+        i = 0
+        for region in regions:
             region = sublime.Region(region.begin() + i, region.end() + i)
-            if 'punctuation' in v.scope_name(region.begin()):
-                text = v.substr(region)
-                v.replace(edit, region, text[0] + ',' + text[1:])
-
+            if not 'punctuation' in v.scope_name(region.begin()):
+                continue
+            if (v.substr(region.begin()) == '"' and 'punctuation.definition.'
+                'string.end.json' not in v.scope_name(region.begin()) ):
+                continue
+            text = v.substr(region)
+            v.replace(edit, region, text[0] + ',' + text[1:])
+            i += 1
 
     def run(self, edit):
 
