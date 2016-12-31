@@ -1,3 +1,11 @@
+"""
+
+Removes unwanted commas, and add needed ones
+
+By math2001
+
+"""
+
 import sublime
 import sublime_plugin
 
