@@ -46,3 +46,6 @@ class CounterWraperCommand(sublime_plugin.TextCommand):
 			text += ('\t' * indent) + '\t\treturn False' + code + '\n'
 
 			self.view.replace(edit, region, text)
+
+	def is_enabled(self):
+		return 'python' in self.view.scope_name(self.view.sel()[0].begin())

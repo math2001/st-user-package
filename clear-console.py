@@ -5,4 +5,5 @@ import sys
 class ClearConsoleCommand(sublime_plugin.WindowCommand):
 
     def run(self):
-        print('\n' * 20)
+        # get console size, and font size height, and define the right size
+        print('\n' * 30)

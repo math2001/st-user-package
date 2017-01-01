@@ -21,10 +21,7 @@
     { "keys": ["ctrl+alt+k"], "command": "select_lines", "args": { "forward": false } },
     { "keys": ["ctrl+alt+j"], "command": "select_lines", "args": { "forward": true } },
 
-    {
-        "keys": ["shift+space"],
-        "command": "say_hello"
-    },
+    { "keys": ["shift+space"], "command": "json_comma"},
 
     // ---- simple mode shortcuts ----
     { "keys": ["ctrl+o"], "command": "markdown_preview", "args": { "target": "browser",
@@ -54,7 +51,6 @@
     {"keys": ["alt+s"], "command": "open_file_from_text"},
     {"keys": ["alt+f"], "command": "fold_function"},
     {"keys": ["alt+i"], "command": "image_previewer"},
-    {"keys": ["alt+c"], "command": "color_previewer"},
     {"keys": ["backspace"], "command": "run_macro_file",
         "args": {"file": "Packages/User/macros/double_delete.sublime-macro"},
         "context": [

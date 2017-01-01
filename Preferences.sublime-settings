@@ -80,8 +80,8 @@
 		"FileManagerTests",
 		"jQuery",
 		"LiveReload",
+		"MarkdownLivePreview",
 		"Material Theme",
-		"PlainTasks",
 		"PyYapf Python Formatter",
 		"SideBarEnhancements",
 		"SidebarHoverToggle",
@@ -213,10 +213,15 @@
 		"username",
 		"weetbix"
 	],
+	"jsoncomma_on_save": true,
 	"localhost": "local.dev",
 	"match_bracket": true,
 	"overlay_scroll_bars": "enabled",
 	"remove_trailing_whitespace_on_save": true,
+	"rulers":
+	[
+		79
+	],
 	"save_on_focus_lost": true,
 	"show_encoding": true,
 	"show_line_endings": true,

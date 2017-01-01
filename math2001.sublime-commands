@@ -8,14 +8,6 @@
 		"command": "transform_command_name"
 	},
 	{
-		"caption": "Math2001: Update Of Zeal",
-		"command": "zeal_update"
-	},
-	{
-		"caption": "Math2001: Virgule On Lines Begining",
-		"command": "virgule_on_lines_begining"
-	},
-	{
 		"caption": "Math2001: HTML Encode",
 		"command": "encode_special_caraters"
 	},
@@ -32,10 +24,6 @@
 		"command": "wrap_with_function"
 	},
 	{
-		"caption": "Math2001: Insert jQuery Uncompressed"
-		, "command": "insert_jquery"
-	},
-	{
 		"caption": "Spell Checking"
 		, "command": "toggle_setting"
 		, "args": {"setting": "spell_check"}
@@ -45,9 +33,9 @@
 		, "command": "clear_console"
 	},
 	{
-		"caption": "Math2001: General Todo"
+		"caption": "Math2001: Main Todo"
 		, "command": "open_file"
-		, "args": { "file": "$packages/User/todo.md" }
+		, "args": { "file": "$packages/User/main.todo" }
 	},
 	{
 		"caption": "Math2001: CMD",

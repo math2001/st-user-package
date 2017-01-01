@@ -1,0 +1,25 @@
+Code:
+
+  ☐ CSW: better outputting file name and line
+
+Packages To Dev:
+
+  ☐ yaml config compiler
+  ☐ snippet in settings
+  ☐ whitespace PR: save cursor position
+  ☐ better snippet maker @high
+  ☐ console cleaner: define nb line to print @low @toShare
+  ☐ paste: auto escape path and share @high @toShare
+
+Tutos:
+
+  ☐ git::hooks
+
+  ☐ Python::property
+
+
+Others:
+  ☐ read javascript the good part
+  ☐ counter (while infinite loop) @high @toShare
+  ☐ learn should.js
+  ☐ CSW: try/except when reading file @critical

@@ -1,0 +1,12 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+—
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>--</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope></scope>
+  <!-- Optional: Will be displayed in the command palette, and in the popup -->
+  <description>long hyphen</description>
+</snippet>

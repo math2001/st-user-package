@@ -45,3 +45,5 @@ If debugging is the process of removing bugs, then programming must be the proce
 Hardware: The parts of a computer system that can be kicked.
 
 Dear auto-correct, please stop changing my rude words into nice ones, you piece of shut!
+
+Only a fool knows everything. A wise man knows how little he knows
