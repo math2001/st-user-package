@@ -2,25 +2,39 @@ Code:
 
   ☐ CSW: better outputting file name and line
 
-Packages To Dev:
+Packages to create:
 
   ☐ yaml config compiler
   ☐ snippet in settings
-  ☐ whitespace PR: save cursor position
   ☐ better snippet maker @high
   ☐ console cleaner: define nb line to print @low @toShare
   ☐ paste: auto escape path and share @high @toShare
-  ☐ python completion with exception names
+
+Packages to tweak:
+  ☐ whitespace PR: save cursor position
+
+
+Packages to update:
+  ☐ php helper: ask for shortcut in an input @low
+  ☐ FileManager::move no browser when moving several files, or not finished by /
 
 Tutos:
 
   ☐ git::hooks
-
   ☐ Python::property
 
 
 Others:
   ☐ read javascript the good part
-  ☐ counter (while infinite loop) @high @toShare
+  ☐ counter (while infinite loop) @low @toShare
   ☐ learn should.js
-  ☐ CSW: try/except when reading file @critical
+  ☐ CSW: escape 1 print
+  ☐ CSW: counter is wrong.
+  ☐ CSW: need coloration when asking to abort
+
+
+＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
+Archive:
+ ✔ open github repo from command palette @toShare @done Mon 02 Jan 2017 at 19:49 @project(Packages to create)
+ ✔ python completion with exception names @low @started @done (17-01-01 18:03) @project(Packages To Dev)
+ ✔ CSW: try/except when reading file @critical @done (17-01-01 17:37) @project(Others)
