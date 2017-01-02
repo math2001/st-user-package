@@ -1,0 +1,4 @@
+// These settings override both User and Default settings for the Python syntax
+{
+    "escape_path_on_paste": true
+}
