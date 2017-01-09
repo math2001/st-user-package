@@ -1,0 +1,9 @@
+// These settings override both User and Default settings for the MarkdownLivePreviewSyntax syntax
+{
+    "show_menus": false,
+    "show_tabs": false,
+    "show_minimap": false,
+    "gutter": false,
+    "rulers": [],
+    "word_wrap": true
+}

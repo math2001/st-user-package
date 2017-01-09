@@ -16,12 +16,13 @@ class EscapeBackslashesCommand(sublime_plugin.TextCommand):
 class EscapeBackslashesListener(sublime_plugin.EventListener):
 
     def on_text_command(self, view, command, args):
+        return
         if command != 'paste':
             return
         if view.settings().get('escape_path_on_paste') is True:
-            clipboard = sublime.get_clipboard()
             if '\n' in clipboard:
                 return
+            clipboard = sublime.get_clipboard()
             if 'string' in view.scope_name(view.sel()[0].begin()):
                 sublime.set_clipboard(clipboard.replace('\\', '\\\\') \
                                                .strip('"\''))

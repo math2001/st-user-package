@@ -1,4 +1,5 @@
 {
+	"auto_upgrade": false,
 	"bootstrapped": true,
 	"ignore_vcs_packages": true,
 	"in_process_packages":
@@ -16,6 +17,7 @@
 		"Behave Color Scheme",
 		"Better CoffeeScript",
 		"Boxy Theme",
+		"Boxy Theme Addon - Widget Font Size",
 		"BracketHighlighter",
 		"Chain of Command",
 		"ChangeQuotes",
@@ -24,11 +26,11 @@
 		"ColorHelper",
 		"ColorSchemeEditor",
 		"DataConverter",
-		"DictionaryAutoComplete",
 		"Emmet",
 		"Entheogen Color Scheme",
 		"Future Funk - Color Scheme",
 		"Git Commit Message Syntax",
+		"InsertDate",
 		"Inspired GitHub Color Scheme",
 		"Jinja2",
 		"jQuery",
@@ -43,6 +45,7 @@
 		"nova-sublime-text",
 		"Oceanic Next Color Scheme",
 		"Package Control",
+		"PackageDev",
 		"PackageResourceViewer",
 		"PlainTasks",
 		"ProjectManager",
@@ -53,7 +56,6 @@
 		"SCSS",
 		"SideBarEnhancements",
 		"SidebarHoverToggle",
-		"SnippetMaker",
 		"Stylus",
 		"Sublime Tutor",
 		"SublimeREPL",
@@ -78,8 +80,8 @@
 	"repositories":
 	[
 		"https://github.com/Skullsneeze/SidebarHoverToggle.git",
-		"https://github.com/math2001/FileManager",
 		"https://github.com/driesvints/nova-sublime-text",
-		"https://github.com/victorlaerte/dumbest-ipsum"
+		"https://github.com/victorlaerte/dumbest-ipsum",
+		"https://github.com/math2001/BetterSnippetManager"
 	]
 }

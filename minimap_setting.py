@@ -3,7 +3,7 @@
 import sublime
 import sublime_plugin
 
-class MinimapSetting(sublime_plugin.EventListener):
+class MinimapSetting:
 
     def on_activated(self, view):
         show_minimap = view.settings().get('show_minimap')

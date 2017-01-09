@@ -1,5 +1,9 @@
 [
 	{
+		"caption": "Math2001: Update Prints",
+		"command": "update_print_indicator"
+	},
+	{
 		"caption": "Math2001: Type Word",
 		"command": "type_word"
 	},
@@ -14,10 +18,6 @@
 	{
 		"caption": "View: Toogle Full Screen",
 		"command": "toggle_full_screen"
-	},
-	{
-		"caption": "Math2001: Snippet Lister",
-		"command": "snippet_lister"
 	},
 	{
 		"caption": "Math2001: Wrap With Function",

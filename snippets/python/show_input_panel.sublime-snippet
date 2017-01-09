@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+show_input_panel
+]]></content>
+    <tabTrigger>show_input_panel</tabTrigger>
+    <scope>source.python</scope>
+    <description>show input panel</description>
+</snippet>

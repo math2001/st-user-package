@@ -138,7 +138,7 @@
     // setup
     { "keys": ["ctrl+alt+p"], "command": "project_manager", "args": { "action": "switch" } },
     { "keys": ["alt+p"], "command": "project_manager", "args": {"action": "new"} },
-    { "keys": ["ctrl+alt+enter"], "command": "clear_console" },
+    { "keys": ["ctrl+alt+enter"], "command": "console_cleanr" },
     { "keys": ["ctrl+shift+keypad_plus"], "command": "increase_font_size" },
     { "keys": ["ctrl+shift+keypad_minus"], "command": "decrease_font_size" },
 
@@ -264,7 +264,8 @@
         },
         "context": []
     },
-    { "keys": ["alt+d"], "command": "write_date" },
+    { "keys": ["alt+d"], "command": "insert_date", "args": {
+      "format": "%A %d %B %Y @ %I:%M" } },
 	{
         "keys": ["@"],
         "args": {"attribute": "style"},

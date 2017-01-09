@@ -1,40 +1,50 @@
-Code:
-
-  ☐ CSW: better outputting file name and line
-
 Packages to create:
 
   ☐ yaml config compiler
   ☐ snippet in settings
-  ☐ better snippet maker @high
   ☐ console cleaner: define nb line to print @low @toShare
-  ☐ paste: auto escape path and share @high @toShare
+  ☐ devdocs phantom @low
+
+Package to share:
+  ☐ auto escape on paste @low
+  ☐ counter (while infinite loop) @low @toShare
 
 Packages to tweak:
   ☐ whitespace PR: save cursor position
 
-
 Packages to update:
   ☐ php helper: ask for shortcut in an input @low
   ☐ FileManager::move no browser when moving several files, or not finished by /
+  ☐ Filemanager::docs tell about url
+  ☐ BetterSnippetManager: `Main.sublime-settings`
+  ☐ BetterSnippetManager: escape trigger, content, description...
+  ☐ JSONComma: fix #2
 
 Tutos:
-
   ☐ git::hooks
   ☐ Python::property
 
-
 Others:
   ☐ read javascript the good part
-  ☐ counter (while infinite loop) @low @toShare
   ☐ learn should.js
-  ☐ CSW: escape 1 print
-  ☐ CSW: counter is wrong.
-  ☐ CSW: need coloration when asking to abort
-
+  ☐ sublime-api chrome extension: look for function fuzzy @cool
+  ☐ Sublime::undocs → add set_user_settings
+  ☐ Sublime Text tips (shortcut)
 
 ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
 Archive:
+ ✔ update print line number @done Mon 09 Jan 2017 at 18:56 @project(Packages to update)
+ ✘ JSONComma: work with package dev @cancelled Mon 09 Jan 2017 at 18:56 @project(Packages to update)
+ ✔ git hub accept arguments (issues) @done Mon 09 Jan 2017 at 18:55 @project(Others)
+ ✔ MarkdownLivePreview message for 2.0.0 @done Mon 09 Jan 2017 at 17:32 @project(Packages to update)
+ ✔ creater for .gitignore README, etc @done Fri 06 Jan 2017 at 16:04 @project(Others)
+ ✔ Sublime API chrome extension: sidebar position absolute @done Fri 06 Jan 2017 at 16:04 @project(Others)
+ ✔ CSW: escape 1 print @done Tue 03 Jan 2017 at 11:36 @project(Others)
+ ✔ CSW: need coloration when asking to abort @done Tue 03 Jan 2017 at 10:26 @project(Others)
+ ✔ CSW: better outputting file name and line @done Tue 03 Jan 2017 at 10:16 @project(Others)
+ ✔ CSW: counter is wrong: only counting files, not occurences @done Tue 03 Jan 2017 at 10:11 @project(Others)
+ ✔ better snippet maker @high @done Mon 02 Jan 2017 at 22:08 @project(Packages to create)
+ ✔ paste: auto escape pathe @high @toShare @done Mon 02 Jan 2017 at 22:07 @project(Packages to create)
  ✔ open github repo from command palette @toShare @done Mon 02 Jan 2017 at 19:49 @project(Packages to create)
  ✔ python completion with exception names @low @started @done (17-01-01 18:03) @project(Packages To Dev)
  ✔ CSW: try/except when reading file @critical @done (17-01-01 17:37) @project(Others)
