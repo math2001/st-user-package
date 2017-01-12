@@ -8,11 +8,10 @@ class PythonStringHelperCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         BEGIN = 'punctuation.definition.string.begin.python'
         END = 'punctuation.definition.string.end.python'
-        regex = r'''\w(['"])\n\s*(['"])'''
+        regex = r'''\S(['"])\n\s*(['"])'''
         view = self.view
 
         regions = view.find_all(regex)
-        # view.sel().add_all(regions); return
         for i, region in enumerate(regions):
             region = sublime.Region(region.begin() + i, region.end() + i)
             if not END in view.scope_name(region.begin() + 1) \
@@ -26,7 +25,6 @@ class PythonStringHelperCommand(sublime_plugin.TextCommand):
 
 
 class PythonStringHelperListener(sublime_plugin.EventListener):
-
 
     def on_pre_save(self, view):
         view.run_command('python_string_helper')
