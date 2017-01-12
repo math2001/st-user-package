@@ -47,3 +47,11 @@ Hardware: The parts of a computer system that can be kicked.
 Dear auto-correct, please stop changing my rude words into nice ones, you piece of shut!
 
 Only a fool knows everything. A wise man knows how little he knows
+
+----------------
+
+An optimists says: "the class is half-full"
+An pessimists says: "the class is half-empty"
+A programmer says: "the glass is twice as large as necessary"
+
+Programmer joke: !false -> it's funny because it's true

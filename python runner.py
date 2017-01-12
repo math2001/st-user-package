@@ -23,8 +23,11 @@ class PythonRunnerCommand(sublime_plugin.TextCommand):
 			self.window.run_command('build')
 
 	def can_be_run(self, view):
-		file_name = view.file_name().split(os.path.sep)[-1]
-		return file_name == '_main.py' or ('_.py' in file_name and file_name != '__init__.py')
+		name = os.path.basename(view.file_name())
+		return name == '_main.py' \
+			   or ('_.py' in name and name != '__init__.py') \
+			   or (os.path.splitext(name)[0] \
+			   		== os.path.basename(os.path.dirname(view.file_name())))
 
 
 	def run(self, edit, *args, **kwargs):
@@ -37,6 +40,7 @@ class PythonRunnerCommand(sublime_plugin.TextCommand):
 		error = True
 
 		def build(view):
+
 			main_group_index, main_view_index = self.window.get_view_index(view)
 			view_to_focus = None
 			if main_group_index != group_index:

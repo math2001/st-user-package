@@ -134,5 +134,13 @@
 	{
 		"caption": "Math2001: Json Comma Fixer",
 		"command": "json_fixer"
+	},
+	{
+		"caption": "Math2001: Quotes",
+		"command": "open_file",
+		"args": {
+			"file": "$packages/User/quotes.txt"
+		}
 	}
+
 ]

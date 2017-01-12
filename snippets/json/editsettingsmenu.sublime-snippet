@@ -1,0 +1,25 @@
+<snippet>
+    <content><![CDATA[
+{
+    "id": "preferences",
+    "children": [
+        {
+            "id": "package-settings",
+            "children": [
+                {
+                    "caption": "${0:pckName}",
+                    "command": "edit_settings",
+                    "args": {
+                        "base_file": "\${packages}/${0:pckName}/.sublime/${0:pckName}.sublime-settings",
+                        "default": "// Your settings for ${0:pckName}. See the default file to see the different options. \n{\n\t$0\n}\n"
+                    }
+                }
+            ]
+        }
+    ]
+}
+]]></content>
+    <tabTrigger>editsettingsmenu</tabTrigger>
+    <scope>source.json</scope>
+    <description>Edit Settings Menu</description>
+</snippet>

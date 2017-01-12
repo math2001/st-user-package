@@ -9,7 +9,7 @@
     }
 }
 ]]></content>
-    <tabTrigger>editsettings</tabTrigger>
+    <tabTrigger>editsettingscmd</tabTrigger>
     <scope>source.json</scope>
     <description>Edit settings</description>
 </snippet>

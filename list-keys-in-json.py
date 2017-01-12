@@ -10,7 +10,7 @@ with open(file) as fp:
     obj = json.load(fp)
 
 
-keys = []
+keys = {}
 
 def add_keys(obj, keys):
     if isinstance(obj, list):
@@ -18,8 +18,9 @@ def add_keys(obj, keys):
             add_keys(item, keys)
     elif isinstance(obj, dict):
         for key, item in obj.items():
-            keys.append(key) if key not in keys else None
+            keys[key] = type(item).__name__
             add_keys(item, keys) if key != 'args' else None
+    return keys
 
-
-add_keys(obj, keys)
+# CSW: ignore
+# print(add_keys(obj, keys))

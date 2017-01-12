@@ -10,11 +10,15 @@
 		"Color",
 		"color",
 		"colors",
-		"stylesheet"
+		"stylesheet",
+		"unallowed",
+		"checkbox",
+		"unexisting"
 	],
 	"always_show_minimap_viewport": true,
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_selector": "",
+	"auto_complete_with_fields": true,
 	"auto_id_class": true,
 	"binary_file_patterns":
 	[
@@ -90,10 +94,10 @@
 		"Boxy Theme-matt-edit",
 		"ChannelRepositoryTools",
 		"ColorHelper",
+		"CSS3",
 		"Emmet",
 		"FileManagerTests",
 		"jQuery",
-		"LiveReload",
 		"Material Theme",
 		"PackageDev",
 		"PyYapf Python Formatter",
@@ -222,9 +226,11 @@
 		"seismoscope",
 		"shortcut",
 		"shortcuts",
+		"str",
 		"swagman",
 		"unguentare",
 		"username",
+		"utf",
 		"weetbix"
 	],
 	"jsoncomma_on_save": true,
@@ -234,11 +240,12 @@
 	"remove_trailing_whitespace_on_save": true,
 	"rulers":
 	[
-		79
+		100
 	],
 	"save_on_focus_lost": true,
 	"shift_tab_unindent": true,
 	"show_encoding": true,
+	"show_errors_inline": false,
 	"show_line_endings": true,
 	"show_tab_close_buttons": true,
 	"snippet_folder_name": "snippets",
@@ -257,8 +264,10 @@
 	"theme_quick_panel_item_selected_colored": true,
 	"theme_scrollbar_rounded": true,
 	"theme_sidebar_border": true,
-	"theme_sidebar_file_icons_hidden": true,
 	"theme_sidebar_folder_arrow": true,
+	"theme_sidebar_folder_mono": true,
+	"theme_sidebar_icon_saturation_hg": true,
+	"theme_sidebar_icon_saturation_xh": true,
 	"theme_sidebar_indent_top_level_disabled": true,
 	"theme_sidebar_indent_xl": true,
 	"theme_tab_mouse_wheel_switch": true,

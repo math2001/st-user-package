@@ -8,6 +8,11 @@ Packages to create:
 Package to share:
   ☐ auto escape on paste @low
   ☐ counter (while infinite loop) @low @toShare
+  ☐ RepoPlease
+  ☐ JSONComma
+  ☐ FileManager @started
+  ☐ BetterSnippetManager
+  ☐ sublime-api
 
 Packages to tweak:
   ☐ whitespace PR: save cursor position
@@ -15,10 +20,8 @@ Packages to tweak:
 Packages to update:
   ☐ php helper: ask for shortcut in an input @low
   ☐ FileManager::move no browser when moving several files, or not finished by /
-  ☐ Filemanager::docs tell about url
-  ☐ BetterSnippetManager: `Main.sublime-settings`
-  ☐ BetterSnippetManager: escape trigger, content, description...
-  ☐ JSONComma: fix #2
+  ☐ Filemanager::docs tell about url @high
+  ☐ Filemanager messaging
 
 Tutos:
   ☐ git::hooks
@@ -30,9 +33,13 @@ Others:
   ☐ sublime-api chrome extension: look for function fuzzy @cool
   ☐ Sublime::undocs → add set_user_settings
   ☐ Sublime Text tips (shortcut)
+  ☐ javascript: make the keys obj
 
 ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
 Archive:
+ ✔ BetterSnippetManager: escape trigger, content, description... @done Tue 10 Jan 2017 at 11:25 @project(Packages to update)
+ ✔ BetterSnippetManager: `Main.sublime-settings` @done Tue 10 Jan 2017 at 10:45 @project(Packages to update)
+ ✔ JSONComma: fix #2 @done Tue 10 Jan 2017 at 08:38 @project(Packages to update)
  ✔ update print line number @done Mon 09 Jan 2017 at 18:56 @project(Packages to update)
  ✘ JSONComma: work with package dev @cancelled Mon 09 Jan 2017 at 18:56 @project(Packages to update)
  ✔ git hub accept arguments (issues) @done Mon 09 Jan 2017 at 18:55 @project(Others)

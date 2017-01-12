@@ -29,15 +29,14 @@
       "context": [
         { "key": "selector", "operator": "equal", "operand": "text.html.markdown" }
     ] },
-    {
-        "keys": ["f8"], "command": "chain",
-        "args": {
-            "commands": [
-                ["save"],
-                ["close_window"]
-            ]
-        }
-    },
+    { "keys": ["f8"], "command": "chain", "args": {
+        "commands": [ ["save"], ["close_window"] ]
+    }, "context": [
+        { "key": "selector", "operator": "equal", "operand": "text.git-commit-message" }
+    ]},
+    { "keys": ["-", ">"], "command": "insert_snippet", "args": {
+        "contents": "→ "
+    } },
     {"keys": ["ctrl+."], "command": "run_emmet_action",
         "args": {"action": "next_edit_point"}
     },
