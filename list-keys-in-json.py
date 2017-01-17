@@ -1,13 +1,14 @@
 # -*- encoding: utf-8 -*-
 
 import json
+import sublime
 
 
-file = 'C:/Users/math/AppData/Roaming/Sublime Text 3/Packages/Default/Main.sublime-menu'
+file = 'C:/Users/math/AppData/Roaming/Sublime Text 3/Packages/Default/Default.sublime-commands'
 # file = 'C:/Users/math/AppData/Roaming/Sublime Text 3/Packages/User/Main.sublime-menu'
 
 with open(file) as fp:
-    obj = json.load(fp)
+    obj = sublime.decode_value(fp.read())
 
 
 keys = {}
@@ -22,5 +23,4 @@ def add_keys(obj, keys):
             add_keys(item, keys) if key != 'args' else None
     return keys
 
-# CSW: ignore
-# print(add_keys(obj, keys))
+add_keys(obj, keys)

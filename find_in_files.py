@@ -1,7 +1,7 @@
 import sublime, sublime_plugin
 import os.path
 
-class FindInFilesCommand(sublime_plugin.TextCommand):
+class CustomFindInFilesCommand(sublime_plugin.TextCommand):
 
 	def run(self, edit, *args, **kwargs):
 

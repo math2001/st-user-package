@@ -21,6 +21,8 @@ class MattSimpleRefresher(LiveReload.Plugin):
 class MattSimpleRefreshCommand(sublime_plugin.TextCommand):
 
     def run(self, edit):
+        if not self.view.file_name():
+            return
         self.view.window().run_command('save_all')
         os.path.basename(self.view.file_name())
         MattSimpleRefresher().refresh(os.path.basename(self.view.file_name()))

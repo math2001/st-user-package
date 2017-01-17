@@ -141,6 +141,6 @@
 		"args": {
 			"file": "$packages/User/quotes.txt"
 		}
-	}
+	},
 
 ]

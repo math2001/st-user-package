@@ -2,5 +2,6 @@
 	"extensions":
 	[
 		"md"
-	]
+	],
+    "spell_check": true
 }

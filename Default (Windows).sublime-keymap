@@ -1,4 +1,5 @@
 [
+    
     // VIM shortcuts
     {"keys": ["j", "j"], "command": "exit_insert_mode", "context":
         [
@@ -21,9 +22,15 @@
     { "keys": ["ctrl+alt+k"], "command": "select_lines", "args": { "forward": false } },
     { "keys": ["ctrl+alt+j"], "command": "select_lines", "args": { "forward": true } },
 
-    { "keys": ["shift+space"], "command": "json_comma"},
+    { "keys": ["shift+space"], "command": "package_checker"},
 
     // ---- simple mode shortcuts ----
+    {"keys": ["alt+g"], "command": "message_dialog", "args": { "text": "hello" }, "context": [
+            { "key": "wo.disabled_keybindings",
+              "operator": "equal",
+              "operand": "save" }
+        ]
+    },
     { "keys": ["ctrl+o"], "command": "markdown_preview", "args": { "target": "browser",
                                                                    "parser": "github" },
       "context": [
@@ -280,7 +287,6 @@
     },
 	{"keys": ["ctrl+shift+y"], "command": "maths_expression_calculator" },
 	{"keys": ["ctrl+alt+y"], "command": "maths_expression_calculator", "args": { "replace_expression": false } },
-	{"keys": ["ctrl+shift+f"], "command": "find_in_files"},
 
     {"keys": [".", "."], "command": "insert_snippet", "args": {"contents": "self."},
         "context": [
