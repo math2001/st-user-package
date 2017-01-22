@@ -21,7 +21,7 @@
     { "keys": ["ctrl+alt+k"], "command": "select_lines", "args": { "forward": false } },
     { "keys": ["ctrl+alt+j"], "command": "select_lines", "args": { "forward": true } },
 
-    { "keys": ["shift+space"], "command": "json_comma"},
+    { "keys": ["shift+space"], "command": "set_syntax_python"},
 
     // ---- simple mode shortcuts ----
     {"keys": ["alt+g"], "command": "message_dialog", "args": { "text": "hello" }, "context": [

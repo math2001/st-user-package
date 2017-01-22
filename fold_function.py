@@ -2,49 +2,50 @@ import sublime, sublime_plugin
 import os
 
 def md(*t, **kwargs):
-	t = kwargs.get('sep', ' ').join([str(el) for el in t])
-	sublime.message_dialog(t)
+    t = kwargs.get('sep', ' ').join([str(el) for el in t])
+    sublime.message_dialog(t)
 
 def sm(*t, **kwargs):
-	t = kwargs.get('sep', ' ').join([str(el) for el in t])
-	sublime.status_message(t)
+    t = kwargs.get('sep', ' ').join([str(el) for el in t])
+    sublime.status_message(t)
 
 def em(*t, **kwargs):
-	t = kwargs.get('sep', ' ').join([str(el) for el in t])
-	sublime.error_message(t)
+    t = kwargs.get('sep', ' ').join([str(el) for el in t])
+    sublime.error_message(t)
 
 class FoldFunctionCommand(sublime_plugin.TextCommand):
 
-	def run(self, edit, *args, **kwargs):
+    def run(self, edit, *args, **kwargs):
+        v = self.view
+        v.selection.clear()
+        view_size = v.size()
+        for region in v.find_by_selector('entity.name.function'):
+            base_indentation = v.indentation_level(region.begin())
+            line = v.full_line(region.end())
+            region = sublime.Region(line.end() - 1)
+            while True:
 
-		self.window = self.view.window()
-		self.selection = sublime.Selection(self.view.id())
-		self.settings = self.view.settings()
+                line = v.full_line(line.end())
+                if line.end() >= view_size:
+                    region = region.cover(line)
+                    break
 
-		self.view.unfold(sublime.Region(0, self.view.size()))
+                indentation = v.indentation_level(line.begin())
+                stripped = v.substr(line).strip()
+                if indentation <= base_indentation and stripped not in ['', '{']:
+                    break
+                elif indentation > base_indentation + 1 and 'parameter' in v.scope_name(line.begin()):
+                    region = v.full_line(line.end())
+                    region = sublime.Region(region.begin() - 1, region.b)
+                else:
+                    region = region.cover(line)
 
-		functions = self.view.find_by_selector('entity.name.function')
-		self.selection.clear()
-		self.selection.add_all(functions)
-		self.view.run_command('move', { 'by': "lines", "forward": True })
+            last_line = v.substr(region).splitlines(keepends=True)[-1]
+            striped = last_line.strip()
+            if striped == '':
+                region = sublime.Region(region.begin(), region.end() - len(last_line) - 1)
+            elif striped == '}':
+                region = sublime.Region(region.begin(), region.end() - len(last_line))
 
-		sel = self.view.sel()[0]
-		if self.view.substr(self.view.line(sel)) == '{':
-			self.view.run_command('move', { 'by': "lines", "forward": True })
-
-		"""
-			Support for:
-			function something() {
-				// code
-			}
-			function ()
-			{
-				// code
-			}
-			This last example is the reason of the last condition
-		"""
-
-		self.view.run_command('fold')
-		self.selection.clear()
-
-		return
+            v.fold(region)
+            # v.selection.add(region)
