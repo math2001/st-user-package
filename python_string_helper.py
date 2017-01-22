@@ -8,7 +8,7 @@ class PythonStringHelperCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         BEGIN = 'punctuation.definition.string.begin.python'
         END = 'punctuation.definition.string.end.python'
-        regex = r'''\S(['"])\n\s*(['"])'''
+        regex = r'''\w(['"])\n\s*(['"])'''
         view = self.view
 
         regions = view.find_all(regex)

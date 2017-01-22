@@ -4,10 +4,7 @@ This repo is just my sublime text user "package". There's all my config, shortcu
 
 ## Working plugins
 
-- `color previewer`: click on an hex color and you magicaly get a popup with the color in it! :stuck_out_tongue_winking_eye:
 - `python runner`: globaly, run the open `_main.py` file. Look at the code if you want to know a bit more about it.
-- `open_cmder`: do you know [cmder](http://cmder.net/). Well this plugin opens it from sublime, for you, where you are
-- `README opener`: open your package readme faster.
 - `Transform PHP`: Slow when you type php code?
 
 		d this m method i str_index i d var_index = 'so cool'
@@ -15,6 +12,6 @@ This repo is just my sublime text user "package". There's all my config, shortcu
 		$this->method['str_index'][$var_index] = 'so cool';
 
 - `open file from text`: if you have the text `afilename.py:linenb`, just put your cursor on it, and press `ALT+S` and it opens it for you! :smile:
-- `sublime command runner`: shortcuts to run the log in the console. I let you have a look at the code to understand what it does. It's really simple.
+- `
 
 *more soon*

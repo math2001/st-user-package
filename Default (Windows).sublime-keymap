@@ -1,6 +1,5 @@
 [
-    
-    // VIM shortcuts
+   // VIM shortcuts
     {"keys": ["j", "j"], "command": "exit_insert_mode", "context":
         [
             { "key": "setting.command_mode", "operand": false },
@@ -22,7 +21,7 @@
     { "keys": ["ctrl+alt+k"], "command": "select_lines", "args": { "forward": false } },
     { "keys": ["ctrl+alt+j"], "command": "select_lines", "args": { "forward": true } },
 
-    { "keys": ["shift+space"], "command": "package_checker"},
+    { "keys": ["shift+space"], "command": "json_comma"},
 
     // ---- simple mode shortcuts ----
     {"keys": ["alt+g"], "command": "message_dialog", "args": { "text": "hello" }, "context": [
@@ -41,9 +40,9 @@
     }, "context": [
         { "key": "selector", "operator": "equal", "operand": "text.git-commit-message" }
     ]},
-    { "keys": ["-", ">"], "command": "insert_snippet", "args": {
-        "contents": "→ "
-    } },
+    { "keys": ["-", ">"], "command": "insert_snippet", "args": { "contents": "→ " } },
+    { "keys": ["<", "-"], "command": "insert_snippet", "args": { "contents": "← " } },
+    { "keys": ["-", "-"], "command": "insert_snippet", "args": { "contents": "— " } },
     {"keys": ["ctrl+."], "command": "run_emmet_action",
         "args": {"action": "next_edit_point"}
     },

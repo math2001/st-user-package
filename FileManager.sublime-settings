@@ -16,6 +16,7 @@
         "st": "$packages",
         "des": "~/Desktop",
         "stu": "$st/User",
-        "cr": "C:/courses/"
+        "cr": "C:/courses/",
+        "www": "C:/wamp/www"
     }
 }

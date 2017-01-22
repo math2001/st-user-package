@@ -12,7 +12,6 @@
 		"Alignment",
 		"Anaconda",
 		"ASCII Decorator",
-		"AutoFileName",
 		"ayu",
 		"Behave Color Scheme",
 		"Better CoffeeScript",
@@ -75,14 +74,15 @@
 		"Themr",
 		"TOML",
 		"Troubleshooting",
-		"Vintageous",
-		"Whitespace"
+		"Whitespace",
+		"zz File Icons"
 	],
 	"repositories":
 	[
 		"https://github.com/Skullsneeze/SidebarHoverToggle.git",
 		"https://github.com/driesvints/nova-sublime-text",
 		"https://github.com/victorlaerte/dumbest-ipsum",
-		"https://github.com/math2001/BetterSnippetManager"
+		"https://github.com/math2001/BetterSnippetManager",
+		"https://github.com/rchl/IndentToParenthesis"
 	]
 }

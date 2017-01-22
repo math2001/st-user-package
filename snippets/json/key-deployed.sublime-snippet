@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-, {
+{
 	"keys": ["$1"],
 	"command": "$5",
 	"args": {$10},
