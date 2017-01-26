@@ -2,12 +2,12 @@
 {
     "terminals": [
         {
-            "name": "Cmder",
-            "cmd": ["C:/cmder/cmder.exe", "/SINGLE", "$cwd"]
+            "name": "CMD",
+            "cmd": ["C:\\windows\\system32\\cmd.exe", "/k", "C:\\Users\\math\\cmd-conf\\runner.cmd"]
         },
         {
-            "name": "CMD",
-            "cmd": ["cmd", "/k", "C:\\users\\math\\cmd-aliases.cmd"]
+            "name": "Cmder",
+            "cmd": ["C:/cmder/cmder.exe", "/SINGLE", "$cwd"]
         }
     ],
     "index_folder_separator": " ",

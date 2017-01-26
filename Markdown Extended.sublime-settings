@@ -1,7 +1,7 @@
 {
 	"extensions":
 	[
-		"md"
 	],
-    "spell_check": true
+	"save_on_focus_lost": false,
+	"spell_check": true
 }

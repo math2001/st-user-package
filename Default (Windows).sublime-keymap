@@ -42,7 +42,7 @@
     ]},
     { "keys": ["-", ">"], "command": "insert_snippet", "args": { "contents": "→ " } },
     { "keys": ["<", "-"], "command": "insert_snippet", "args": { "contents": "← " } },
-    { "keys": ["-", "-"], "command": "insert_snippet", "args": { "contents": "— " } },
+    { "keys": ["-", "-", "-"], "command": "insert_snippet", "args": { "contents": "— " } },
     {"keys": ["ctrl+."], "command": "run_emmet_action",
         "args": {"action": "next_edit_point"}
     },

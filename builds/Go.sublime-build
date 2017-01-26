@@ -1,5 +1,5 @@
 {
     "cmd": ["go", "run", "$file"],
     "selector": "source.go",
-    "quiet": true
+    "env": { "gopath": "C:\\Users\\math\\go-pcks" }
 }

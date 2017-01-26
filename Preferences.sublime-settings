@@ -73,7 +73,7 @@
 		".sass-cache",
 		"node_modules"
 	],
-	"font_face": "Droid Sans Mono",
+	"font_face": "consolas",
 	"font_good":
 	[
 		"Droid Sans Mono",
@@ -87,7 +87,7 @@
 		"Source Code Pro",
 		"Roboto Mono"
 	],
-	"font_size": 10,
+	"font_size": 11,
 	"ignore_whitespace_on_current_line": true,
 	"ignore_whitespace_only_lines": false,
 	"ignored_packages":
@@ -95,6 +95,7 @@
 		"AdvancedNewFile",
 		"Anaconda",
 		"Better CoffeeScript",
+		"Boxy Theme Addon - Widget Font Size",
 		"Boxy Theme-matt-edit",
 		"ChannelRepositoryTools",
 		"ColorHelper",
@@ -351,6 +352,7 @@
 		"sclerophylls",
 		"seismoscope",
 		"seismoscope",
+		"semver",
 		"shortcut",
 		"shortcut",
 		"shortcuts",
