@@ -1,0 +1,7 @@
+---
+description: description
+tabTrigger:  init
+scope:       text.html.markdown
+---
+$1
+# ${${1/-/ /}/h/c/}

@@ -2,6 +2,10 @@
 {
     "terminals": [
         {
+            "name": "Bash",
+            "cmd": ["C:\\Program Files\\Git\\bin\\bash.exe"]
+        },
+        {
             "name": "CMD",
             "cmd": ["C:\\windows\\system32\\cmd.exe", "/k", "C:\\Users\\math\\cmd-conf\\runner.cmd"]
         },

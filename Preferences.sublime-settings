@@ -1,23 +1,4 @@
 {
-	"added_words":
-	[
-		"Plugins",
-		"plugins",
-		"workflow",
-		"linting",
-		"behaviour",
-		"optimising",
-		"Color",
-		"color",
-		"colors",
-		"stylesheet",
-		"unallowed",
-		"checkbox",
-		"unexisting",
-		"keymap",
-		"virtualenv",
-		"send2trash"
-	],
 	"always_show_minimap_viewport": true,
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_selector": "",
@@ -73,9 +54,9 @@
 		".sass-cache",
 		"node_modules"
 	],
-	"font_face": "consolas",
 	"font_good":
 	[
+		"Copyright (c) H&Co | typography.com",
 		"Droid Sans Mono",
 		"Liberation Mono",
 		"Monaco",
@@ -86,6 +67,9 @@
 		"Menlo",
 		"Source Code Pro",
 		"Roboto Mono"
+	],
+	"font_options":
+	[
 	],
 	"font_size": 11,
 	"ignore_whitespace_on_current_line": true,
@@ -98,10 +82,12 @@
 		"Boxy Theme Addon - Widget Font Size",
 		"Boxy Theme-matt-edit",
 		"ChannelRepositoryTools",
-		"ColorHelper",
 		"CSS3",
+		"Dayle Rees Color Schemes",
 		"Emmet",
 		"FileManagerTests",
+		"Git",
+		"Hover Image Preview",
 		"jQuery",
 		"LiveReload",
 		"Material Theme",
@@ -109,10 +95,27 @@
 		"PyYapf Python Formatter",
 		"SideBarEnhancements",
 		"SidebarHoverToggle",
-		"sublimetools"
+		"sublimetools",
+		"Theme - Phoenix"
 	],
 	"ignored_words":
 	[
+		"Plugins",
+		"plugins",
+		"workflow",
+		"linting",
+		"behaviour",
+		"optimising",
+		"Color",
+		"color",
+		"colors",
+		"stylesheet",
+		"unallowed",
+		"checkbox",
+		"unexisting",
+		"keymap",
+		"virtualenv",
+		"send2trash",
 		"1970's",
 		"1970's",
 		"653a16",
@@ -213,6 +216,7 @@
 		"billabong",
 		"blit",
 		"blit",
+		"blog",
 		"bool",
 		"bool",
 		"booleans",
@@ -333,6 +337,7 @@
 		"png",
 		"pong",
 		"pong",
+		"popup",
 		"pos",
 		"pos",
 		"pre",
@@ -415,7 +420,6 @@
 	"theme_unified": true,
 	"translate_tabs_to_spaces": true,
 	"vintage_start_in_command_mode": true,
-	"wo.disabled_keybindings": "save",
 	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
 	"word_wrap": true
 }

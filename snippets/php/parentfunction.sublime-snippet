@@ -1,12 +1,9 @@
 <snippet>
-	<content><![CDATA[
-${1:public }function ${2:function_name}($3) {
+    <content><![CDATA[${1:public }function ${2:function_name}($3) {
 	parent::$2($3);
 	$4
-}
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>parentfunction</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.php</scope>
+}]]></content>
+    <tabTrigger>parentfunction</tabTrigger>
+    <scope>source.php</scope>
+    <description></description>
 </snippet>

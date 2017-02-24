@@ -1,0 +1,6 @@
+---
+description: nice print for debug
+tabTrigger:  print
+scope:       source.python
+---
+print("$TM_FILENAME:$TM_LINE_NUMBER", $1)

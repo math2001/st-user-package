@@ -1,11 +1,6 @@
 <snippet>
-	<content><![CDATA[
-Screen.init()
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>Screen</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.python</scope>
-
-	<description>Init the Screen Class</description>
+    <content><![CDATA[Screen.init()]]></content>
+    <tabTrigger>Screen</tabTrigger>
+    <scope>source.python</scope>
+    <description>Init the Screen Class</description>
 </snippet>

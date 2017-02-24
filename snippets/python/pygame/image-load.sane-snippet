@@ -1,0 +1,6 @@
+---
+description: 
+tabTrigger:  imageload
+scope:       source.python
+---
+image.load('img/$1.png').convert_alpha()

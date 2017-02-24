@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[IFS="${1:SEPARATOR}" read -r -a array <<< "${2:victim}"]]></content>
+    <tabTrigger>stringsplit</tabTrigger>
+    <scope>source.shell</scope>
+    <description>split a string</description>
+</snippet>

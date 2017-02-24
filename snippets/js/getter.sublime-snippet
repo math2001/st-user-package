@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[get $1() { return this._$1 }]]></content>
+    <tabTrigger>getter</tabTrigger>
+    <scope>source.js</scope>
+    <description>getter</description>
+</snippet>

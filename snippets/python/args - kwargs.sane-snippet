@@ -1,0 +1,6 @@
+---
+description:
+tabTrigger:  aaa
+scope:       source.python
+---
+*args, **kwargs

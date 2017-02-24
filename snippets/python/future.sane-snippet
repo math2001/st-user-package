@@ -1,0 +1,6 @@
+---
+description: 
+tabTrigger:  future
+scope:       source.python
+---
+from __future__ import print_function, division

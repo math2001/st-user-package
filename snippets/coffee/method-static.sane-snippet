@@ -1,0 +1,7 @@
+---
+description: 
+tabTrigger:  staticmethod
+scope:       source.coffee
+---
+@${1:staticMethod}: ${2/.+/\(/}${2:params}${2/.+/\) /}->
+	$3

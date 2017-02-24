@@ -1,0 +1,10 @@
+---
+description: 
+tabTrigger:  defgetset
+scope:       source.python
+---
+def ${1:attr}(self, new_val=None):
+	if new_val is None:
+		return self._$1
+	self._$1 = new_val
+	return self

@@ -1,0 +1,6 @@
+---
+description: 
+tabTrigger:  circle
+scope:       source.python
+---
+pygame.draw.circle(${1:Surface}, ${10:color}, ${20:pos}, ${30:radius}, ${40:width=0})

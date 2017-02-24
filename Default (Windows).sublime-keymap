@@ -1,5 +1,8 @@
 [
-   // VIM shortcuts
+    {"keys": ["alt+t"], "command": "show_about_window", "context": [
+        {"key": "plugin_setting.FileManager.complete_with_files_too"}
+    ]},
+    // VIM shortcuts
     {"keys": ["j", "j"], "command": "exit_insert_mode", "context":
         [
             { "key": "setting.command_mode", "operand": false },
@@ -21,9 +24,9 @@
     { "keys": ["ctrl+alt+k"], "command": "select_lines", "args": { "forward": false } },
     { "keys": ["ctrl+alt+j"], "command": "select_lines", "args": { "forward": true } },
 
-    { "keys": ["shift+space"], "command": "set_syntax_python"},
-
     // ---- simple mode shortcuts ----
+    {"keys": ["alt+,"], "command": "markdown_code_builder", "args": {"action": "render"}},
+    {"keys": ["alt+r"], "command": "inline_python"},
     {"keys": ["alt+g"], "command": "message_dialog", "args": { "text": "hello" }, "context": [
             { "key": "wo.disabled_keybindings",
               "operator": "equal",
@@ -42,7 +45,6 @@
     ]},
     { "keys": ["-", ">"], "command": "insert_snippet", "args": { "contents": "→ " } },
     { "keys": ["<", "-"], "command": "insert_snippet", "args": { "contents": "← " } },
-    { "keys": ["-", "-", "-"], "command": "insert_snippet", "args": { "contents": "— " } },
     {"keys": ["ctrl+."], "command": "run_emmet_action",
         "args": {"action": "next_edit_point"}
     },
@@ -55,7 +57,6 @@
     {"keys": ["alt+q"], "command": "change_quotes"},
     {"keys": ["alt+s"], "command": "open_file_from_text"},
     {"keys": ["alt+f"], "command": "fold_function"},
-    {"keys": ["alt+i"], "command": "image_previewer"},
     {"keys": ["backspace"], "command": "run_macro_file",
         "args": {"file": "Packages/User/macros/double_delete.sublime-macro"},
         "context": [

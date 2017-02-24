@@ -1,0 +1,6 @@
+---
+description: 
+tabTrigger:  script
+scope:       source.php, text.html
+---
+<script type="text/javascript" src="$1">${0}</script>

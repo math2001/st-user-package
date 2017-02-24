@@ -1,0 +1,6 @@
+---
+description: Create an instance of a class
+tabTrigger:  ins
+scope:       source.python
+---
+${1/(.)/\l$1/g} ${1/(.+)/=/} $1${1/(.+)/\(\)/}

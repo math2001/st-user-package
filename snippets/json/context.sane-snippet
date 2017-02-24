@@ -1,0 +1,6 @@
+---
+description: 
+tabTrigger:  context
+scope:       source.json
+---
+{ "key": "${1:selector}", "operator": "${2:equal}", "operand": ${3:true} }

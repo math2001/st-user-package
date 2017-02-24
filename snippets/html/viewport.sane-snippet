@@ -1,0 +1,6 @@
+---
+description: 
+tabTrigger:  viewport
+scope:       text.html.basic
+---
+<meta name="viewport" content="width=device-width" />

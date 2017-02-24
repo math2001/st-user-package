@@ -1,0 +1,13 @@
+---
+description: 
+tabTrigger:  getset
+scope:       source.python
+---
+# --- ${1:x} ---
+
+def get$1(self):
+	return self._$1
+
+def set$1(self, $1):
+	self.__update($0)
+

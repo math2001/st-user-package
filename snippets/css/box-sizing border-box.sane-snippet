@@ -1,0 +1,6 @@
+---
+description: 
+tabTrigger:  bsbb
+scope:       source.css, source.scss
+---
+box-sizing: border-box;

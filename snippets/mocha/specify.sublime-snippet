@@ -1,14 +1,8 @@
 <snippet>
-  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
-  <content><![CDATA[
-specify('checking $1', function ${1/(^\w+)?(\w)?(\w*)( |$)/(?1\L$1)\u$2\L$3/g}() {
+    <content><![CDATA[specify('checking $1', function ${1/(^\w+)?(\w)?(\w*)( |$)/(?1\L$1)\u$2\L$3/g}() {
     $0
-})
-]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>specify</tabTrigger>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.mocha.js</scope>
-  <!-- Optional: Will be displayed in the command palette, and in the popup -->
-  <description></description>
+})]]></content>
+    <tabTrigger>specify</tabTrigger>
+    <scope>source.mocha.js</scope>
+    <description>None</description>
 </snippet>

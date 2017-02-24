@@ -7,6 +7,7 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"AdvancedNewFile",
 		"Agila Theme",
 		"Alignment",
@@ -27,10 +28,12 @@
 		"CSS3",
 		"DataConverter",
 		"Emmet",
+		"Emoji",
 		"Entheogen Color Scheme",
 		"Future Funk - Color Scheme",
 		"Git Commit Message Syntax",
 		"Hover Image Preview",
+		"Inline Python",
 		"InsertDate",
 		"Inspired GitHub Color Scheme",
 		"Jinja2",
@@ -52,12 +55,14 @@
 		"ProjectManager",
 		"PyYapf Python Formatter",
 		"ReadmePlease",
+		"requirementstxt",
 		"Sass",
 		"Schemr",
 		"SCSS",
 		"SideBarEnhancements",
 		"SidebarHoverToggle",
 		"Stylus",
+		"Sublime Text 3 Snippets",
 		"Sublime Tutor",
 		"SublimeREPL",
 		"Table Editor",
@@ -75,8 +80,7 @@
 		"Themr",
 		"TOML",
 		"Troubleshooting",
-		"Whitespace",
-		"zz File Icons"
+		"Whitespace"
 	],
 	"repositories":
 	[
@@ -84,6 +88,7 @@
 		"https://github.com/driesvints/nova-sublime-text",
 		"https://github.com/victorlaerte/dumbest-ipsum",
 		"https://github.com/math2001/BetterSnippetManager",
-		"https://github.com/rchl/IndentToParenthesis"
+		"https://github.com/rchl/IndentToParenthesis",
+		"https://github.com/victoreduardobarreto/CodeTerminal"
 	]
 }

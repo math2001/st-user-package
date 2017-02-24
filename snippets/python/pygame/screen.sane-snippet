@@ -1,0 +1,6 @@
+---
+description: Init the Screen Class
+tabTrigger:  Screen
+scope:       source.python
+---
+Screen.init()

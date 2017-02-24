@@ -1,0 +1,8 @@
+---
+description: 
+tabTrigger:  commentaire
+scope:       source.css, source.scss, source.stylus
+---
+/* ${2/./-/g}-${1/./-/g}-${2/./-/g} */
+/* ${2:------------} ${1:commentaire} ${2/./-/g} */
+/* ${2/./-/g}-${1/./-/g}-${2/./-/g} */

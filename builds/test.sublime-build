@@ -1,4 +1,0 @@
-{
-    "file_regex": "([^\\n]+?\\.cpp)\\((\\d+),(\\d+)\\) *: *error: *([^\\n]+)",
-    "cmd": ["python", "$file"]
-}

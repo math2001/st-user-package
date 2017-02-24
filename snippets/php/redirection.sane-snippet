@@ -1,0 +1,6 @@
+---
+description: 
+tabTrigger:  header
+scope:       source.php
+---
+header("location: ${1:\$pageRedir}.php${2:?${3:para}=${4:value}}");

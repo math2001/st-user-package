@@ -1,0 +1,8 @@
+---
+description: 
+tabTrigger:  add
+scope:       source.js
+---
+${1:document}.addEventListener("${2:click}", function (e) {
+	$0
+}, false)

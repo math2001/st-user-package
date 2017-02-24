@@ -1,0 +1,8 @@
+---
+description: None
+tabTrigger:  specify
+scope:       source.mocha.js
+---
+specify('checking $1', function ${1/(^\w+)?(\w)?(\w*)( |$)/(?1\L$1)\u$2\L$3/g}() {
+    $0
+})

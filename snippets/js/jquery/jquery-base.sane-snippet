@@ -1,0 +1,14 @@
+---
+description: 
+tabTrigger:  jquery
+scope:       source.js
+---
+(function (\$) {
+
+	\$(function () {
+
+		${0}
+		
+	})
+
+})(jQuery)

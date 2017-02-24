@@ -1,11 +1,6 @@
 <snippet>
-	<content><![CDATA[
-box-sizing: content-box;
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>bscb</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.css</scope>
-	<!-- Optional: Set a description to your snippet -->
-	<!-- <description>description</description> -->
+    <content><![CDATA[box-sizing: content-box;]]></content>
+    <tabTrigger>bscb</tabTrigger>
+    <scope>source.css</scope>
+    <description></description>
 </snippet>

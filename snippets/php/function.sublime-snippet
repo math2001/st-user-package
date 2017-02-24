@@ -1,14 +1,11 @@
 <snippet>
-	<content><![CDATA[
-/**
+    <content><![CDATA[/**
 * $1
 */
 ${5:public }function ${10:function_name}($15) {
 	$20
-}
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>fun</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.php</scope>
+}]]></content>
+    <tabTrigger>fun</tabTrigger>
+    <scope>source.php</scope>
+    <description></description>
 </snippet>

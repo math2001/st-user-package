@@ -1,3 +1,4 @@
 // These settings override both User and Default settings for the Python syntax
 {
+    "detect_indentation": false
 }

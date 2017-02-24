@@ -1,5 +1,5 @@
 {
 	"extension": [ "extra" ],
-    "css": ["C:/Users/math/AppData/Roaming/Sublime Text 3/Packages/User/markdown-live-preview-github.css"],
+    // "css": ["res://Packages/User/markdown-live-preview-github.css"],
     "github_inject_header_ids": true
 }

@@ -1,0 +1,7 @@
+---
+description: 
+tabTrigger:  function
+scope:       source.coffee
+---
+${1:function}${1/.+/ = /}${2/.+/\(/}${2:params}${2/.+/\) /}->
+	$3

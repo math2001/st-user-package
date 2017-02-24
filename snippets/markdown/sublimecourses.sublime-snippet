@@ -1,7 +1,5 @@
 <snippet>
-  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
-  <content><![CDATA[
-As I said in a previous post:
+    <content><![CDATA[As I said in a previous post:
 
 > Sublime text's awesome, you're not allowed to waste it :smile:
 
@@ -11,12 +9,8 @@ Here's a few courses:
 - french: https://www.youtube.com/playlist?list=PLjDTyz7qfUnNnVHzGlnzzoNedFu1rB1sS
 
 Follow the one that suits you, **you won't regret it**.
-
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>sublimecourses</tabTrigger>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html.markdown</scope>
-  <!-- Optional: Will be displayed in the command palette, and in the popup -->
-  <description></description>
+    <tabTrigger>sublimecourses</tabTrigger>
+    <scope>text.html.markdown</scope>
+    <description>None</description>
 </snippet>

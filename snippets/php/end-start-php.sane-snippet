@@ -1,0 +1,6 @@
+---
+description: 
+tabTrigger:  php
+scope:       source.php
+---
+?>$1<?php

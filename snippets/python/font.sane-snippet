@@ -1,0 +1,7 @@
+---
+description: 
+tabTrigger:  font
+scope:       source.python
+---
+${1:font} = 'font/${2:Consolas}.ttf'
+font = p.font.Font(${1/\*//}, ${3:10}) 

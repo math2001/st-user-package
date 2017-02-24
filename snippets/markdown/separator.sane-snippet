@@ -1,0 +1,11 @@
+---
+description: 
+tabTrigger:  separator
+scope:       text.html.markdown
+---
+# $2
+
+$3
+
+-------- $1 --------
+

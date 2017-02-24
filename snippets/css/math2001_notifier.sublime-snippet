@@ -1,6 +1,5 @@
 <snippet>
-	<content><![CDATA[
-#math2001_notifier {
+    <content><![CDATA[#math2001_notifier {
 
 	position: fixed;
 	width: 50px;
@@ -44,10 +43,7 @@
 		height: 100px;
 	}
 }]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>notifier</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>text.css, source.scss</scope>
-	<!-- Optional: Set a description to your snippet -->
-	<!-- <description>description</description> -->
+    <tabTrigger>notifier</tabTrigger>
+    <scope>text.css, source.scss</scope>
+    <description></description>
 </snippet>

@@ -1,0 +1,6 @@
+---
+description: Secure varible (specialechars)
+tabTrigger:  secu
+scope:       source.php
+---
+\$${1:variable} = htmlspecialchars(\$_${2:POST}["${1/\*//}"])

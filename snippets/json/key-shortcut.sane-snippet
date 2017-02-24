@@ -1,0 +1,6 @@
+---
+description: 
+tabTrigger:  k
+scope:       source.json
+---
+, { "keys": ["ctrl+${1:une_combinaison_de_touche}"], "command": "${2:une_commande}" }

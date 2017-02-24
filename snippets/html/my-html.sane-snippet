@@ -1,0 +1,20 @@
+---
+description: 
+tabTrigger:  mh
+scope:       text.html
+---
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="styles/css/${1:main}.css"/>
+	<link rel="icon" type="image/${3/\*//}" href="img/${2:favicon}.${3:png}"/>
+	<meta name="viewport" content="width=device-width" />
+	<title>${4:$TM_FILENAME}</title>
+</head>
+<body>
+	<section class="section">
+		<h1>$4</h1>
+	</section>
+</body>
+</html>

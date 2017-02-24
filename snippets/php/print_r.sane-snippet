@@ -1,0 +1,6 @@
+---
+description: 
+tabTrigger:  print_r
+scope:       source.php
+---
+echo "<pre>".print_r($1, true)."</pre>";

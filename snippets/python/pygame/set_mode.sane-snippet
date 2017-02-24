@@ -1,0 +1,7 @@
+---
+description: 
+tabTrigger:  set_mode
+scope:       source.python
+---
+${1:screen} = display.set_mode((${2:500}, ${3:500}))
+Screen.init()

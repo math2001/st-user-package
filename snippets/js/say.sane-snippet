@@ -1,0 +1,6 @@
+---
+description: 
+tabTrigger:  say
+scope:       source.js
+---
+say($1)

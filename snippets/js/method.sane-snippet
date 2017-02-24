@@ -1,0 +1,8 @@
+---
+description: 
+tabTrigger:  method
+scope:       source.js
+---
+${1:methodName}: function ($2) {
+    $0
+},

@@ -1,11 +1,6 @@
 <snippet>
-	<content><![CDATA[
-à
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>aa</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>text.plain</scope>
-	<!-- Optional: Set a description to your snippet -->
-	<description>French a with accent</description>
+    <content><![CDATA[à]]></content>
+    <tabTrigger>aa</tabTrigger>
+    <scope>text.plain</scope>
+    <description>French a with accent</description>
 </snippet>

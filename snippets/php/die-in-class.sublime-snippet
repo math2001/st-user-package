@@ -1,11 +1,6 @@
 <snippet>
-	<content><![CDATA[
-die("<pre><i> die(): </i><b>". __FILE__."</b> at lign <b>".__LINE__."</b>, ".__METHOD__."</pre>");
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>die class</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.php</scope>
-	<!-- Optional: Set a description to your snippet -->
-	<description>die file-line class-method</description>
+    <content><![CDATA[die("<pre><i> die(): </i><b>". __FILE__."</b> at lign <b>".__LINE__."</b>, ".__METHOD__."</pre>");]]></content>
+    <tabTrigger>die class</tabTrigger>
+    <scope>source.php</scope>
+    <description>die file-line class-method</description>
 </snippet>

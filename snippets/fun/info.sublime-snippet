@@ -1,17 +1,13 @@
 <snippet>
-	<content><![CDATA[
-====================================
+    <content><![CDATA[====================================
 USER NAME:          $TM_FULLNAME
 FILE NAME:          $TM_FILENAME
 TAB SIZE :          $TM_TAB_SIZE
 SOFT TABS:          $TM_SOFT_TABS
 NB LIGNE : 			$TM_LINE_NUMBER
 ====================================
-
 ]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>info</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>text.plain</scope>
-	<!-- <description></descri1ption> -->
+    <tabTrigger>info</tabTrigger>
+    <scope>text.plain</scope>
+    <description></description>
 </snippet>

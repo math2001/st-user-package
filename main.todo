@@ -7,11 +7,13 @@ Packages to create:
   ☐ asciinema for Sublime Text @low
   ☐ auto format line for python
   ☐ window settings for view
+  ☐ build only selected lines
+  ☐ run code block snippet in markdown
+  ☐ plugin settings event listener
 
 Package to share:
   ☐ auto escape on paste @low
   ☐ counter (while infinite loop) @low @toShare
-  ☐ RepoPlease
   ☐ sublime-api
 
 Packages to tweak:
@@ -34,9 +36,12 @@ Others:
   ☐ Sublime Text tips (shortcut)
   ☐ javascript: make the keys object
   ☐ argparse: interactive automatic
+  ☐ CD for good music #harriers
 
 ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
 Archive:
+ ✔ autocompletion window settings @done Wed 08 Feb 2017 at 16:01 @project(Packages to create)
+ ✔ RepoPlease @done Sat 04 Feb 2017 at 22:32 @project(Package to share)
  ✔ JSONComma @done Sun 22 Jan 2017 at 19:48 @project(Package to share)
  ✔ BetterSnippetManager @started @done Sun 22 Jan 2017 at 19:48 @project(Package to share)
  ✔ FileManager::docs tell about url @high @done Tue 17 Jan 2017 at 13:41 @project(Packages to update)

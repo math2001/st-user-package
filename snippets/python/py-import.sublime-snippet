@@ -1,6 +1,5 @@
 <snippet>
-	<content><![CDATA[
-import pygame as ${1:p}
+    <content><![CDATA[import pygame as ${1:p}
 import random as ${3:r}
 from pygame.locals import *
 from couleur import *
@@ -26,10 +25,8 @@ while ${7/\*//}:
 		if ${8/\*//}.type == MOUSEBUTTONDOWN:
 			if ${8/\*//}.
 
-	${1/\*//}.display.flip()
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>ia</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.python</scope>
+	${1/\*//}.display.flip()]]></content>
+    <tabTrigger>ia</tabTrigger>
+    <scope>source.python</scope>
+    <description></description>
 </snippet>

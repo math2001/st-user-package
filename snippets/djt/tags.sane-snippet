@@ -1,0 +1,6 @@
+---
+description: 
+tabTrigger:  %
+scope:       text.html.basic,
+---
+{% $1 %}

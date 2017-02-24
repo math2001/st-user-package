@@ -1,0 +1,6 @@
+---
+description: assert equal with description
+tabTrigger:  assertequal
+scope:       source.mocha.js
+---
+assert.equal(${1:actual}, ${2:expected}, "$1")

@@ -1,11 +1,6 @@
 <snippet>
-	<content><![CDATA[
-if $1 then $2 else $3
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>ifshort</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.coffee</scope>
-	<!-- Optional: Set a description to your snippet -->
-	<!-- <description>description</description> -->
+    <content><![CDATA[if $1 then $2 else $3]]></content>
+    <tabTrigger>ifshort</tabTrigger>
+    <scope>source.coffee</scope>
+    <description></description>
 </snippet>

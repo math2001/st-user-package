@@ -1,6 +1,5 @@
 <snippet>
-  <content><![CDATA[
-## Installation
+    <content><![CDATA[## Installation
 
 Because it is not available on package control for now, you have to add this repo "manually" to your list.
 
@@ -26,12 +25,8 @@ It depends of your needs:
 - If you intend to just use $2, then pick the first solution (Package Control), **you'll get automatic update**.
 - On the opposite side, if you want to tweak it, use the second solution. Note that, to get updates, you'll have to `git pull`
 
-
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>installationPackageControlGit</tabTrigger>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html.markdown</scope>
-  <!-- Optional: Will be displayed in the command palette, and in the popup -->
-  <description>Installation block for READMEs</description>
+    <tabTrigger>installationPackageControlGit</tabTrigger>
+    <scope>text.html.markdown</scope>
+    <description>Installation block for READMEs</description>
 </snippet>

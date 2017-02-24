@@ -1,6 +1,5 @@
 <snippet>
-    <content><![CDATA[
-This project is published under MIT license.
+    <content><![CDATA[This project is published under MIT license.
 
 > The MIT License is a permissive license that is short and to the point. It lets people do anything
 > they want with your code as long as they provide attribution back to you and don’t hold you
@@ -24,7 +23,6 @@ NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPO
 NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES
 OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
 ]]></content>
     <tabTrigger>mit-license</tabTrigger>
     <scope>text.html.markdown.license</scope>

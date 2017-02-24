@@ -1,0 +1,6 @@
+---
+description: 
+tabTrigger:  midpoint
+scope:       text.html.markdown
+---
+(${1:biggest} - ${2:smallest}) / 2 + $2

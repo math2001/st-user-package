@@ -1,15 +1,11 @@
 <snippet>
-	<content><![CDATA[
-def get${1:VarName}():
+    <content><![CDATA[def get${1:VarName}():
 	return self.${1/(.){1}(.)/\l$1$2/}
 
 def set${1/\*//}(${2:value}):
 	self.${1/(.){1}(.)/\l$1$2/} = ${2/\*//}
-$3
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>acs</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.python</scope>
-	<description>Accesseurs get/set</description>
+$3]]></content>
+    <tabTrigger>acs</tabTrigger>
+    <scope>source.python</scope>
+    <description>Accesseurs get/set</description>
 </snippet>

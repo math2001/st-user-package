@@ -1,0 +1,13 @@
+---
+description: 
+tabTrigger:  info
+scope:       text.plain
+---
+====================================
+USER NAME:          $TM_FULLNAME
+FILE NAME:          $TM_FILENAME
+TAB SIZE :          $TM_TAB_SIZE
+SOFT TABS:          $TM_SOFT_TABS
+NB LIGNE : 			$TM_LINE_NUMBER
+====================================
+

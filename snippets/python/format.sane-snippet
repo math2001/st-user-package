@@ -1,0 +1,6 @@
+---
+description: .format()
+tabTrigger:  format
+scope:       source.python
+---
+"$1".format($2)

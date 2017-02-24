@@ -1,0 +1,6 @@
+---
+description: 
+tabTrigger:  404
+scope:       source.php
+---
+HTTP/1.0 404 Not Found

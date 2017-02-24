@@ -1,14 +1,11 @@
 <snippet>
-	<content><![CDATA[
-for ${1:e} in ${3:pygame.}event.get():
+    <content><![CDATA[for ${1:e} in ${3:pygame.}event.get():
 	if $1.type == QUIT:
 		${2:main} = False
 	if $1.type == KEYDOWN:
 		if $1.key == K_ESCAPE:
-			$2 = False
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>event</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.python</scope>
+			$2 = False]]></content>
+    <tabTrigger>event</tabTrigger>
+    <scope>source.python</scope>
+    <description></description>
 </snippet>

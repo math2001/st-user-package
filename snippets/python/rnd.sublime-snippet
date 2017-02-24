@@ -1,11 +1,6 @@
 <snippet>
-	<content><![CDATA[
-from random import randint as rnd
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>fromrnd</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.python</scope>
-	<!-- Optional: Set a description to your snippet -->
-	<description>Import the randint function</description>
+    <content><![CDATA[from random import randint as rnd]]></content>
+    <tabTrigger>fromrnd</tabTrigger>
+    <scope>source.python</scope>
+    <description>Import the randint function</description>
 </snippet>

@@ -1,0 +1,6 @@
+---
+description: pygame.display.flip()
+tabTrigger:  flip
+scope:       source.python
+---
+${1:pygame.}display.flip()

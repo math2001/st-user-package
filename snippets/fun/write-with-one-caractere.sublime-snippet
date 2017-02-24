@@ -1,11 +1,8 @@
 <snippet>
-	<content><![CDATA[
-Ton texte : ${1:du texte}
+    <content><![CDATA[Ton texte : ${1:du texte}
 ${1/(a)-(b)/AA-BB/}
-
 ]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>big</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>text.plain</scope>
+    <tabTrigger>big</tabTrigger>
+    <scope>text.plain</scope>
+    <description></description>
 </snippet>

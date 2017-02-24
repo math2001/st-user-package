@@ -1,0 +1,6 @@
+---
+description: getter
+tabTrigger:  getter
+scope:       source.js
+---
+get $1() { return this._$1 }

@@ -1,12 +1,8 @@
 <snippet>
-	<content><![CDATA[
-@keyframes $1 {
+    <content><![CDATA[@keyframes $1 {
 	$0
-}
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>keyframes</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.css</scope>
-	<description>@keyframes</description>
+}]]></content>
+    <tabTrigger>keyframes</tabTrigger>
+    <scope>source.css</scope>
+    <description>@keyframes</description>
 </snippet>

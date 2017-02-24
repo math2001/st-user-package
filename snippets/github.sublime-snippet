@@ -1,7 +1,5 @@
 <snippet>
-    <content><![CDATA[
-GitHub
-]]></content>
+    <content><![CDATA[GitHub]]></content>
     <tabTrigger>github</tabTrigger>
     <scope></scope>
     <description>GitHub</description>

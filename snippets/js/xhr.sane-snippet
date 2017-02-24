@@ -1,0 +1,14 @@
+---
+description: Create XMLHttpRequest
+tabTrigger:  xhr
+scope:       source.js
+---
+var xhr = new XMLHttpRequest();
+xhr.open('${1:POST}', 'controller/${5:page}.php')
+${7:xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");}
+xhr.send(${10:null})
+xhr.addEventListener('readystatechange', function() {
+	if (xhr.readyState === 4 && xhr.status === 200) {
+		debug(xhr.responseText)
+	}
+}, false);

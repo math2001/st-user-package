@@ -1,6 +1,5 @@
 <snippet>
-	<content><![CDATA[
-#math2001_notifier 
+    <content><![CDATA[#math2001_notifier 
 	position: fixed
 	width: 50px
 	height: 50px
@@ -38,12 +37,8 @@
 		top: -25px
 		left: -25px
 		width: 100px
-		height: 100px
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>notifier</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.sass</scope>
-	<!-- Optional: Set a description to your snippet -->
-	<!-- <description>description</description> -->
+		height: 100px]]></content>
+    <tabTrigger>notifier</tabTrigger>
+    <scope>source.sass</scope>
+    <description></description>
 </snippet>
