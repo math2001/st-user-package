@@ -1,0 +1,6 @@
+---
+tabTrigger: getsetting
+scope: source.python
+description:
+---
+get_settings().get('$1')

@@ -26,6 +26,7 @@
 		"ColorHelper",
 		"ColorSchemeEditor",
 		"CSS3",
+		"CSScheme",
 		"DataConverter",
 		"Emmet",
 		"Emoji",
@@ -87,7 +88,6 @@
 		"https://github.com/Skullsneeze/SidebarHoverToggle.git",
 		"https://github.com/driesvints/nova-sublime-text",
 		"https://github.com/victorlaerte/dumbest-ipsum",
-		"https://github.com/math2001/BetterSnippetManager",
 		"https://github.com/rchl/IndentToParenthesis",
 		"https://github.com/victoreduardobarreto/CodeTerminal"
 	]

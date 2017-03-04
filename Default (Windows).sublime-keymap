@@ -9,14 +9,17 @@
             { "key": "setting.is_widget", "operand": false }
         ]
     },
-    {"keys": ["ctrl+alt+shift+z"], "args": {"action": "select_next_item"},
-        "command": "run_emmet_action",
-        "context": [
-            {
-                "key": "emmet_action_enabled.select_next_item"
-            }
-        ]
-    },
+
+    {"keys": ["#"], "command": "insert_snippet", "args": {
+        "contents": " id=\"$1\""
+    }, "context": [
+        { "key": "selector", "operand": "meta.tag -string.quoted -punctuation.definition.tag.begin" }
+    ]},
+    {"keys": ["."], "command": "insert_snippet", "args": {
+        "contents": " class=\"$1\""
+    }, "context": [
+        { "key": "selector", "operand": "meta.tag -string.quoted -punctuation.definition.tag.begin" }
+    ]},
     { "keys": ["alt+h"], "command": "unindent" },
     { "keys": ["alt+l"], "command": "indent" },
     { "keys": ["alt+j"], "command": "swap_line_down" },

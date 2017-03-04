@@ -746,7 +746,7 @@ a {
                 <key>fontStyle</key>
                 <string>bold</string>
                 <key>foreground</key>
-                <string>#8e908c</string>
+                <string>#00000022</string>
             </dict>
         </dict>
         <dict>

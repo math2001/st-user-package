@@ -1,3 +1,4 @@
 // These settings override both User and Default settings for the MarkdownLivePreview syntax
 {
+    // "preview_only": true
 }
