@@ -10,7 +10,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#FCFCFC</string>
+				<string>#FFFFFF</string>
 				<key>caret</key>
 				<string>#26A69A</string>
 				<key>foreground</key>
@@ -25,7 +25,7 @@
 		</dict>
 		<dict>
 			<key>scope</key>
-			<string>keyword, entity</string>
+			<string>keyword, entity, markup.inserted.diff</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -34,7 +34,7 @@
 		</dict>
 		<dict>
 			<key>scope</key>
-			<string>storage.type, keyword.control</string>
+			<string>storage.type, keyword.control, storage.modifier, markup.deleted.diff</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -79,7 +79,7 @@
 		</dict>
 		<dict>
 			<key>scope</key>
-			<string>support.function, variable.language.this, variable.language, meta.class.inheritance, entity.other.pseudo-element</string>
+			<string>support.function, variable.language.this, variable.language, meta.class.inheritance, entity.other.pseudo-element, storage.type</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>

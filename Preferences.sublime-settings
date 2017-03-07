@@ -2,6 +2,13 @@
 	"always_show_minimap_viewport": true,
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_selector": "",
+	"auto_complete_triggers":
+	[
+		{
+			"characters": ":",
+			"selector": "text.html.markdown"
+		}
+	],
 	"auto_complete_with_fields": true,
 	"auto_id_class": true,
 	"binary_file_patterns":
@@ -87,6 +94,7 @@
 		"FileManagerTests",
 		"Git",
 		"Hover Image Preview",
+		"JavaScript Ultimate",
 		"jQuery",
 		"LiveReload",
 		"Material Theme",

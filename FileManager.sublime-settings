@@ -2,6 +2,10 @@
 {
     "terminals": [
         {
+            "name": "Hyper",
+            "cmd": ["C:\\Users\\Home\\AppData\\Local\\hyper\\Update.exe", "--processStart", "Hyper.exe"]
+        },
+        {
             "name": "Bash",
             "cmd": ["C:\\Program Files\\Git\\bin\\bash.exe"]
         },

@@ -1,7 +1,7 @@
 @name "Bleen";
 
 * {
-    background: #FCFCFC;
+    background: #FFF;
     selectionBorder: #FCFCFC;
     caret: #26A69A;
     foreground: #555;
@@ -9,11 +9,16 @@
     invisibles: #3B3A32;
 }
 
-keyword, entity {
+keyword,
+entity,
+markup.inserted.diff {
     foreground: #26A69A;
 }
 
-storage.type, keyword.control {
+storage.type,
+keyword.control,
+storage.modifier,
+markup.deleted.diff {
     foreground: #F66358;
 }
 
@@ -38,7 +43,8 @@ support.function,
 variable.language.this,
 variable.language,
 meta.class.inheritance,
-entity.other.pseudo-element {
+entity.other.pseudo-element,
+storage.type {
     fontStyle: italic;
 }
 
