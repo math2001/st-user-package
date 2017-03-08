@@ -1,4 +1,5 @@
 @name "Bleen";
+@author "math2001 → https://github.com/math2001";
 
 * {
     background: #FFF;
@@ -8,6 +9,7 @@
     selection: #E7F9F8;
     invisibles: #3B3A32;
 }
+
 
 keyword,
 entity,
@@ -24,6 +26,11 @@ markup.deleted.diff {
 
 comment, punctuation {
     foreground: #888;
+}
+
+markup.raw.inline.markdown,
+markup.raw.block.markdown {
+    background: #f2f2f2;
 }
 
 variable.parameter {
@@ -44,8 +51,23 @@ variable.language.this,
 variable.language,
 meta.class.inheritance,
 entity.other.pseudo-element,
-storage.type {
+storage.type,
+markup.italic {
     fontStyle: italic;
+}
+
+markup.bold {
+    fontStyle: bold;
+}
+
+markup.quote.markdown {
+    fontStyle: italic;
+    foreground: #888;
+}
+
+punctuation.definition.blockquote.markdown {
+    background: #ddd;
+    foreground: #ddd;
 }
 
 constant,
