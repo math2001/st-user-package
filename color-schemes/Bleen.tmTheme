@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>author</key>
+	<string>math2001 â†’ https://github.com/math2001</string>
 	<key>name</key>
 	<string>Bleen</string>
 	<key>settings</key>
