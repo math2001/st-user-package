@@ -52,6 +52,15 @@
 		</dict>
 		<dict>
 			<key>scope</key>
+			<string>markup.raw.inline.markdown, markup.raw.block.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#f2f2f2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
 			<string>variable.parameter</string>
 			<key>settings</key>
 			<dict>
@@ -79,11 +88,42 @@
 		</dict>
 		<dict>
 			<key>scope</key>
-			<string>support.function, variable.language.this, variable.language, meta.class.inheritance, entity.other.pseudo-element, storage.type</string>
+			<string>support.function, variable.language.this, variable.language, meta.class.inheritance, entity.other.pseudo-element, storage.type, markup.italic</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string>italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>markup.bold</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>markup.quote.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#888888</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>punctuation.definition.blockquote.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#dddddd</string>
+				<key>foreground</key>
+				<string>#dddddd</string>
 			</dict>
 		</dict>
 		<dict>

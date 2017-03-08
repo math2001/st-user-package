@@ -26,6 +26,11 @@ comment, punctuation {
     foreground: #888;
 }
 
+markup.raw.inline.markdown,
+markup.raw.block.markdown {
+    background: #f2f2f2;
+}
+
 variable.parameter {
     background: #FDE8E7;
 }
@@ -44,8 +49,23 @@ variable.language.this,
 variable.language,
 meta.class.inheritance,
 entity.other.pseudo-element,
-storage.type {
+storage.type,
+markup.italic {
     fontStyle: italic;
+}
+
+markup.bold {
+    fontStyle: bold;
+}
+
+markup.quote.markdown {
+    fontStyle: italic;
+    foreground: #888;
+}
+
+punctuation.definition.blockquote.markdown {
+    background: #ddd;
+    foreground: #ddd;
 }
 
 constant,
