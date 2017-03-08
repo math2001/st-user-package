@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[addEventListener("${2:click}", function (e) {
+    <content><![CDATA[addEventListener('${2:click}', function (e) {
 	$0
 }, false)]]></content>
     <tabTrigger>add</tabTrigger>
