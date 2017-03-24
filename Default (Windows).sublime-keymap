@@ -46,7 +46,20 @@
     }, "context": [
         { "key": "selector", "operator": "equal", "operand": "text.git-commit-message" }
     ]},
+
+
+
+
     { "keys": ["-", ">"], "command": "insert_snippet", "args": { "contents": "→ " } },
+    // → 
+
+
+
+
+
+
+
+
     { "keys": ["<", "-"], "command": "insert_snippet", "args": { "contents": "← " } },
     {"keys": ["ctrl+."], "command": "run_emmet_action",
         "args": {"action": "next_edit_point"}
@@ -300,7 +313,7 @@
     {
         "keys": [".", "."], "command": "insert_snippet", "args": {"contents": "this."}, "context": [
             { "key": "selector", "operator": "equal", "operand": "source.js" },
-            { "key": "selector", "operator": "not_equal", "operand": "string.quoted" }
+            { "key": "selector", "operator": "not_equal", "operand": "string" }
         ]
     },
 

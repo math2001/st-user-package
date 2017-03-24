@@ -25,6 +25,8 @@
         "des": "~/Desktop",
         "stu": "$st/User",
         "cr": "C:/courses/",
-        "www": "C:/wamp/www"
+        "www": "C:/wamp/www",
+        "here": "$file_path",
+        "settings": "$st/User/Preferences.sublime-settings"
     }
 }

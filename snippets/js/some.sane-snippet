@@ -1,0 +1,8 @@
+---
+tabTrigger: some
+scope: source.js
+description: some
+---
+some((${1:element}${2/.+/, /}${2:index}${3/.+/, /}${3:array}) => {
+    $4
+})

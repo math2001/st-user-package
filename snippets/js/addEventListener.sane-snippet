@@ -3,6 +3,4 @@ description:
 tabTrigger:  add
 scope:       source.js
 ---
-addEventListener('${2:click}', function (e) {
-	$0
-}, false)
+addEventListener('${2:click}', handle${4})

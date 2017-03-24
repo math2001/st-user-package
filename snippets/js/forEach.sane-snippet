@@ -1,8 +1,0 @@
----
-tabTrigger: forEach
-scope: source.js
-description: forEach
----
-forEach(function (${1:element}${2/.+/, /}${2:index}${3/.+/, /}${3:array}) {
-    $4
-}, this)

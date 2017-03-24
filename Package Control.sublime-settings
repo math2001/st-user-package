@@ -33,7 +33,6 @@
 		"Entheogen Color Scheme",
 		"Future Funk - Color Scheme",
 		"Git Commit Message Syntax",
-		"GithubEmoji",
 		"Hover Image Preview",
 		"Inline Python",
 		"InsertDate",
@@ -64,8 +63,8 @@
 		"SCSS",
 		"SideBarEnhancements",
 		"SidebarHoverToggle",
+		"Six",
 		"Stylus",
-		"Sublime Text 3 Snippets",
 		"Sublime Tutor",
 		"SublimeREPL",
 		"Table Editor",
@@ -91,6 +90,8 @@
 		"https://github.com/driesvints/nova-sublime-text",
 		"https://github.com/victorlaerte/dumbest-ipsum",
 		"https://github.com/rchl/IndentToParenthesis",
-		"https://github.com/victoreduardobarreto/CodeTerminal"
+		"https://github.com/victoreduardobarreto/CodeTerminal",
+		"https://github.com/guillermooo/Siz",
+		"https://github.com/guillermooo/Six"
 	]
 }

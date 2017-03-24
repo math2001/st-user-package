@@ -1,0 +1,6 @@
+---
+tabTrigger: querySelector
+scope: source.js
+description: querySelector
+---
+document.querySelector('$1')

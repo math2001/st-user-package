@@ -1,0 +1,6 @@
+---
+tabTrigger: format-string
+scope: source.js
+description: format-string
+---
+require('format-string').extend(String.prototype, {})

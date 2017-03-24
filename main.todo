@@ -6,7 +6,6 @@ Packages to create:
   ☐ devdocs phantom @low
   ☐ asciinema for Sublime Text @low
   ☐ auto format line for python
-  ☐ window settings for view
   ☐ build only selected lines
   ☐ run code block snippet in markdown
   ☐ plugin settings event listener
@@ -30,6 +29,7 @@ Tutos:
 
 Others:
   ☐ read javascript the good part
+  ☐ extension to save to cache
   ☐ learn should.js
   ☐ sublime-api chrome extension: look for function fuzzy @cool
   ☐ Sublime::undocs → add set_user_settings
@@ -40,9 +40,14 @@ Others:
   ☐ chrome extension: scroll with j and k
   ☐ docs for emojione
   ☐ open hyper from sublime text at the right place
+  ☐ read todo of projects
+  ☐ JSON parser letter by letter
 
+Best Practice:
+  ☐ sublime text snippet best practice
 ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
 Archive:
+ ✔ window settings for view @done Wed 22 Mar 2017 at 19:03 @project(Packages to create)
  ✔ autocompletion window settings @done Wed 08 Feb 2017 at 16:01 @project(Packages to create)
  ✔ RepoPlease @done Sat 04 Feb 2017 at 22:32 @project(Package to share)
  ✔ JSONComma @done Sun 22 Jan 2017 at 19:48 @project(Package to share)

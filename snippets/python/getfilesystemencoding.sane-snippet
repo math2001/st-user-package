@@ -1,0 +1,6 @@
+---
+tabTrigger: getfilesystemencoding
+scope: source.python
+description: sys.getfilesystemencoding()
+---
+getfilesystemencoding()
