@@ -2,20 +2,8 @@
 {
     "terminals": [
         {
-            "name": "Hyper",
-            "cmd": ["C:\\Users\\Home\\AppData\\Local\\hyper\\Update.exe", "--processStart", "Hyper.exe"]
-        },
-        {
             "name": "Bash",
             "cmd": ["C:\\Program Files\\Git\\bin\\bash.exe"]
-        },
-        {
-            "name": "CMD",
-            "cmd": ["C:\\windows\\system32\\cmd.exe", "/k", "C:\\Users\\math\\cmd-conf\\runner.cmd"]
-        },
-        {
-            "name": "Cmder",
-            "cmd": ["C:/cmder/cmder.exe", "/SINGLE", "$cwd"]
         }
     ],
     "index_folder_separator": " ",
@@ -27,6 +15,8 @@
         "cr": "C:/courses/",
         "www": "C:/wamp/www",
         "here": "$file_path",
-        "settings": "$st/User/Preferences.sublime-settings"
-    }
+        "settings": "$stu/Preferences.sublime-settings",
+        "keybindings": "$stu/kpymaper.py",
+        "kb": "$keybindings"
+    },
 }

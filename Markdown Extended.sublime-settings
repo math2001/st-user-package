@@ -3,6 +3,6 @@
 	[
 		"md"
 	],
-	"save_on_focus_lost": false,
-	"spell_check": true
+	"spell_check": true,
+    "wrap_width": 100,
 }

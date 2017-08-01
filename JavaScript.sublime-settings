@@ -1,0 +1,4 @@
+// These settings override both User and Default settings for the JavaScript syntax
+{
+    "indent_to_bracket": false,
+}

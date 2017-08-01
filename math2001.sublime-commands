@@ -1,146 +1,161 @@
 [
-	{
-		"caption": "Math2001: Update Prints",
-		"command": "update_print_indicator"
-	},
-	{
-		"caption": "Math2001: Type Word",
-		"command": "type_word"
-	},
-	{
-		"caption": "Math2001: Transform Command Name",
-		"command": "transform_command_name"
-	},
-	{
-		"caption": "Math2001: HTML Encode",
-		"command": "encode_special_caraters"
-	},
-	{
-		"caption": "View: Toogle Full Screen",
-		"command": "toggle_full_screen"
-	},
-	{
-		"caption": "Math2001: Wrap With Function",
-		"command": "wrap_with_function"
-	},
-	{
-		"caption": "Spell Checking"
-		, "command": "toggle_setting"
-		, "args": {"setting": "spell_check"}
-	},
-	{
-		"caption": "Math2001: Clear Console"
-		, "command": "clear_console"
-	},
-	{
-		"caption": "Math2001: Main Todo"
-		, "command": "open_file"
-		, "args": { "file": "$packages/User/main.todo" }
-	},
-	{
-		"caption": "Math2001: CMD",
-		"command": "cmd"
-	},
-	{ "caption": "Math2001: Cmder", "command": "open_cmder" },
-	{
-		"caption": "Math2001: Write Date"
-		, "command": "write_date"
-	},
-	{
-		"caption": "Math2001: Convert Color",
-		"command": "convert_color"
-	},
-	{
-		"caption": "Tools: New snippet",
-		"command": "snippet_saver"
-	},
-	{
-		"caption": "Math2001: Wrap With Counter",
-		"command": "counter_wraper"
-	},
-	{
-		"caption": "File: New Window",
-		"command": "new_window"
-	},
-	{
-		"caption": "Math2001: File Infos",
-		"command": "file_info"
-	},
-	{
-		"caption": "Math2001: Open .sublime-command file",
-		"command": "open_file",
-		"args": {
-			"file": "${packages}/User/math2001.sublime-commands"
-		}
-	},
-	{
-		"caption": "Math2001: Char File",
-		"command": "open_file",
-		"args": {
-			"file": "/C/_aide/symbol.txt"
-		}
-	},
-	{
-		"caption": "Math2001: Init Pygame",
-		"command": "init_pygame"
-	},
-	{
-		"caption": "Math2001: Pygame Doc",
-		"command": "pygame_doc"
-	},
-	{
-		"caption": "Math2001: Build Result",
-		"command": "show_panel",
-		"args": {
-			"panel": "output.exec"
-		}
-	},
-	{
-		"caption": "Math2001: Fold functions",
-		"command": "function_folder"
-	},
-	{
-		"caption": "Math2001: Project's Todo",
-		"command": "project_todo"
-	},
-	{
-		"caption": "Math2001: Clear Pyc",
-		"command": "delete_pyc"
-	},
-	{
-		"caption": "Math2001: Markdown Preview",
-		"command": "markdown_preview",
-		"args": {
-			"parser":"markdown",
-			"target":"browser"
-		}
-	},
-	{
-		"caption": "Math2001: Fold functions",
-		"command": "fold_function"
-	},
-	{
-		"caption": "Math2001: Open README",
-		"command": "open_readme"
-	},
-	{
-		"caption": "Math2001: Open JS corresponding file",
-		"command": "open_js_from_coffee"
-	},
-	{
-		"caption": "Math2001: Escape Backslaches",
-		"command": "escape_backslashes"
-	},
-	{
-		"caption": "Math2001: Json Comma Fixer",
-		"command": "json_fixer"
-	},
-	{
-		"caption": "Math2001: Quotes",
-		"command": "open_file",
-		"args": {
-			"file": "$packages/User/quotes.txt"
-		}
-	},
-
+    {
+        "caption": "Math2001: Update Prints",
+        "command": "update_print_indicator"
+    },
+    {
+        "caption": "Math2001: Type Word",
+        "command": "type_word"
+    },
+    {
+        "caption": "Math2001: Transform Command Name",
+        "command": "transform_command_name"
+    },
+    {
+        "caption": "Math2001: HTML Encode",
+        "command": "encode_special_caraters"
+    },
+    {
+        "caption": "View: Toogle Full Screen",
+        "command": "toggle_full_screen"
+    },
+    {
+        "caption": "Math2001: Wrap With Function",
+        "command": "wrap_with_function"
+    },
+    {
+        "caption": "Spell Checking",
+        "command": "toggle_setting",
+        "args": {
+            "setting": "spell_check"
+        }
+    },
+    {
+        "caption": "Math2001: Clear Console",
+        "command": "clear_console"
+    },
+    {
+        "caption": "Math2001: Main Todo",
+        "command": "open_file",
+        "args": {
+            "file": "$packages/User/todo"
+        }
+    },
+    {
+        "caption": "Math2001: CMD",
+        "command": "cmd"
+    },
+    {
+        "caption": "Math2001: Cmder",
+        "command": "open_cmder"
+    },
+    {
+        "caption": "Math2001: Write Date",
+        "command": "write_date"
+    },
+    {
+        "caption": "Math2001: Convert Color",
+        "command": "convert_color"
+    },
+    {
+        "caption": "Tools: New snippet",
+        "command": "snippet_saver"
+    },
+    {
+        "caption": "Math2001: Wrap With Counter",
+        "command": "counter_wraper"
+    },
+    {
+        "caption": "File: New Window",
+        "command": "new_window"
+    },
+    {
+        "caption": "Math2001: File Infos",
+        "command": "file_info"
+    },
+    {
+        "caption": "Math2001: Open .sublime-command file",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/User/math2001.sublime-commands"
+        }
+    },
+    {
+        "caption": "Math2001: Char File",
+        "command": "open_file",
+        "args": {
+            "file": "/C/_aide/symbol.txt"
+        }
+    },
+    {
+        "caption": "Math2001: Init Pygame",
+        "command": "init_pygame"
+    },
+    {
+        "caption": "Math2001: Pygame Doc",
+        "command": "pygame_doc"
+    },
+    {
+        "caption": "Math2001: Build Result",
+        "command": "show_panel",
+        "args": {
+            "panel": "output.exec"
+        }
+    },
+    {
+        "caption": "Math2001: Fold functions",
+        "command": "function_folder"
+    },
+    {
+        "caption": "Math2001: Project's Todo",
+        "command": "project_todo"
+    },
+    {
+        "caption": "Math2001: Clear Pyc",
+        "command": "delete_pyc"
+    },
+    {
+        "caption": "Math2001: Markdown Preview",
+        "command": "markdown_preview",
+        "args": {
+            "parser": "markdown",
+            "target": "browser"
+        }
+    },
+    {
+        "caption": "Math2001: Fold functions",
+        "command": "fold_function"
+    },
+    {
+        "caption": "Math2001: Open README",
+        "command": "open_readme"
+    },
+    {
+        "caption": "Math2001: Open JS corresponding file",
+        "command": "open_js_from_coffee"
+    },
+    {
+        "caption": "Math2001: Escape Backslaches",
+        "command": "escape_backslashes"
+    },
+    {
+        "caption": "Math2001: Json Comma Fixer",
+        "command": "json_fixer"
+    },
+    {
+        "caption": "Math2001: Quotes",
+        "command": "open_file",
+        "args": {
+            "file": "$packages/User/quotes.txt"
+        }
+    },
+    {
+        "caption": "View: Set French Dictionary",
+        "command": "set_user_setting",
+        "args": {
+            "file": "Preferences.sublime-settings",
+            "setting": "dictionary",
+            "value": "Packages/Language - French - Français/fr_FR.dic"
+        }
+    }
 ]

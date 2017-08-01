@@ -1,6 +1,6 @@
 ---
 description: long hyphen
 tabTrigger:  --
-scope:       None
+scope:
 ---
-—
+— 

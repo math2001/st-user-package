@@ -1,5 +1,4 @@
 {
-	"auto_upgrade": false,
 	"bootstrapped": true,
 	"ignore_vcs_packages": true,
 	"in_process_packages":
@@ -23,12 +22,14 @@
 		"ChangeQuotes",
 		"ChannelRepositoryTools",
 		"Charcoal",
+		"Color Highlighter",
 		"ColorHelper",
 		"ColorSchemeEditor",
 		"CSS Format",
 		"CSS3",
 		"CSScheme",
 		"DataConverter",
+		"EasySettings",
 		"Emmet",
 		"Entheogen Color Scheme",
 		"Future Funk - Color Scheme",
@@ -43,13 +44,14 @@
 		"JSON Reindent",
 		"JsonTree",
 		"Language - French - Français",
-		"LiveReload",
 		"Markdown Extended",
 		"Markdown Preview",
 		"MarkdownTOC",
 		"Material Theme",
+		"MultiEditUtils",
 		"nova-sublime-text",
 		"Oceanic Next Color Scheme",
+		"OverrideAudit",
 		"Package Control",
 		"PackageDev",
 		"PackageResourceViewer",
@@ -67,6 +69,7 @@
 		"Stylus",
 		"Sublime Tutor",
 		"SublimeREPL",
+		"SVG Icons",
 		"Table Editor",
 		"Theme - Afterglow",
 		"Theme - amCoder",
@@ -91,7 +94,6 @@
 		"https://github.com/victorlaerte/dumbest-ipsum",
 		"https://github.com/rchl/IndentToParenthesis",
 		"https://github.com/victoreduardobarreto/CodeTerminal",
-		"https://github.com/guillermooo/Siz",
 		"https://github.com/guillermooo/Six"
 	]
 }

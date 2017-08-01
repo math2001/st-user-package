@@ -1,6 +1,6 @@
 ---
 description: Create random function
-tabTrigger:  createrandomfunction
+tabTrigger:  randomfunction
 scope:       source.js
 ---
 function rnd(min, max, integer) {

@@ -1,3 +1,6 @@
 {
-	"remove_html_completions": true
+	"remove_html_completions": true,
+    "preferences": {
+        "css.autoInsertVendorPrefixes": false
+    }
 }

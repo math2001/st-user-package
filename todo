@@ -1,5 +1,4 @@
 Packages to create:
-
   ☐ yaml config compiler
   ☐ snippet in settings
   ☐ console cleaner: define nb line to print @low @toShare
@@ -7,8 +6,6 @@ Packages to create:
   ☐ asciinema for Sublime Text @low
   ☐ auto format line for python
   ☐ build only selected lines
-  ☐ run code block snippet in markdown
-  ☐ plugin settings event listener
 
 Package to share:
   ☐ auto escape on paste @low
@@ -26,6 +23,8 @@ Packages to update:
 Tutos:
   ☐ git::hooks
   ☐ Python::property
+  ☐ set PROMPT env variable
+  ☐ workspace in chrome
 
 Others:
   ☐ read javascript the good part
@@ -37,16 +36,25 @@ Others:
   ☐ javascript: make the keys object
   ☐ argparse: interactive automatic
   ☐ CD for good music #harriers
-  ☐ chrome extension: scroll with j and k
   ☐ docs for emojione
   ☐ open hyper from sublime text at the right place
-  ☐ read todo of projects
   ☐ JSON parser letter by letter
 
-Best Practice:
-  ☐ sublime text snippet best practice
+
+
+Font:
+  - karla
+  - Advent Pro
+  - Aladin
+  - Alef
+  - Hammersmith One
 ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
 Archive:
+ ✔ run code block snippet in markdown @done Wed 19 Apr 2017 at 15:06 @project(Packages to create)
+ ✔ plugin settings event listener @done Wed 19 Apr 2017 at 15:06 @project(Packages to create)
+ ✘ chrome extension: scroll with j and k @cancelled Wed 19 Apr 2017 at 15:05 @project(Others)
+ ✔ read todo of projects @done Wed 19 Apr 2017 at 14:04 @project(Others)
+ ✔ sublime text snippet best practice @done Mon 27 Mar 2017 at 17:27 @project(Best Practice)
  ✔ window settings for view @done Wed 22 Mar 2017 at 19:03 @project(Packages to create)
  ✔ autocompletion window settings @done Wed 08 Feb 2017 at 16:01 @project(Packages to create)
  ✔ RepoPlease @done Sat 04 Feb 2017 at 22:32 @project(Package to share)

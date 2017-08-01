@@ -6,7 +6,7 @@
 		return Math.floor(Math.random() * (max - min + 1) + min);
 	}
 }]]></content>
-    <tabTrigger>createrandomfunction</tabTrigger>
+    <tabTrigger>randomfunction</tabTrigger>
     <scope>source.js</scope>
     <description>Create random function</description>
 </snippet>

@@ -1,5 +1,5 @@
 {
     "cmd": ["node", "$file"],
     "selector": "source.js",
-    "quiet": true
+    "file_regex": "\\((.+):(\\d+):\\d+\\)"
 }

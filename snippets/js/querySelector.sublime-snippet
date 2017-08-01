@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[document.querySelector('$1')]]></content>
+    <content><![CDATA[querySelector('$1')]]></content>
     <tabTrigger>querySelector</tabTrigger>
     <scope>source.js</scope>
     <description>querySelector</description>

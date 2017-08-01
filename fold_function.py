@@ -40,12 +40,20 @@ class FoldFunctionCommand(sublime_plugin.TextCommand):
                 else:
                     region = region.cover(line)
 
+            v.selection.add(region)
+            continue
+
             last_line = v.substr(region).splitlines(keepends=True)[-1]
+            print("fold_function.py:44", repr(last_line))
             striped = last_line.strip()
             if striped == '':
+                print("fold_function.py:47", region)
                 region = sublime.Region(region.begin(), region.end() - len(last_line) - 1)
             elif striped == '}':
+                print("fold_function.py:48", last_line)
                 region = sublime.Region(region.begin(), region.end() - len(last_line))
+            else:
+                print("fold_function.py:53", repr(v.substr(v.full_line(region.end()))))
 
-            v.fold(region)
-            # v.selection.add(region)
+            # v.fold(region)
+            v.selection.add(region)

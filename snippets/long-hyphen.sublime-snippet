@@ -1,6 +1,6 @@
 <snippet>
-    <content><![CDATA[—]]></content>
+    <content><![CDATA[— ]]></content>
     <tabTrigger>--</tabTrigger>
-    <scope>None</scope>
+    <scope></scope>
     <description>long hyphen</description>
 </snippet>

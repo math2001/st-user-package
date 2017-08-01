@@ -6,7 +6,15 @@
 		"gitmoji",
 		"Emojis",
 		"Inkscape",
-		"svg"
+		"svg",
+		"Pontchartrain",
+		"Katrina",
+		"defences",
+		"Callet",
+		"keybinding",
+		"keybindings",
+		"linux",
+		"md"
 	],
 	"always_show_minimap_viewport": true,
 	"auto_complete_commit_on_tab": true,
@@ -22,6 +30,7 @@
 	"auto_id_class": true,
 	"binary_file_patterns":
 	[
+		"dist/*",
 		"*.jpg",
 		"*.jpeg",
 		"*.png",
@@ -39,11 +48,11 @@
 		"*.min.*"
 	],
 	"bold_folder_labels": true,
-	"caret_extra_width": 1,
+	"caret_extra_width": 2,
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Nova.tmTheme",
+	"color_scheme": "Packages/User/color-schemes/math2001 - Boxy Nova.tmTheme",
 	"default_line_ending": "CRLF",
-	"dictionary": "Packages/Language - English/en_GB.dic",
+	"dictionary": "Packages/Language - English/en_US.dic",
 	"draw_white_space": "selection",
 	"enable_tab_scrolling": false,
 	"ensure_single_trailing_newline": true,
@@ -70,6 +79,7 @@
 		".sass-cache",
 		"node_modules"
 	],
+	"font_face": "Roboto Mono",
 	"font_good":
 	[
 		"Copyright (c) H&Co | typography.com",
@@ -87,7 +97,7 @@
 	"font_options":
 	[
 	],
-	"font_size": 11,
+	"font_size": 10,
 	"ignore_whitespace_on_current_line": true,
 	"ignore_whitespace_only_lines": false,
 	"ignored_packages":
@@ -95,7 +105,6 @@
 		"AdvancedNewFile",
 		"Anaconda",
 		"Better CoffeeScript",
-		"Boxy Theme Addon - Widget Font Size",
 		"Boxy Theme-matt-edit",
 		"ChannelRepositoryTools",
 		"CSS3",
@@ -105,15 +114,15 @@
 		"Hover Image Preview",
 		"JavaScript Ultimate",
 		"jQuery",
-		"LiveReload",
 		"Material Theme",
-		"PackageDev",
 		"PyYapf Python Formatter",
+		"SettingsAutoCompletion",
 		"SideBarEnhancements",
 		"SidebarHoverToggle",
 		"Six",
 		"sublimetools",
-		"Theme - Phoenix"
+		"Theme - Phoenix",
+		"Whitespace"
 	],
 	"ignored_words":
 	[
@@ -127,6 +136,7 @@
 		"Arsi",
 		"Blackdog",
 		"Blackdog",
+		"Clermont",
 		"Color",
 		"Coolibah",
 		"Coolibah",
@@ -411,6 +421,7 @@
 	"show_tab_close_buttons": true,
 	"show_tabs": true,
 	"snippet_folder_name": "snippets",
+	"spelling_selector": "markup.raw - markup.raw.block.markdown, source string.quoted - punctuation - meta.preprocessor.c.include, source comment - source comment.block.preprocessor, -(source, constant, keyword, storage, support, variable, markup.underline.link, meta.tag)",
 	"tabs_medium": true,
 	"tabs_padding_medium": true,
 	"tabs_small": false,
@@ -421,7 +432,6 @@
 	"theme_icon_button_highlighted": true,
 	"theme_icons_flat": true,
 	"theme_icons_materialized": true,
-	"theme_minimap_viewport_opacity_xlw": true,
 	"theme_panel_switcher_atomized": true,
 	"theme_quick_panel_item_selected_colored": true,
 	"theme_scrollbar_rounded": true,
@@ -438,6 +448,6 @@
 	"theme_unified": true,
 	"translate_tabs_to_spaces": true,
 	"vintage_start_in_command_mode": true,
-	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
+	"word_separators": "./\\()\"'-:,.;<>~!@$%^&*|+=[]{}`~?",
 	"word_wrap": true
 }
