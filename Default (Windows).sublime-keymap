@@ -1,5 +1,35 @@
 [
     {
+        "keys": ["j", "k"],
+        "command": "six_press_key",
+        "args": {
+            "key": "<Esc>"
+        },
+        "context": [
+            {"key": "setting.is_widget", "operand": false, "match_all": true},
+            {"key": "six_is_in_insert_mode", "match_all": true}
+        ]
+    },
+    {
+        "keys": [";"],
+        "command": "six_press_key",
+        "args": {
+            "key": ":"
+        },
+        "context": [
+            {"key": "setting.is_widget", "operand": false, "match_all": true},
+            {"key": "six_is_in_insert_mode", "operand": false, "match_all": true}
+        ]
+    },
+    {
+        "keys": [",", "b"],
+        "command": "build",
+        "context": [
+            {"key": "setting.is_widget", "operand": false, "match_all": true},
+            {"key": "six_is_in_insert_mode", "operand": false, "match_all": true}
+        ]
+    },
+    {
         "keys": ["ctrl+k", "ctrl+c"],
         "command": "show_panel",
         "args": {
@@ -48,7 +78,7 @@
             "target": "browser"
         },
         "context": [
-            {"key": "selector", "operand": "text.html.markdown"}
+            {"key": "selector", "operand": "text.html.markdown", "match_all": true}
         ]
     },
     {
@@ -58,7 +88,17 @@
             "characters": "self."
         },
         "context": [
-            {"key": "selector", "operand": "source.python - comment - string"}
+            {"key": "selector", "operand": "source.python - comment - string", "match_all": true}
+        ]
+    },
+    {
+        "keys": [".", "."],
+        "command": "insert",
+        "args": {
+            "characters": "this."
+        },
+        "context": [
+            {"key": "selector", "operand": "source.js - comment - string", "match_all": true}
         ]
     },
     {
@@ -75,7 +115,7 @@
             ]
         },
         "context": [
-            {"key": "selector", "operand": "text.git-commit-message"}
+            {"key": "selector", "operand": "text.git-commit-message", "match_all": true}
         ]
     },
     {
@@ -123,7 +163,7 @@
         "keys": ["ctrl+r"],
         "command": "permute_selection",
         "context": [
-            {"key": "num_selections", "operand": 2}
+            {"key": "num_selections", "operand": 2, "match_all": true}
         ]
     },
     {
@@ -151,68 +191,5 @@
     {
         "keys": ["ctrl+l"],
         "command": "lower_case"
-    },
-    {
-        "keys": ["alt+d"],
-        "command": "insert_date",
-        "args": {
-            "format": "%A %d %B %Y @ %I:%M"
-        }
-    },
-    {
-        "keys": ["2"],
-        "command": "insert",
-        "args": {
-            "characters": "é"
-        },
-        "context": [
-            {"key": "dictionary", "operand": "Packages/Language - French - Français/fr_FR.dic"},
-            {"key": "selector", "operand": "text.plain"},
-            {"key": "preceding_text", "operator": "regex_contains", "operand": "[\\w']$"}
-        ]
-    },
-    {
-        "keys": ["7"],
-        "command": "insert",
-        "args": {
-            "characters": "è"
-        },
-        "context": [
-            {"key": "dictionary", "operand": "Packages/Language - French - Français/fr_FR.dic"},
-            {"key": "selector", "operand": "text.plain"}
-        ]
-    },
-    {
-        "keys": ["e", "e"],
-        "command": "insert",
-        "args": {
-            "characters": "ée"
-        },
-        "context": [
-            {"key": "dictionary", "operand": "Packages/Language - French - Français/fr_FR.dic"},
-            {"key": "selector", "operand": "text.plain"}
-        ]
-    },
-    {
-        "keys": ["ctrl+0"],
-        "command": "insert",
-        "args": {
-            "characters": "à"
-        },
-        "context": [
-            {"key": "dictionary", "operand": "Packages/Language - French - Français/fr_FR.dic"},
-            {"key": "selector", "operand": "text.plain"}
-        ]
-    },
-    {
-        "keys": ["ctrl+7"],
-        "command": "insert",
-        "args": {
-            "characters": "è"
-        },
-        "context": [
-            {"key": "dictionary", "operand": "Packages/Language - French - Français/fr_FR.dic"},
-            {"key": "selector", "operand": "text.plain"}
-        ]
     }
 ]

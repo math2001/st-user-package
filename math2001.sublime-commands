@@ -157,5 +157,10 @@
             "setting": "dictionary",
             "value": "Packages/Language - French - Français/fr_FR.dic"
         }
+    },
+    {
+        "caption": "Insert timestamp",
+        "command": "insert_timestamp"
     }
+
 ]

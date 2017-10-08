@@ -14,7 +14,8 @@
 		"keybinding",
 		"keybindings",
 		"linux",
-		"md"
+		"md",
+		"slugify"
 	],
 	"always_show_minimap_viewport": true,
 	"auto_complete_commit_on_tab": true,
@@ -50,8 +51,8 @@
 	"bold_folder_labels": true,
 	"caret_extra_width": 2,
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/User/color-schemes/math2001 - Boxy Nova.tmTheme",
-	"default_line_ending": "CRLF",
+	"color_scheme": "Packages/Color Scheme - Default/Sixteen.tmTheme",
+	"default_line_ending": "LF",
 	"dictionary": "Packages/Language - English/en_US.dic",
 	"draw_white_space": "selection",
 	"enable_tab_scrolling": false,
@@ -102,11 +103,11 @@
 	"ignore_whitespace_only_lines": false,
 	"ignored_packages":
 	[
-		"AdvancedNewFile",
 		"Anaconda",
 		"Better CoffeeScript",
 		"Boxy Theme-matt-edit",
 		"ChannelRepositoryTools",
+		"Color Highlighter",
 		"CSS3",
 		"Dayle Rees Color Schemes",
 		"FileManagerTests",
@@ -119,10 +120,11 @@
 		"SettingsAutoCompletion",
 		"SideBarEnhancements",
 		"SidebarHoverToggle",
-		"Six",
 		"sublimetools",
-		"Theme - Phoenix",
-		"Whitespace"
+		"Vintage",
+		"Vintageous",
+		"Whitespace",
+		"WindowSettings"
 	],
 	"ignored_words":
 	[
@@ -410,7 +412,7 @@
 	"remove_trailing_whitespace_on_save": true,
 	"rulers":
 	[
-		100
+		80
 	],
 	"save_on_focus_lost": true,
 	"shift_tab_unindent": true,
@@ -425,7 +427,7 @@
 	"tabs_medium": true,
 	"tabs_padding_medium": true,
 	"tabs_small": false,
-	"theme": "Boxy Nova.sublime-theme",
+	"theme": "Adaptive.sublime-theme",
 	"theme_accent_blue": true,
 	"theme_bar_logo_atomized": true,
 	"theme_find_panel_atomized": true,

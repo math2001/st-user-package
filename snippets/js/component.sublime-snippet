@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[class AddTip {
+
+    static init() {
+        this.bindDOM()
+        this.bindEvent()
+    }
+
+    static bindDOM() {
+
+    }
+
+    static bindEvent() {
+        
+    }
+
+}]]></content>
+    <tabTrigger>component</tabTrigger>
+    <scope>source.js</scope>
+    <description></description>
+</snippet>

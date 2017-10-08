@@ -1,8 +1,9 @@
 {
+    "enable_table_editor": true,
 	"extensions":
 	[
 		"md"
 	],
 	"spell_check": true,
-    "wrap_width": 100,
+    "textwidth": 80
 }

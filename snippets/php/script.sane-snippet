@@ -3,4 +3,4 @@ description:
 tabTrigger:  script
 scope:       source.php, text.html
 ---
-<script type="text/javascript" src="$1">${0}</script>
+<script${1/.+/ async /}${1/.+/src="/}$1${1/.+/.js\"/}>${0}</script>

@@ -1,6 +1,5 @@
 {
     "cmd": ["go", "run", "$file"],
     "selector": "source.go",
-    "env": { "gopath": "C:\\Users\\math\\go-pcks" },
     "file_regex": "^(.+):(\\d+): (.+)"
 }

@@ -17,6 +17,7 @@
         "here": "$file_path",
         "settings": "$stu/Preferences.sublime-settings",
         "keybindings": "$stu/kpymaper.py",
-        "kb": "$keybindings"
+        "kb": "$keybindings",
+        "kbj": "$stu/Default (Windows).sublime-keymap"
     },
 }

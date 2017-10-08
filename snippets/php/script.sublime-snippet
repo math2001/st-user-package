@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[<script type="text/javascript" src="$1">${0}</script>]]></content>
+    <content><![CDATA[<script${1/.+/ async /}${1/.+/src="/}$1${1/.+/.js\"/}>${0}</script>]]></content>
     <tabTrigger>script</tabTrigger>
     <scope>source.php, text.html</scope>
     <description></description>

@@ -1,0 +1,21 @@
+---
+tabTrigger: component
+scope: source.js
+description: 
+---
+class AddTip {
+
+    static init() {
+        this.bindDOM()
+        this.bindEvent()
+    }
+
+    static bindDOM() {
+
+    }
+
+    static bindEvent() {
+        
+    }
+
+}
