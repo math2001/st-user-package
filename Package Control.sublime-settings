@@ -10,7 +10,6 @@
 		"Alignment",
 		"Anaconda",
 		"ASCII Decorator",
-		"ayu",
 		"Behave Color Scheme",
 		"Better CoffeeScript",
 		"Boxy Theme",
@@ -24,6 +23,7 @@
 		"ColorSchemeEditor",
 		"CSS Format",
 		"CSS3",
+		"DA UI",
 		"DataConverter",
 		"DistractionFreeWindow",
 		"EasySettings",
@@ -31,7 +31,9 @@
 		"Entheogen Color Scheme",
 		"Future Funk - Color Scheme",
 		"Git Commit Message Syntax",
+		"GitSavvy",
 		"Hover Image Preview",
+		"hyperhelp",
 		"Inline Python",
 		"InsertDate",
 		"Inspired GitHub Color Scheme",
@@ -86,6 +88,7 @@
 		"https://github.com/victorlaerte/dumbest-ipsum",
 		"https://github.com/rchl/IndentToParenthesis",
 		"https://github.com/victoreduardobarreto/CodeTerminal",
-		"https://github.com/guillermooo/Six"
+		"https://github.com/guillermooo/Six",
+		"https://github.com/OdatNurd/hyperhelp"
 	]
 }

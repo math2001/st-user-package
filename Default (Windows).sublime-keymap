@@ -82,26 +82,6 @@
         ]
     },
     {
-        "keys": [".", "."],
-        "command": "insert",
-        "args": {
-            "characters": "self."
-        },
-        "context": [
-            {"key": "selector", "operand": "source.python - comment - string", "match_all": true}
-        ]
-    },
-    {
-        "keys": [".", "."],
-        "command": "insert",
-        "args": {
-            "characters": "this."
-        },
-        "context": [
-            {"key": "selector", "operand": "source.js - comment - string", "match_all": true}
-        ]
-    },
-    {
         "keys": ["f8"],
         "command": "chain",
         "args": {

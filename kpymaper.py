@@ -32,9 +32,6 @@ with context(contexts.python):
 with context('selector', 'text.html.markdown'):
     add('ctrl+o', 'markdown_preview', {'parser': 'github'}, {'target': 'browser'})
 
-add('.', '.', 'insert', {'characters': 'self.'}, get_context('selector', 'source.python - comment - string'))
-add('.', '.', 'insert', {'characters': 'this.'}, get_context('selector', 'source.js - comment - string'))
-
 add('f8', 'chain', {'commands': [["save"], ["close_window"]]},
     get_context('selector', 'text.git-commit-message'))
 

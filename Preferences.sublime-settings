@@ -15,7 +15,8 @@
 		"keybindings",
 		"linux",
 		"md",
-		"slugify"
+		"slugify",
+		"jibberish"
 	],
 	"always_show_minimap_viewport": true,
 	"auto_complete_commit_on_tab": true,
@@ -51,7 +52,7 @@
 	"bold_folder_labels": true,
 	"caret_extra_width": 2,
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Color Scheme - Default/Sixteen.tmTheme",
+	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Tomorrow.tmTheme",
 	"default_line_ending": "LF",
 	"dictionary": "Packages/Language - English/en_US.dic",
 	"draw_white_space": "selection",
@@ -99,6 +100,7 @@
 	[
 	],
 	"font_size": 10,
+	"highlight_line": true,
 	"ignore_whitespace_on_current_line": true,
 	"ignore_whitespace_only_lines": false,
 	"ignored_packages":
@@ -108,6 +110,7 @@
 		"Boxy Theme-matt-edit",
 		"ChannelRepositoryTools",
 		"Color Highlighter",
+		"ColorHelper",
 		"CSS3",
 		"Dayle Rees Color Schemes",
 		"FileManagerTests",
@@ -422,15 +425,20 @@
 	"show_menus": true,
 	"show_tab_close_buttons": true,
 	"show_tabs": true,
+	"skin": "DA UI/Elegant",
 	"snippet_folder_name": "snippets",
 	"spelling_selector": "markup.raw - markup.raw.block.markdown, source string.quoted - punctuation - meta.preprocessor.c.include, source comment - source comment.block.preprocessor, -(source, constant, keyword, storage, support, variable, markup.underline.link, meta.tag)",
 	"tabs_medium": true,
 	"tabs_padding_medium": true,
 	"tabs_small": false,
-	"theme": "Adaptive.sublime-theme",
+	"theme": "DA.sublime-theme",
 	"theme_accent_blue": true,
 	"theme_bar_logo_atomized": true,
 	"theme_find_panel_atomized": true,
+	"theme_font_options":
+	[
+		"gdi"
+	],
 	"theme_icon_button_highlighted": true,
 	"theme_icons_flat": true,
 	"theme_icons_materialized": true,
