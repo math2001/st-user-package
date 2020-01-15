@@ -1,0 +1,17 @@
+{
+	"bootstrapped": true,
+	"ignore_vcs_packages": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"ChannelRepositoryTools",
+		"LSP",
+		"Package Control",
+		"PackageDev",
+		"PackageResourceViewer",
+		"ProjectManager",
+		"UnitTesting"
+	]
+}

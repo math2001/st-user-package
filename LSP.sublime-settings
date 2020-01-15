@@ -1,0 +1,23 @@
+{
+    "auto_show_diagnostics_panel": "never",
+    "clients":
+    {
+        "gopls":
+        {
+            "enabled": true
+        },
+        "pyls": {
+            "settings": {
+                "pyls": {
+                    "plugins": {
+                        "pycodestyle": {
+                            "enabled": false
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "only_show_lsp_completions": true,
+    "show_diagnostics_count_in_view_status": true
+}

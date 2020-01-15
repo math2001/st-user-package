@@ -1,0 +1,55 @@
+[
+	{
+		"keys": ["ctrl+alt+p"],
+		"command": "project_manager",
+		"args": {
+			"action": "switch"
+		}
+	},
+    {
+        "keys": ["ctrl+shift+d"],
+        "command": "run_macro_file",
+        "args": {
+            "file": "Packages/User/macros/Duplicate Lines.sublime-macro"
+        },
+        "context": [
+            {"key": "selection_empty", "operator": "equal", "operand": false, "match_all": true}
+        ]
+    },
+    {
+        "keys": ["ctrl+shift+d"],
+        "command": "duplicate_line",
+        "args": {
+            "file": "Packages/User/macros/Duplicate Lines.sublime-macro"
+        },
+        "context": [
+            {"key": "selection_empty", "operator": "equal", "operand": true, "match_all": true}
+        ]
+    },
+    {
+        "keys": ["f2"],
+        "command": "lsp_symbol_rename",
+        "context": [
+            {"key": "setting.lsp_active"}
+        ]
+    },
+    // {
+    //     "keys": ["ctrl+shift+space"],
+    //     "command": "lso_hover",
+    //     "context": [
+    //         {"key": "setting.lsp_active"}
+    //     ]
+    // },
+    {
+        "keys": ["ctrl+n"],
+        "command": "fm_create"
+    },
+    {
+        "keys": ["alt+n"],
+        "command": "fm_create",
+        "args": {
+            "start_with_browser": true,
+            "paths": ["$here"]
+        }
+    }
+]

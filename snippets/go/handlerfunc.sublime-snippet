@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+http.HandleFunc("${1:/}", func (w http.ResponseWriter, r *http.Request) {
+    $2
+})
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>HandleFunc</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.go</scope>
+</snippet>

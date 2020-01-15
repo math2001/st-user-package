@@ -1,0 +1,5 @@
+// Settings in here override those in "Six/Settings/Six.sublime-settings".
+{
+	"enable_ctrl_keys": true,
+	"enable_smart_case": true,
+}
