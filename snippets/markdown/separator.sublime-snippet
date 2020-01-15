@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[# $2
+
+$3
+
+-------- $1 --------
+]]></content>
+    <tabTrigger>separator</tabTrigger>
+    <scope>text.html.markdown</scope>
+    <description></description>
+</snippet>

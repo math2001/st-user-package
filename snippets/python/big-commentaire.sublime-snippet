@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[# ${2/./-/g}-${1/./-/g}-${2/./-/g} #
+# ${2:------------} ${1:commentaire} ${2/./-/g} #
+# ${2/./-/g}-${1/./-/g}-${2/./-/g} #
+]]></content>
+    <tabTrigger>com</tabTrigger>
+    <scope>source.python, source.php, source.coffee</scope>
+    <description></description>
+</snippet>

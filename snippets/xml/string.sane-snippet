@@ -1,0 +1,6 @@
+---
+description: 
+tabTrigger:  string
+scope:       text.xml
+---
+<string>$1</string>

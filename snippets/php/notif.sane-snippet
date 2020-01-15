@@ -1,0 +1,6 @@
+---
+description: description
+tabTrigger:  notif
+scope:       source.php
+---
+\$this->session->setFlash(Conf::message('${1:type}-${2:${TM_FILENAME/([a-z]+)controller\.php/\l$1/i}}-${3:action}'));

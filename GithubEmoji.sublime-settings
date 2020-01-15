@@ -1,0 +1,8 @@
+{
+	"emojiScopes":
+	[
+		"text.html.markdown",
+		"text.git-commit-message",
+		"text.html.basic"
+	]
+}

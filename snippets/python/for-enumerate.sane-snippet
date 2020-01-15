@@ -1,0 +1,8 @@
+---
+description: 
+tabTrigger:  forenumerate
+scope:       source.python
+---
+for ${1:i}, ${2/self\.(.+)/$1/} in enumerate(${2:thing}s):
+	${0:pass}
+	

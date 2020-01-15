@@ -1,0 +1,5 @@
+{
+	"extension": [ "extra" ],
+    // "css": ["res://Packages/User/markdown-live-preview-github.css"],
+    "github_inject_header_ids": true
+}

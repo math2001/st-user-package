@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[(function (\$) {
+
+	\$(function () {
+
+		${0}
+		
+	})
+
+})(jQuery)]]></content>
+    <tabTrigger>jquery</tabTrigger>
+    <scope>source.js</scope>
+    <description></description>
+</snippet>

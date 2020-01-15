@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[print("$TM_FILENAME:$TM_LINE_NUMBER", $1)]]></content>
+    <tabTrigger>print</tabTrigger>
+    <scope>source.python</scope>
+    <description>nice print for debug</description>
+</snippet>

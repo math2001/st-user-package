@@ -1,0 +1,9 @@
+// These settings override both User and Default settings for the commit-message syntax
+{
+    "dictionary": "Packages/Language - English/en_US.dic",
+    "vintage_start_in_command_mode": false,
+    "spell_check": true,
+    "show_sidebar": false,
+    "show_tabs": false,
+    "show_minimap": false
+}

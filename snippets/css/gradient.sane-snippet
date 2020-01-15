@@ -1,0 +1,7 @@
+---
+description: 
+tabTrigger:  gr
+scope:       source.css
+---
+	background-image: linear-gradient(to ${1:bottom|top|right|left}, #fff 0%, #f78133 100%);
+	background-image: -webkit-linear-gradient(${1:?top ?bottom ?left ?right}, #fff 0%, #f78133 100%);

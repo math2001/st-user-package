@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[/* ${2/./-/g}-${1/./-/g}-${2/./-/g} */
+/* ${2:------------} ${1:commentaire} ${2/./-/g} */
+/* ${2/./-/g}-${1/./-/g}-${2/./-/g} */]]></content>
+    <tabTrigger>commentaire</tabTrigger>
+    <scope>source.css, source.scss, source.stylus</scope>
+    <description></description>
+</snippet>

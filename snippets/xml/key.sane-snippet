@@ -1,0 +1,6 @@
+---
+description: 
+tabTrigger:  key
+scope:       text.xml
+---
+<key>$1</key>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[command palette]]></content>
+    <tabTrigger>cmdpl</tabTrigger>
+    <scope>text.html.markdown meta.paragraph.markdown</scope>
+    <description>None</description>
+</snippet>

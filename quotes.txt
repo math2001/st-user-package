@@ -1,0 +1,57 @@
+Beautiful is better than ugly. -- The Zen of Python, by Tim Peters
+Explicit is better than implicit. -- The Zen of Python, by Tim Peters
+Simple is better than complex. -- The Zen of Python, by Tim Peters
+Complex is better than complicated. -- The Zen of Python, by Tim Peters
+Flat is better than nested. -- The Zen of Python, by Tim Peters
+Sparse is better than dense. -- The Zen of Python, by Tim Peters
+Readability counts. -- The Zen of Python, by Tim Peters
+Special cases aren't special enough to break the rules. -- The Zen of Python, by Tim Peters
+In the face of ambiguity, refuse the temptation to guess. -- The Zen of Python, by Tim Peters
+There should be one-- and preferably only one --obvious way to do it. -- The Zen of Python, by Tim Peters
+Although that way may not be obvious at first unless you're Dutch. -- The Zen of Python, by Tim Peters
+Now is better than never. -- The Zen of Python, by Tim Peters
+Although never is often better than *right* now. -- The Zen of Python, by Tim Peters
+If the implementation is hard to explain, it's a bad idea. -- The Zen of Python, by Tim Peters
+If the implementation is easy to explain, it may be a good idea. -- The Zen of Python, by Tim Peters
+Namespaces are one honking great idea -- let's do more of those! -- The Zen of Python, by Tim Peters
+
+A programming language is low level when its programs require attention to the irrelevant. -- Alan J. Perlis.
+Don’t worry if it doesn’t work right. If everything did, you’d be out of a job. -- Mosher’s Law of Software Engineering
+I think Microsoft named .Net so it wouldn’t show up in a Unix directory listing. -- Oktal
+Fine, Java MIGHT be a good example of what a programming language should be like. But Java applications are good examples of what applications SHOULDN’T be like. -- pixadel
+Talk is cheap. Show me the code. -- Linus Torvalds
+In theory, theory and practice are the same. In practice, they’re not. -- Yoggi Berra
+Perl – The only language that looks the same before and after RSA encryption. -- Keith Bostic
+I invented the term 'Object-Oriented', and I can tell you I did not have C++ in mind. -- Alan Kay
+If McDonalds were run like a software company, one out of every hundred Big Macs would give you food poisoning, and the response would be, ‘We’re sorry, here’s a coupon for two more.’ -- Mark Minasi
+Measuring programming progress by lines of code is like measuring aircraft building progress by weight. -- Bill Gates
+Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it. -- Brian W. Kernighan.
+Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program. -- Linus Torvalds
+Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live. -- Martin Golding
+“There are two ways of constructing a software design. One way is to make it so simple that there are obviously no deficiencies. And the other way is to make it so complicated that there are no obvious eficiencies. -- C.A.R. Hoare
+Programming today is a race between software engineers striving to build bigger and better idiot-proof programs, and the universe trying to build bigger and better idiots. So far, the universe is winning. -- Rick Cook
+Walking on water and developing software from a specification are easy if both are frozen. -- Edward V Berard
+In the one and only true way. The object-oriented version of 'Spaghetti code' is, of course, 'Lasagna code'. (Too many layers). -- Roberto Waltman.
+Perfection [in design] is achieved, not when there is nothing more to add, but when there is nothing left to take away. -- Antoine de Saint-Exupéry
+
+Programmers are tools for converting caffeine into code.
+See daddy ? All the keys are in alphabetical order now.
+Life would be so much easier if we only had the source code.
+My software never has bugs. It just develops random features.
+The great thing about Object Oriented code is that it can make small, simple problems look like large, complex ones.
+Unix is user-friendly. It's just very selective about who its friends are.
+Difference between a virus and windows ? Viruses rarely fail.
+If debugging is the process of removing bugs, then programming must be the process of putting them in.
+Hardware: The parts of a computer system that can be kicked.
+
+Dear auto-correct, please stop changing my rude words into nice ones, you piece of shut!
+
+Only a fool knows everything. A wise man knows how little he knows
+
+----------------
+
+An optimists says: "the class is half-full"
+An pessimists says: "the class is half-empty"
+A programmer says: "the glass is twice as large as necessary"
+
+Programmer joke: !false -> it's funny because it's true

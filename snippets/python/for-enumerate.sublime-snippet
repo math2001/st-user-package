@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[for ${1:i}, ${2/self\.(.+)/$1/} in enumerate(${2:thing}s):
+	${0:pass}
+	]]></content>
+    <tabTrigger>forenumerate</tabTrigger>
+    <scope>source.python</scope>
+    <description></description>
+</snippet>

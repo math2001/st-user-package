@@ -1,0 +1,6 @@
+---
+description: 
+tabTrigger:  kill
+scope:       source.php
+---
+kill($0);

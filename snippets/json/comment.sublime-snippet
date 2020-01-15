@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[//
+// $1
+//]]></content>
+    <tabTrigger>com</tabTrigger>
+    <scope>source.json</scope>
+    <description>Comment for .sublime-them</description>
+</snippet>

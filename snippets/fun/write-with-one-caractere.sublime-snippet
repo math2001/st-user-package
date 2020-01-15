@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[Ton texte : ${1:du texte}
+${1/(a)-(b)/AA-BB/}
+]]></content>
+    <tabTrigger>big</tabTrigger>
+    <scope>text.plain</scope>
+    <description></description>
+</snippet>

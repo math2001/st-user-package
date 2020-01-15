@@ -1,0 +1,6 @@
+---
+tabTrigger: favicon
+scope: text.html.basic
+description: Favicon
+---
+<link rel="icon" type="text/png" href="${1:favicon.png}">

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[HTTP/1.0 404 Not Found]]></content>
+    <tabTrigger>404</tabTrigger>
+    <scope>source.php</scope>
+    <description></description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[addEventListener('${2:click}', ${4})]]></content>
+    <tabTrigger>addEventListener</tabTrigger>
+    <scope>source.js</scope>
+    <description></description>
+</snippet>

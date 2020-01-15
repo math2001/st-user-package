@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[return self]]></content>
+    <tabTrigger>rets</tabTrigger>
+    <scope>source.python</scope>
+    <description></description>
+</snippet>

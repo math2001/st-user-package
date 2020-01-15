@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[some((${1:element}${2/.+/, /}${2:index}${3/.+/, /}${3:array}) => {
+    $4
+})]]></content>
+    <tabTrigger>some</tabTrigger>
+    <scope>source.js</scope>
+    <description>some</description>
+</snippet>

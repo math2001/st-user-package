@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[pygame.time.wait(${1:50})]]></content>
+    <tabTrigger>wait</tabTrigger>
+    <scope>source.python</scope>
+    <description>pygame.time.wait()</description>
+</snippet>

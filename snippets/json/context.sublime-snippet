@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[{ "key": "${1:selector}"${2/.+/, "operator": "/}${2:equal}${2/.+/"/}${3/.+/, "operand": /}${3:true} }]]></content>
+    <tabTrigger>context</tabTrigger>
+    <scope>source.json</scope>
+    <description></description>
+</snippet>

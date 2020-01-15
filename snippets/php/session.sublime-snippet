@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[\$_SESSION["${1:id}"]]]></content>
+    <tabTrigger>s</tabTrigger>
+    <scope>source.php</scope>
+    <description></description>
+</snippet>

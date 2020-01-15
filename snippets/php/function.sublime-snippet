@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[/**
+* $1
+*/
+${5:public }function ${10:function_name}($15) {
+	$20
+}]]></content>
+    <tabTrigger>fun</tabTrigger>
+    <scope>source.php</scope>
+    <description></description>
+</snippet>

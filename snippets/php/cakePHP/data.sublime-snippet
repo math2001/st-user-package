@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[\$this->request->data]]></content>
+    <tabTrigger>data</tabTrigger>
+    <scope>source.php</scope>
+    <description></description>
+</snippet>

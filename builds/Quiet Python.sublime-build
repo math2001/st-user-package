@@ -1,0 +1,6 @@
+{
+    "cmd": ["python", "-u", "$file"],
+    "selector": "source.python",
+    "env": {"PYTHONIOENCODING": "utf-8"},
+    "quiet": true
+}

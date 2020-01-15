@@ -1,0 +1,6 @@
+---
+description: console.log()
+tabTrigger:  log
+scope:       source.js
+---
+console.log($1)

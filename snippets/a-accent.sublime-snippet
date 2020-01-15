@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[à]]></content>
+    <tabTrigger>aa</tabTrigger>
+    <scope>text.plain</scope>
+    <description>French a with accent</description>
+</snippet>

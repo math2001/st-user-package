@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[get_settings().get('$1')]]></content>
+    <tabTrigger>getsetting</tabTrigger>
+    <scope>source.python</scope>
+    <description></description>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[<key>${1:foreground}</key>
+<string>#${2:000}</string>]]></content>
+    <tabTrigger>keystring</tabTrigger>
+    <scope>text.xml</scope>
+    <description></description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[²]]></content>
+    <tabTrigger>square</tabTrigger>
+    <scope>text.plain</scope>
+    <description>²</description>
+</snippet>

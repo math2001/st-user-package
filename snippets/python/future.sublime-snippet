@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[from __future__ import print_function, division]]></content>
+    <tabTrigger>future</tabTrigger>
+    <scope>source.python</scope>
+    <description></description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[show_input_panel(${1:caption}, ${2:initial_text}, ${3:on_done}, ${4:on_change}, ${5:on_cancel})]]></content>
+    <tabTrigger>show_input_panel</tabTrigger>
+    <scope>source.python</scope>
+    <description>show input panel</description>
+</snippet>

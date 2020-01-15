@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[, { "keys": ["ctrl+${1:une_combinaison_de_touche}"], "command": "${2:une_commande}", "args": "des_arguments" }]]></content>
+    <tabTrigger>ka</tabTrigger>
+    <scope>source.json</scope>
+    <description></description>
+</snippet>

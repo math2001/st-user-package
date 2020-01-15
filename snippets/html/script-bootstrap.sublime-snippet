@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>]]></content>
+    <tabTrigger>scriptbootstrap</tabTrigger>
+    <scope>text.html</scope>
+    <description></description>
+</snippet>

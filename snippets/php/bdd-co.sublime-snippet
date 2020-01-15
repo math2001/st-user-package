@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[try {
+	\$bdd = new PDO(
+		'mysql:host=${1:local.dev};dbname=${2:table};charset=utf8', 
+		'root', 
+		'', 
+		[PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]
+	);
+}
+catch (Exception \$e) {
+	die('Erreur : ' . \$e->getMessage());
+}]]></content>
+    <tabTrigger>cobdd</tabTrigger>
+    <scope>source.php</scope>
+    <description>connexion to bdd</description>
+</snippet>

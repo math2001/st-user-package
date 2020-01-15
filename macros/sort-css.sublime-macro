@@ -1,0 +1,32 @@
+[
+	{
+		"args":
+		{
+			"to": "indentation"
+		},
+		"command": "expand_selection"
+	},
+	{
+		"args":
+		{
+			"case_sensitive": false
+		},
+		"command": "sort_lines"
+	},
+	{
+		"args":
+		{
+			"by": "characters",
+			"forward": false
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"extend": false,
+			"to": "eol"
+		},
+		"command": "move_to"
+	}
+]

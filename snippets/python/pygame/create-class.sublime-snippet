@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[class ${TM_FILENAME/([a-z]+)\.py/\u$1/}Error(Exception):
+	"""$1"""
+
+
+class ${TM_FILENAME/([a-z]+)\.py/\u$1/}(object):
+	def __init__(self):
+		self.surf = pygame.image.load('img/').convert_alpha()
+		self.rect = self.surf.get_rect()
+
+		
+	def render(self):
+		Screen.screen.blit(self.surf, self.rect)]]></content>
+    <tabTrigger>classpygame</tabTrigger>
+    <scope>source.python</scope>
+    <description></description>
+</snippet>

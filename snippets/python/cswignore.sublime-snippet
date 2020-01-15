@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[# CSW: ignore]]></content>
+    <tabTrigger>cswignore</tabTrigger>
+    <scope>source.python</scope>
+    <description>CSW ignore</description>
+</snippet>

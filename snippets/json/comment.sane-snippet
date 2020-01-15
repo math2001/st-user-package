@@ -1,0 +1,8 @@
+---
+description: Comment for .sublime-them
+tabTrigger:  com
+scope:       source.json
+---
+//
+// $1
+//

@@ -1,0 +1,7 @@
+// Settings in here override those in "Six/Six.sublime-settings".
+{
+    "enable_ignore_case": true,
+    "enable_smart_case": true,
+    "enable_search_wrap": true,
+    "enable_ctrl_keys": true
+}

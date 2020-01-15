@@ -1,0 +1,6 @@
+---
+description: 
+tabTrigger:  ifshort
+scope:       source.coffee
+---
+if $1 then $2 else $3

@@ -1,0 +1,12 @@
+---
+description: Create random function
+tabTrigger:  randomfunction
+scope:       source.js
+---
+function rnd(min, max, integer) {
+	if (!integer) {
+		return Math.random() * (max - min) + min;
+	} else {
+		return Math.floor(Math.random() * (max - min + 1) + min);
+	}
+}

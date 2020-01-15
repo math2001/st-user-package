@@ -1,0 +1,9 @@
+{
+    "enable_table_editor": true,
+	"extensions":
+	[
+		"md"
+	],
+	"spell_check": true,
+    "textwidth": 80
+}

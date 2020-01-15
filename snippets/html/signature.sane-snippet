@@ -1,0 +1,6 @@
+---
+tabTrigger: signature
+scope: text.html.basic
+description:
+---
+<p class="signature">Made with &hearts; by <a target="_blank" href="https://math2001.github.io">@math2001</a></p>

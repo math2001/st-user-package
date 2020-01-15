@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[(${1:biggest} - ${2:smallest}) / 2 + $2]]></content>
+    <tabTrigger>midpoint</tabTrigger>
+    <scope>text.html.markdown</scope>
+    <description></description>
+</snippet>

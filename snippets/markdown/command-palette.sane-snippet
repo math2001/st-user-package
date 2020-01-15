@@ -1,0 +1,6 @@
+---
+description: None
+tabTrigger:  cmdpl
+scope:       text.html.markdown meta.paragraph.markdown
+---
+command palette

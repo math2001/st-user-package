@@ -1,0 +1,15 @@
+---
+description: Edit settings
+tabTrigger:  editsettingscmd
+scope:       source.json
+---
+[
+    {
+        "caption": "Preferences: ${1:pckName} Settings",
+        "command": "edit_settings",
+        "args": {
+            "base_file": "\$packages/${1:pckName}/${1:pckName}.sublime-settings",
+            "default": "// Your settings for ${1:pckName}. See the default file to see the different options. \n{\n\t\$0\n}\n"
+        }
+    }
+]

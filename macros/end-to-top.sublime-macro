@@ -1,0 +1,13 @@
+[
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args": null,
+		"command": "swap_line_up"
+	}
+]

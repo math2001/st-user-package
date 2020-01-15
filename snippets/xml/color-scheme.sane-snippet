@@ -1,0 +1,7 @@
+---
+description: 
+tabTrigger:  keystring
+scope:       text.xml
+---
+<key>${1:foreground}</key>
+<string>#${2:000}</string>

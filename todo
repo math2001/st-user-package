@@ -1,0 +1,83 @@
+Packages to create:
+  ☐ yaml config compiler
+  ☐ snippet in settings
+  ☐ console cleaner: define nb line to print @low @toShare
+  ☐ devdocs phantom @low
+  ☐ asciinema for Sublime Text @low
+  ☐ auto format line for python
+  ☐ build only selected lines
+
+Package to share:
+  ☐ auto escape on paste @low
+  ☐ counter (while infinite loop) @low @toShare
+  ☐ sublime-api
+
+Packages to tweak:
+  ☐ whitespace PR: save cursor position
+  ☐ update channel repository tools
+
+Packages to update:
+  ☐ php helper: ask for shortcut in an input @low
+  ☐ FileManager::move no browser when moving several files, or not finished by /
+
+Tutos:
+  ☐ git::hooks
+  ☐ Python::property
+  ☐ set PROMPT env variable
+  ☐ workspace in chrome
+
+Others:
+  ☐ read javascript the good part
+  ☐ extension to save to cache
+  ☐ learn should.js
+  ☐ sublime-api chrome extension: look for function fuzzy @cool
+  ☐ Sublime::undocs → add set_user_settings
+  ☐ Sublime Text tips (shortcut)
+  ☐ javascript: make the keys object
+  ☐ argparse: interactive automatic
+  ☐ CD for good music #harriers
+  ☐ docs for emojione
+  ☐ open hyper from sublime text at the right place
+  ☐ JSON parser letter by letter
+
+
+
+Font:
+  - karla
+  - Advent Pro
+  - Aladin
+  - Alef
+  - Hammersmith One
+＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
+Archive:
+ ✔ run code block snippet in markdown @done Wed 19 Apr 2017 at 15:06 @project(Packages to create)
+ ✔ plugin settings event listener @done Wed 19 Apr 2017 at 15:06 @project(Packages to create)
+ ✘ chrome extension: scroll with j and k @cancelled Wed 19 Apr 2017 at 15:05 @project(Others)
+ ✔ read todo of projects @done Wed 19 Apr 2017 at 14:04 @project(Others)
+ ✔ sublime text snippet best practice @done Mon 27 Mar 2017 at 17:27 @project(Best Practice)
+ ✔ window settings for view @done Wed 22 Mar 2017 at 19:03 @project(Packages to create)
+ ✔ autocompletion window settings @done Wed 08 Feb 2017 at 16:01 @project(Packages to create)
+ ✔ RepoPlease @done Sat 04 Feb 2017 at 22:32 @project(Package to share)
+ ✔ JSONComma @done Sun 22 Jan 2017 at 19:48 @project(Package to share)
+ ✔ BetterSnippetManager @started @done Sun 22 Jan 2017 at 19:48 @project(Package to share)
+ ✔ FileManager::docs tell about url @high @done Tue 17 Jan 2017 at 13:41 @project(Packages to update)
+ ✔ FileManager @done Tue 17 Jan 2017 at 12:25 @project(Package to share)
+ ✔ FileManager messaging @done Mon 16 Jan 2017 at 19:09 @project(Packages to update)
+ ✔ BetterSnippetManager: escape trigger, content, description... @done Tue 10 Jan 2017 at 11:25 @project(Packages to update)
+ ✔ BetterSnippetManager: `Main.sublime-settings` @done Tue 10 Jan 2017 at 10:45 @project(Packages to update)
+ ✔ JSONComma: fix #2 @done Tue 10 Jan 2017 at 08:38 @project(Packages to update)
+ ✔ update print line number @done Mon 09 Jan 2017 at 18:56 @project(Packages to update)
+ ✘ JSONComma: work with package dev @cancelled Mon 09 Jan 2017 at 18:56 @project(Packages to update)
+ ✔ git hub accept arguments (issues) @done Mon 09 Jan 2017 at 18:55 @project(Others)
+ ✔ MarkdownLivePreview message for 2.0.0 @done Mon 09 Jan 2017 at 17:32 @project(Packages to update)
+ ✔ creater for .gitignore README, etc @done Fri 06 Jan 2017 at 16:04 @project(Others)
+ ✔ Sublime API chrome extension: sidebar position absolute @done Fri 06 Jan 2017 at 16:04 @project(Others)
+ ✔ CSW: escape 1 print @done Tue 03 Jan 2017 at 11:36 @project(Others)
+ ✔ CSW: need coloration when asking to abort @done Tue 03 Jan 2017 at 10:26 @project(Others)
+ ✔ CSW: better outputting file name and line @done Tue 03 Jan 2017 at 10:16 @project(Others)
+ ✔ CSW: counter is wrong: only counting files, not occurences @done Tue 03 Jan 2017 at 10:11 @project(Others)
+ ✔ better snippet maker @high @done Mon 02 Jan 2017 at 22:08 @project(Packages to create)
+ ✔ paste: auto escape pathe @high @toShare @done Mon 02 Jan 2017 at 22:07 @project(Packages to create)
+ ✔ open github repo from command palette @toShare @done Mon 02 Jan 2017 at 19:49 @project(Packages to create)
+ ✔ python completion with exception names @low @started @done (17-01-01 18:03) @project(Packages To Dev)
+ ✔ CSW: try/except when reading file @critical @done (17-01-01 17:37) @project(Others)

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[${1:something} = $1]]></content>
+    <tabTrigger>itself</tabTrigger>
+    <scope>source.python</scope>
+    <description></description>
+</snippet>

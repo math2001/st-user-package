@@ -1,0 +1,6 @@
+---
+description: 
+tabTrigger:  subfalse
+scope:       source.php, text.html
+---
+onsubmit="$1event.returnValue=false; return false;"

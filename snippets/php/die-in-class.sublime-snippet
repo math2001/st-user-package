@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[die("<pre><i> die(): </i><b>". __FILE__."</b> at lign <b>".__LINE__."</b>, ".__METHOD__."</pre>");]]></content>
+    <tabTrigger>die class</tabTrigger>
+    <scope>source.php</scope>
+    <description>die file-line class-method</description>
+</snippet>

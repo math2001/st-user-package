@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[def ${1:attr}(self, new_val=None):
+	if new_val is None:
+		return self._$1
+	self._$1 = new_val
+	return self]]></content>
+    <tabTrigger>defgetset</tabTrigger>
+    <scope>source.python</scope>
+    <description></description>
+</snippet>

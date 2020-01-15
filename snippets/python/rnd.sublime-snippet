@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[from random import randint as rnd]]></content>
+    <tabTrigger>fromrnd</tabTrigger>
+    <scope>source.python</scope>
+    <description>Import the randint function</description>
+</snippet>

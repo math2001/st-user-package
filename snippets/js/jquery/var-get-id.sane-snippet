@@ -1,0 +1,6 @@
+---
+description: 
+tabTrigger:  jqueryid
+scope:       source.js
+---
+${2:var }\$${1/-([a-z])?/\u$1/g} = \$('#$1');

@@ -1,0 +1,9 @@
+---
+description: 
+tabTrigger:  com
+scope:       source.python, source.php, source.coffee
+---
+# ${2/./-/g}-${1/./-/g}-${2/./-/g} #
+# ${2:------------} ${1:commentaire} ${2/./-/g} #
+# ${2/./-/g}-${1/./-/g}-${2/./-/g} #
+

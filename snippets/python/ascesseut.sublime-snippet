@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[def get${1:VarName}():
+	return self.${1/(.){1}(.)/\l$1$2/}
+
+def set${1/\*//}(${2:value}):
+	self.${1/(.){1}(.)/\l$1$2/} = ${2/\*//}
+$3]]></content>
+    <tabTrigger>acs</tabTrigger>
+    <scope>source.python</scope>
+    <description>Accesseurs get/set</description>
+</snippet>

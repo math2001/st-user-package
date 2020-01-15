@@ -1,0 +1,6 @@
+---
+description: pygame.time.wait()
+tabTrigger:  wait
+scope:       source.python
+---
+pygame.time.wait(${1:50})

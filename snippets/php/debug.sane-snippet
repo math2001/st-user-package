@@ -1,0 +1,6 @@
+---
+description: debug function
+tabTrigger:  debug
+scope:       source.php
+---
+debug($1);

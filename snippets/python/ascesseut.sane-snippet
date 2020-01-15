@@ -1,0 +1,11 @@
+---
+description: Accesseurs get/set
+tabTrigger:  acs
+scope:       source.python
+---
+def get${1:VarName}():
+	return self.${1/(.){1}(.)/\l$1$2/}
+
+def set${1/\*//}(${2:value}):
+	self.${1/(.){1}(.)/\l$1$2/} = ${2/\*//}
+$3

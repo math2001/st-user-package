@@ -1,0 +1,14 @@
+---
+description: 
+tabTrigger:  importbase
+scope:       source.python
+---
+from __future__ import print_function, division
+${1/.+/from pygame import *
+/}from pygame${1:.locals} import *
+from colors import *
+from funcs import *
+from screen import Screen, S
+
+${1/[^ ]+/pygame./}init()
+

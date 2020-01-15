@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[Package Control: Upgrade Package]]></content>
+    <tabTrigger>upgradepackages</tabTrigger>
+    <scope>text.html.markdown</scope>
+    <description>Package Control: Upgrade Package</description>
+</snippet>

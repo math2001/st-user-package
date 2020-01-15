@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[from __future__ import print_function, division
+${1/.+/from pygame import *
+/}from pygame${1:.locals} import *
+from colors import *
+from funcs import *
+from screen import Screen, S
+
+${1/[^ ]+/pygame./}init()
+]]></content>
+    <tabTrigger>importbase</tabTrigger>
+    <scope>source.python</scope>
+    <description></description>
+</snippet>

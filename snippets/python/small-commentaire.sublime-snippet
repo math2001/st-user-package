@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[# --- $1 ---]]></content>
+    <tabTrigger>#-</tabTrigger>
+    <scope>source.python, source.php, source.coffee</scope>
+    <description>description</description>
+</snippet>

@@ -1,0 +1,13 @@
+[
+	{
+		"args": null,
+		"command": "transform_php"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	}
+]

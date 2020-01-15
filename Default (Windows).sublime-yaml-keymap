@@ -1,0 +1,757 @@
+- with_context:
+  - settings.dictionary
+
+  - keys: [2]
+    command: insert
+    command_mode_too: true
+    args:
+      characters: é
+    context:
+      - preceding_text *== [\w']$
+      - selector == text.plain
+
+  - keys: [7]
+    command: insert
+    command_mode_too: true
+    args:
+      characters: è
+    context:
+      - preceding_text *== [\w']$
+      - selector == text.plain
+
+  - keys: [e, e]
+    command: insert
+    args:
+      characters: ée
+
+  - keys: [e, t, e, ' ']
+    command: insert
+    args:
+      characters: 'été '
+
+  - keys: [C, a, ' ']
+    command: insert
+    args:
+      characters: 'Ça '
+
+  - keys: [c, a, ' ']
+    command: insert
+    args:
+      characters: 'ça '
+
+- keys: [ctrl+0]
+  command: insert
+  args:
+    characters: à
+
+- keys: [ctrl+7]
+  command: insert
+  args:
+    characters: è
+
+- keys: [ctrl+shift+i]
+  command: enter_insert_mode
+  command_mode_too: true
+
+- keys: [o, e]
+  command: insert
+  args:
+    characters: œ
+
+- keys: [m, e, m, e]
+  command: insert
+  args:
+    characters: même
+
+- keys: [e, t, r, e]
+  command: insert
+  args:
+    characters: être
+
+- keys: [j, j]
+  command: exit_insert_mode
+  context:
+    - setting.is_widget == False
+
+- keys: [ctrl+n]
+  command: fm_create
+  command_mode_too: true
+  args:
+    initial_text: $here/
+
+- keys: ['#']
+  command: insert_snippet
+  command_mode_too: true
+  args:
+    contents: ' id="$1"'
+  context:
+    - selector == meta.tag -string.quoted -punctuation.definition.tag.begin
+
+- keys: [.]
+  command: insert_snippet
+  command_mode_too: true
+  args:
+    contents: ' class="$1"'
+  context:
+    - selector == meta.tag -string.quoted -punctuation.definition.tag.begin
+
+- keys: [alt+h]
+  command: unindent
+  command_mode_too: true
+
+- keys: [alt+l]
+  command: indent
+  command_mode_too: true
+
+- keys: [alt+j]
+  command: swap_line_down
+  command_mode_too: true
+
+- keys: [alt+k]
+  command: swap_line_up
+  command_mode_too: true
+
+- keys: [ctrl+alt+k]
+  command: select_lines
+  command_mode_too: true
+  args:
+    forward: false
+
+- keys: [ctrl+alt+j]
+  command: select_lines
+  command_mode_too: true
+  args:
+    forward: true
+
+- keys: [alt+s]
+  command: toggle_setting
+  command_mode_too: true
+  args:
+    setting: github_emoji_complete_with_emoji
+
+- keys: [$]
+  command: insert_snippet
+  command_mode_too: true
+  args:
+    contents: \${$1}
+  context:
+    - selector == string.template.js
+
+- keys: ['alt+,']
+  command: markdown_code_builder
+  command_mode_too: true
+  args:
+    action: render
+
+- keys: [alt+r]
+  command: inline_python
+  command_mode_too: true
+
+- keys: [ctrl+o]
+  command: markdown_preview
+  command_mode_too: true
+  args:
+    parser: github
+    target: browser
+  context:
+    - selector == text.html.markdown
+
+- keys: [f8]
+  command: chain
+  command_mode_too: true
+  args:
+    commands:
+    - - save
+    - - close_window
+  context:
+    - selector == text.git-commit-message
+
+- keys: ['-', '>']
+  command: insert_snippet
+  command_mode_too: true
+  args:
+    contents: '→ '
+
+- keys: [':', )]
+  command: insert_snippet
+  command_mode_too: true
+  args:
+    contents: "\U0001F642"
+
+- keys: [<, '-']
+  command: insert_snippet
+  command_mode_too: true
+  args:
+    contents: '← '
+
+- keys: [ctrl+k, ctrl+i]
+  command: reindent
+  command_mode_too: true
+  args:
+    single_line: false
+
+- keys: [f7]
+  command: matt_simple_refresh
+  command_mode_too: true
+
+- keys: [ctrl+alt+shift+t]
+  command: expand_tabs
+  command_mode_too: true
+  args:
+    set_translate_tabs: true
+
+- keys: [alt+q]
+  command: change_quotes
+  command_mode_too: true
+
+- keys: [alt+f]
+  command: fold_python_functions
+  command_mode_too: true
+  context:
+    - selector == source.python
+
+- keys: [alt+f]
+  command: fold_javascript_functions
+  command_mode_too: true
+  context:
+    - selector == source.js
+
+- keys: [backspace]
+  command: run_macro_file
+  command_mode_too: true
+  args:
+    file: Packages/User/macros/double_delete.sublime-macro
+  context:
+    - preceding_text *== \(\)$
+    - following_text *== ^\)
+
+- keys: [., .]
+  command: run_macro_file
+  command_mode_too: true
+  args:
+    file: Packages/User/macros/sort-css.sublime-macro
+  context:
+    - selector == meta.property-list.css
+
+- keys: [ctrl+shift+c]
+  command: sublime_command_runner
+  command_mode_too: true
+
+- keys: [shift+enter]
+  command: center_screen
+  command_mode_too: true
+
+- keys: [shift+alt+c]
+  command: plain_tasks_cancel
+  command_mode_too: true
+  context:
+    - selector == text.todo
+
+- keys: [ctrl+q]
+  command: transform_php
+  command_mode_too: true
+
+- keys: [p, y, s]
+  command: run_existing_window_command
+  command_mode_too: true
+  args:
+    file: config/Python/Main.sublime-menu
+    id: repl_python
+
+- keys: [shift+ctrl+o]
+  command: open_dir
+  command_mode_too: true
+  args:
+    dir: $packages
+
+- keys: [ctrl+shift+u]
+  command: open_dir
+  command_mode_too: true
+  args:
+    dir: $packages/User
+
+- keys: [alt+up]
+  command: swap_line_up
+  command_mode_too: true
+
+- keys: [alt+down]
+  command: swap_line_down
+  command_mode_too: true
+
+- keys: [alt+right]
+  command: indent
+  command_mode_too: true
+
+- keys: [alt+left]
+  command: unindent
+  command_mode_too: true
+
+- keys: [ctrl+g, h]
+  command: wrap_as_you_type
+  command_mode_too: true
+
+- keys: [ctrl+g, f]
+  command: insert_snippet
+  command_mode_too: true
+  args:
+    contents: $1($SELECTION)
+
+- keys: [ctrl+t]
+  command: title_case
+  command_mode_too: true
+
+- keys: [ctrl+u]
+  command: upper_case
+  command_mode_too: true
+
+- keys: [ctrl+l]
+  command: lower_case
+  command_mode_too: true
+
+- keys: [ctrl+alt+left]
+  command: run_emmet_action
+  command_mode_too: true
+  args:
+    action: decrement_number_by_1
+
+- keys: [ctrl+alt+right]
+  command: run_emmet_action
+  command_mode_too: true
+  args:
+    action: increment_number_by_1
+
+- keys: [ctrl+shift+left]
+  command: run_emmet_action
+  command_mode_too: true
+  args:
+    action: decrement_number_by_10
+
+- keys: [ctrl+shift+right]
+  command: run_emmet_action
+  command_mode_too: true
+  args:
+    action: increment_number_by_10
+
+- keys: [ctrl+up]
+  command: scroll_lines
+  command_mode_too: true
+  args:
+    amount: 3.0
+
+- keys: [ctrl+down]
+  command: scroll_lines
+  command_mode_too: true
+  args:
+    amount: -3.0
+
+- keys: [ctrl+alt+;]
+  command: run_macro_file
+  command_mode_too: true
+  args:
+    file: Packages/User/macros/vide-la-ligne.sublime-macro
+
+- keys: [ctrl+;]
+  command: run_macro_file
+  command_mode_too: true
+  args:
+    file: Packages/Default/Delete Line.sublime-macro
+
+- keys: [ctrl+alt+keypad_plus]
+  command: run_macro_file
+  command_mode_too: true
+  args:
+    file: Packages/User/macros/duplicate-multi-lines.sublime-macro
+
+- keys: [ctrl+i]
+  command: reindent
+  command_mode_too: true
+  args:
+    single_line: true
+
+- keys: [ctrl+r]
+  command: permute_selection
+  command_mode_too: true
+  args:
+    operation: reverse
+  context:
+    - num_selections == 2
+
+- keys: [ctrl+r]
+  command: run_macro_file
+  command_mode_too: true
+  args:
+    file: Packages/User/macros/reverse-empty-line.sublime-macro
+  context:
+    - num_selections == 2
+    - selection_empty ==@ True
+
+- keys: [ctrl+alt+p]
+  command: project_manager
+  command_mode_too: true
+  args:
+    action: switch
+
+- keys: [alt+p]
+  command: project_manager
+  command_mode_too: true
+  args:
+    action: new
+
+- keys: [ctrl+alt+enter]
+  command: console_cleanr
+  command_mode_too: true
+
+- keys: [ctrl+shift+keypad_plus]
+  command: increase_font_size
+  command_mode_too: true
+
+- keys: [ctrl+shift+keypad_minus]
+  command: decrease_font_size
+  command_mode_too: true
+
+- keys: [alt+s]
+  command: toggle_in_selection
+  command_mode_too: true
+  context:
+    - setting.is_widget == True
+
+- keys: [ctrl+k, ctrl+o]
+  command: toggle_show_open_files
+  command_mode_too: true
+
+- keys: [ctrl+k, ctrl+s]
+  command: toggle_side_bar
+  command_mode_too: true
+
+- keys: [ctrl+k, ctrl+m]
+  command: toggle_minimap
+  command_mode_too: true
+
+- keys: [ctrl+k, ctrl+c]
+  command: show_panel
+  command_mode_too: true
+  args:
+    panel: console
+    toggle: true
+
+- keys: [ctrl+k, ctrl+f]
+  command: toggle_full_screen
+  command_mode_too: true
+
+- keys: [ctrl+k, ctrl+t]
+  command: toggle_tabs
+  command_mode_too: true
+
+- keys: [alt+z]
+  command: transform_php
+  command_mode_too: true
+
+- keys: [alt+e]
+  command: insert_snippet
+  command_mode_too: true
+  args:
+    contents: enumerate($SELECTION)
+  context:
+    - selector ==@ source.python
+
+- keys: [alt+e]
+  command: insert_snippet
+  command_mode_too: true
+  args:
+    contents: enumerate($1)
+  context:
+    - selection_empty == True
+    - selector ==@ source.python
+
+- keys: [enter]
+  command: insert_snippet
+  command_mode_too: true
+  args:
+    contents: "\n\t${0}\n"
+  context:
+    - selector == comment.block.documentation.python, string.quoted.double.heredoc.coffee
+    - preceding_text *== """ ?$
+    - following_text *== ^ ?"""
+    - selection_empty ==@ True
+
+- keys: [' ']
+  command: insert_snippet
+  command_mode_too: true
+  args:
+    contents: ' $0 '
+  context:
+    - selector == comment.block.documentation.python, string.quoted.double.heredoc.coffee
+    - selection_empty ==@ True
+    - following_text *== ^"""
+    - preceding_text *== """$
+
+- keys: [' ']
+  command: insert_snippet
+  command_mode_too: true
+  args:
+    contents: ' $0 '
+  context:
+    - selection_empty ==@ True
+    - preceding_text *==@ \{$
+    - following_text *==@ ^\}
+
+- keys: [backspace]
+  command: run_macro_file
+  command_mode_too: true
+  args:
+    file: res://Packages/Default/Delete Left Right.sublime-macro
+  context:
+    - selection_empty ==@ True
+    - following_text *== ^ \}
+    - preceding_text *== \{ $
+
+- keys: [backspace]
+  command: run_macro_file
+  command_mode_too: true
+  args:
+    file: res://Packages/Default/Delete Left Right.sublime-macro
+  context:
+    - selector == comment.block.documentation.python
+    - selection_empty ==@ True
+    - following_text *== ^ """
+    - preceding_text *== """ $
+
+- keys: ['}']
+  command: run_macro_file
+  command_mode_too: true
+  args:
+    file: Packages/User/macros/move-multi-blank-and-move-left.sublime-macro
+  context:
+    - following_text *== ^\s+\}
+
+- keys: [enter]
+  command: run_macro_file
+  command_mode_too: true
+  args:
+    file: Packages/User/macros/Delete Left Right Enter.sublime-macro
+  context:
+    - selection_empty ==@ True
+    - following_text *== ^ \?>
+    - preceding_text *== <\?(php)? $
+
+- keys: [f5]
+  command: python_runner
+  command_mode_too: true
+
+- keys: [keypad_multiply]
+  command: insert
+  command_mode_too: true
+  args:
+    characters: '*'
+
+- keys: [alt+d]
+  command: insert_date
+  command_mode_too: true
+  args:
+    format: '%A %d %B %Y @ %I:%M'
+
+- keys: ['@']
+  command: emmet_insert_attribute
+  command_mode_too: true
+  args:
+    attribute: style
+  context:
+    - selector ==@ text.html meta.tag -string -punctuation.definition.tag.begin.html -meta.scope.between-tag-pair.html
+      -source -meta.tag.template.value.twig
+
+- keys: [ctrl+shift+y]
+  command: maths_expression_calculator
+  command_mode_too: true
+
+- keys: [ctrl+alt+y]
+  command: maths_expression_calculator
+  command_mode_too: true
+  args:
+    replace_expression: false
+
+- keys: [., .]
+  command: insert_snippet
+  command_mode_too: true
+  args:
+    contents: self.
+  context:
+    - selector == source.python - string - comment
+
+- keys: [., .]
+  command: insert_snippet
+  command_mode_too: true
+  args:
+    contents: this.
+  context:
+    - selector == source.js - string - comment, meta.template.expression.js
+
+- keys: [ctrl+keypad1]
+  command: set_layout
+  command_mode_too: true
+  args:
+    cells:
+    - - 0
+      - 0
+      - 1
+      - 1
+    cols:
+    - 0.0
+    - 1.0
+    rows:
+    - 0.0
+    - 1.0
+
+- keys: [ctrl+keypad2]
+  command: set_layout
+  command_mode_too: true
+  args:
+    cells:
+    - - 0
+      - 0
+      - 1
+      - 1
+    - - 1
+      - 0
+      - 2
+      - 1
+    cols:
+    - 0.0
+    - 0.5
+    - 1.0
+    rows:
+    - 0.0
+    - 1.0
+
+- keys: [ctrl+keypad3]
+  command: set_layout
+  command_mode_too: true
+  args:
+    cells:
+    - - 0
+      - 0
+      - 1
+      - 1
+    - - 1
+      - 0
+      - 2
+      - 1
+    - - 2
+      - 0
+      - 3
+      - 1
+    cols:
+    - 0.0
+    - 0.33
+    - 0.66
+    - 1.0
+    rows:
+    - 0.0
+    - 1.0
+
+- keys: [ctrl+keypad4]
+  command: set_layout
+  command_mode_too: true
+  args:
+    cells:
+    - - 0
+      - 0
+      - 1
+      - 1
+    - - 1
+      - 0
+      - 2
+      - 1
+    - - 2
+      - 0
+      - 3
+      - 1
+    - - 3
+      - 0
+      - 4
+      - 1
+    cols:
+    - 0.0
+    - 0.25
+    - 0.5
+    - 0.75
+    - 1.0
+    rows:
+    - 0.0
+    - 1.0
+
+- keys: [ctrl+keypad8]
+  command: set_layout
+  command_mode_too: true
+  args:
+    cells:
+    - - 0
+      - 0
+      - 1
+      - 1
+    - - 0
+      - 1
+      - 1
+      - 2
+    cols:
+    - 0.0
+    - 1.0
+    rows:
+    - 0.0
+    - 0.5
+    - 1.0
+
+- keys: [ctrl+keypad9]
+  command: set_layout
+  command_mode_too: true
+  args:
+    cells:
+    - - 0
+      - 0
+      - 1
+      - 1
+    - - 0
+      - 1
+      - 1
+      - 2
+    - - 0
+      - 2
+      - 1
+      - 3
+    cols:
+    - 0.0
+    - 1.0
+    rows:
+    - 0.0
+    - 0.33
+    - 0.66
+    - 1.0
+
+- keys: [ctrl+keypad5]
+  command: set_layout
+  command_mode_too: true
+  args:
+    cells:
+    - - 0
+      - 0
+      - 1
+      - 1
+    - - 1
+      - 0
+      - 2
+      - 1
+    - - 0
+      - 1
+      - 1
+      - 2
+    - - 1
+      - 1
+      - 2
+      - 2
+    cols:
+    - 0.0
+    - 0.5
+    - 1.0
+    rows:
+    - 0.0
+    - 0.5
+    - 1.0

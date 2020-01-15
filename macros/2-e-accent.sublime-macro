@@ -1,0 +1,16 @@
+[
+	{
+		"args":
+		{
+			"characters": "é"
+		},
+		"command": "insert"
+	},
+    {
+        "args":
+        {
+            "characters": "e"
+        },
+        "command": "insert"
+    }
+]

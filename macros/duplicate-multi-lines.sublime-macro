@@ -1,0 +1,21 @@
+[
+	{
+		"args": null,
+		"command": "duplicate_line"
+	},
+	{
+		"args":
+		{
+			"by": "characters",
+			"forward": false
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	}
+]

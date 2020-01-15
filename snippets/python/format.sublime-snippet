@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA["$1".format($2)]]></content>
+    <tabTrigger>format</tabTrigger>
+    <scope>source.python</scope>
+    <description>.format()</description>
+</snippet>

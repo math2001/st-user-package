@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[${1:screen} = display.set_mode((${2:500}, ${3:500}))
+Screen.init()]]></content>
+    <tabTrigger>set_mode</tabTrigger>
+    <scope>source.python</scope>
+    <description></description>
+</snippet>

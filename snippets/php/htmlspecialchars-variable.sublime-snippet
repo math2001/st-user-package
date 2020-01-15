@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[\$${1:variable} = htmlspecialchars(\$_${2:POST}["${1/\*//}"])]]></content>
+    <tabTrigger>secu</tabTrigger>
+    <scope>source.php</scope>
+    <description>Secure varible (specialechars)</description>
+</snippet>

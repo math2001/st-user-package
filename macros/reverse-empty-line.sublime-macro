@@ -1,0 +1,32 @@
+[
+	{
+		"args":
+		{
+			"to": "line"
+		},
+		"command": "expand_selection"
+	},
+	{
+		"args":
+		{
+			"operation": "reverse"
+		},
+		"command": "permute_selection"
+	},
+	{
+		"args":
+		{
+			"by": "characters",
+			"forward": false
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"extend": false,
+			"to": "eol"
+		},
+		"command": "move_to"
+	}
+]

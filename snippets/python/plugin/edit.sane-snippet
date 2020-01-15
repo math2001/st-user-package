@@ -1,0 +1,7 @@
+---
+description: Allow to use edit object
+tabTrigger:  edit
+scope:       source.python
+---
+with Edit(self.view) as edit:
+	edit.

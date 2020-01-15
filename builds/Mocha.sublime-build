@@ -1,0 +1,5 @@
+{
+    "cmd": ["mocha.cmd", ".", "--no-colors", "--throw-deprecation", "--reporter", "dot"],
+    "selector": "source.mocha.js",
+    "quiet": true
+}

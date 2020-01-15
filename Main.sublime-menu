@@ -1,0 +1,14 @@
+[
+    {
+        "id": "help",
+        "children": [
+            {
+                "caption": "API Reference",
+                "command": "open_url",
+                "args": {
+                    "url": "http://www.sublimetext.com/docs/3/api_reference.html"
+                }
+            }
+        ]
+    }
+]

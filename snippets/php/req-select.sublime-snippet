@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[\$req = $bdd->prepare('SELECT * FROM ${0.5:une_base} WHERE $1=:$2 AND $3=:$4');
+\$req->execute(array(
+	"$2"=>\$$2,
+	"$4"=>\$$4
+	))]]></content>
+    <tabTrigger>req</tabTrigger>
+    <scope>source.php</scope>
+    <description></description>
+</snippet>

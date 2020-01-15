@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[background-color lighten(${1:red}, ${2:90}%) /* debug */]]></content>
+    <tabTrigger>debug</tabTrigger>
+    <scope>source.stylus</scope>
+    <description>debug by bgc</description>
+</snippet>

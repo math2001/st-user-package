@@ -1,0 +1,6 @@
+---
+description: 
+tabTrigger:  sp
+scope:       text.html
+---
+<?php echo htmlspecialchars($1); ?>

@@ -1,0 +1,11 @@
+---
+description: 
+tabTrigger:  fun
+scope:       source.php
+---
+/**
+* $1
+*/
+${5:public }function ${10:function_name}($15) {
+	$20
+}

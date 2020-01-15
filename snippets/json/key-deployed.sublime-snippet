@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[{
+	"keys": ["$1"],
+	"command": "$5",
+	"args": {$10},
+	"context": [$15]
+}]]></content>
+    <tabTrigger>keys</tabTrigger>
+    <scope>source.json</scope>
+    <description></description>
+</snippet>

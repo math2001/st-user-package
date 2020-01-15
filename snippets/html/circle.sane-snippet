@@ -1,0 +1,6 @@
+---
+tabTrigger: circle
+scope: text.html
+description: SVG circle
+---
+<circle cx="$1" cy="$5" r="$10" fill="${15:currentColor}" />

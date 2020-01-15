@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[for ${1:e} in ${3:pygame.}event.get():
+	if $1.type == QUIT:
+		${2:main} = False
+	if $1.type == KEYDOWN:
+		if $1.key == K_ESCAPE:
+			$2 = False]]></content>
+    <tabTrigger>event</tabTrigger>
+    <scope>source.python</scope>
+    <description></description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[getfilesystemencoding()]]></content>
+    <tabTrigger>getfilesystemencoding</tabTrigger>
+    <scope>source.python</scope>
+    <description>sys.getfilesystemencoding()</description>
+</snippet>

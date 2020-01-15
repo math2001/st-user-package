@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[Hello world!]]></content>
+    <tabTrigger>helloworld</tabTrigger>
+    <scope></scope>
+    <description>Hello world!</description>
+</snippet>

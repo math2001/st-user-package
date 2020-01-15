@@ -1,0 +1,8 @@
+---
+description: @keyframes
+tabTrigger:  keyframes
+scope:       source.css
+---
+@keyframes $1 {
+	$0
+}

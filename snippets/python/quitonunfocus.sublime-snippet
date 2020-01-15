@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[if not pygame.key.get_focused():
+	main = False]]></content>
+    <tabTrigger></tabTrigger>
+    <scope>source.python</scope>
+    <description>quit on focus lost</description>
+</snippet>

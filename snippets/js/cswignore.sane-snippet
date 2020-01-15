@@ -1,0 +1,6 @@
+---
+tabTrigger: cswignore
+scope: source.js
+description:
+---
+// CSW: ignore

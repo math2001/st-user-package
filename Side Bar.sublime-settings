@@ -1,0 +1,7 @@
+{
+    "i_donated_to_sidebar_enhancements_developer": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DD4SL2AHYJGBW",
+    "disabled_menuitem_open_run": true,
+    "disabled_menuitem_open_in_new_window": true,
+    "close_affected_buffers_when_deleting_even_if_dirty": true,
+    "statusbar_file_size": true,
+}

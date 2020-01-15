@@ -1,0 +1,6 @@
+---
+description: die() file-line
+tabTrigger:  die
+scope:       source.php
+---
+die("<pre><i>die(): </i><b>". __FILE__."</b> at lign <b>".__LINE__."</b></pre>");

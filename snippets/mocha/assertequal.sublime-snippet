@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[assert.equal(${1:actual}, ${2:expected}, "$1")]]></content>
+    <tabTrigger>assertequal</tabTrigger>
+    <scope>source.mocha.js</scope>
+    <description>assert equal with description</description>
+</snippet>

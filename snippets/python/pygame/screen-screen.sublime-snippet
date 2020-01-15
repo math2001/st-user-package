@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[Screen.screen.]]></content>
+    <tabTrigger>ss</tabTrigger>
+    <scope>source.python</scope>
+    <description>Screen.screen.</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[Screen.rect.]]></content>
+    <tabTrigger>sr</tabTrigger>
+    <scope>source.python</scope>
+    <description>Screen.rect.</description>
+</snippet>

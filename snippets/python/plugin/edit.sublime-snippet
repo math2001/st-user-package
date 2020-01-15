@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[with Edit(self.view) as edit:
+	edit.]]></content>
+    <tabTrigger>edit</tabTrigger>
+    <scope>source.python</scope>
+    <description>Allow to use edit object</description>
+</snippet>

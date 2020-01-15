@@ -1,0 +1,6 @@
+---
+description: description
+tabTrigger:  #-
+scope:       source.python, source.php, source.coffee
+---
+# --- $1 ---

@@ -1,0 +1,12 @@
+{
+    "anaconda_tooltip_theme": "dark",
+    "anaconda_linter_persistent": true,
+     "autoformat_select":
+    [
+        "W291",
+        "E301",
+        "E302",        
+        "E303",        
+    ],
+    "swallow_startup_errors": true
+}

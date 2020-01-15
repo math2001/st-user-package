@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[$1
+# ${${1/-/ /}/h/c/}]]></content>
+    <tabTrigger>init</tabTrigger>
+    <scope>text.html.markdown</scope>
+    <description>description</description>
+</snippet>

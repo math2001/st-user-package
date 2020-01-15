@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>author</key>
+	<string>math2001 â†’ https://github.com/math2001</string>
+	<key>name</key>
+	<string>Bleen</string>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FFFFFF</string>
+				<key>caret</key>
+				<string>#26A69A</string>
+				<key>foreground</key>
+				<string>#555555</string>
+				<key>invisibles</key>
+				<string>#3B3A32</string>
+				<key>selection</key>
+				<string>#E7F9F8</string>
+				<key>selectionBorder</key>
+				<string>#FCFCFC</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>keyword, entity, markup.inserted.diff</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#26A69A</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>storage.type, keyword.control, storage.modifier, markup.deleted.diff</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F66358</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>comment, punctuation</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#888888</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>markup.raw.inline.markdown, markup.raw.block.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#f2f2f2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>variable.parameter</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FDE8E7</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DCA87C</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>meta.function-call variable.function, meta.function-call support.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A488C8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>support.function, variable.language.this, variable.language, meta.class.inheritance, entity.other.pseudo-element, storage.type, markup.italic</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>markup.bold</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>markup.quote.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#888888</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>punctuation.definition.blockquote.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#dddddd</string>
+				<key>foreground</key>
+				<string>#dddddd</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>constant, entity.name.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#5A9CF6</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

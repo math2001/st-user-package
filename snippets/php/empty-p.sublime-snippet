@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[<p>&nbsp;</p>]]></content>
+    <tabTrigger>ps</tabTrigger>
+    <scope>embedding.php</scope>
+    <description></description>
+</snippet>

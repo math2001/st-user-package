@@ -1,0 +1,76 @@
+@name "Bleen";
+@author "math2001 → https://github.com/math2001";
+
+* {
+    background: #FFF;
+    selectionBorder: #FCFCFC;
+    caret: #26A69A;
+    foreground: #555;
+    selection: #E7F9F8;
+    invisibles: #3B3A32;
+}
+
+
+keyword,
+entity,
+markup.inserted.diff {
+    foreground: #26A69A;
+}
+
+storage.type,
+keyword.control,
+storage.modifier,
+markup.deleted.diff {
+    foreground: #F66358;
+}
+
+comment, punctuation {
+    foreground: #888;
+}
+
+markup.raw.inline.markdown,
+markup.raw.block.markdown {
+    background: #f2f2f2;
+}
+
+variable.parameter {
+    background: #FDE8E7;
+}
+
+string {
+    foreground: #DCA87C;
+}
+
+meta.function-call variable.function,
+meta.function-call support.function {
+    foreground: #A488C8;
+}
+
+support.function,
+variable.language.this,
+variable.language,
+meta.class.inheritance,
+entity.other.pseudo-element,
+storage.type,
+markup.italic {
+    fontStyle: italic;
+}
+
+markup.bold {
+    fontStyle: bold;
+}
+
+markup.quote.markdown {
+    fontStyle: italic;
+    foreground: #888;
+}
+
+punctuation.definition.blockquote.markdown {
+    background: #ddd;
+    foreground: #ddd;
+}
+
+constant,
+entity.name.tag {
+    foreground: #5A9CF6;
+}

@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[${1:function}${1/.+/ = /}${2/.+/\(/}${2:params}${2/.+/\) /}->
+	$3]]></content>
+    <tabTrigger>function</tabTrigger>
+    <scope>source.coffee</scope>
+    <description></description>
+</snippet>

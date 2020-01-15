@@ -1,0 +1,32 @@
+<snippet>
+    <content><![CDATA[import pygame as ${1:p}
+import random as ${3:r}
+from pygame.locals import *
+from couleur import *
+
+${1/\*//}.init()
+
+${4:mf} = ${1/\*//}.display.set_mode((${5:500}, ${6:500}))
+
+${7:cont} = True
+while ${7/\*//}:
+	${4/\*//}.fill(blanc)
+	for ${8:e} in ${1/\*//}.event.get():
+		if ${8/\*//}.type == QUIT:
+			${7/\*//} = False
+
+		if ${8/\*//}.type == KEYDOWN:
+			if ${8/\*//}.key == K_ESCAPE:
+				${7/\*//} = False
+
+		if ${8/\*//}.type == MOUSEMOTION:
+			if ${8/\*//}.
+
+		if ${8/\*//}.type == MOUSEBUTTONDOWN:
+			if ${8/\*//}.
+
+	${1/\*//}.display.flip()]]></content>
+    <tabTrigger>ia</tabTrigger>
+    <scope>source.python</scope>
+    <description></description>
+</snippet>

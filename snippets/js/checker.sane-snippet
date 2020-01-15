@@ -1,0 +1,6 @@
+---
+description: alert('?', line, file)
+tabTrigger:  alertchecker
+scope:       source.js
+---
+alert('?');

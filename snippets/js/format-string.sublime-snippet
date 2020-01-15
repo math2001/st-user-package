@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[require('format-string').extend(String.prototype, {})]]></content>
+    <tabTrigger>format-string</tabTrigger>
+    <scope>source.js</scope>
+    <description>format-string</description>
+</snippet>

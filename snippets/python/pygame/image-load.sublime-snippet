@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[image.load('img/$1.png').convert_alpha()]]></content>
+    <tabTrigger>imageload</tabTrigger>
+    <scope>source.python</scope>
+    <description></description>
+</snippet>

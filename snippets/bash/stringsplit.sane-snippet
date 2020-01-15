@@ -1,0 +1,6 @@
+---
+description: split a string
+tabTrigger:  stringsplit
+scope:       source.shell
+---
+IFS="${1:SEPARATOR}" read -r -a array <<< "${2:victim}"

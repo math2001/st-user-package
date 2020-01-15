@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[\$post = \$_POST;
+\$session = \$_SESSION;
+\$get = \$_GET;]]></content>
+    <tabTrigger>specialvar</tabTrigger>
+    <scope>source.php</scope>
+    <description></description>
+</snippet>

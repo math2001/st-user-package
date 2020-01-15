@@ -1,0 +1,6 @@
+---
+description: 
+tabTrigger:  data
+scope:       source.php
+---
+\$this->request->data

@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[As I said in a previous post:
+
+> Sublime text's awesome, you're not allowed to waste it :smile:
+
+Here's a few courses:
+
+- english: https://www.youtube.com/watch?v=SVkR1ZkNusI&list=PLpcSpRrAaOaqQMDlCzE_Y6IUUzaSfYocK
+- french: https://www.youtube.com/playlist?list=PLjDTyz7qfUnNnVHzGlnzzoNedFu1rB1sS
+
+Follow the one that suits you, **you won't regret it**.
+]]></content>
+    <tabTrigger>sublimecourses</tabTrigger>
+    <scope>text.html.markdown</scope>
+    <description>None</description>
+</snippet>

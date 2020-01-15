@@ -1,0 +1,27 @@
+---
+description: Edit Settings Menu
+tabTrigger:  editsettingsmenu
+scope:       source.json
+---
+[
+    {
+        "id": "preferences",
+        "children": [
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children": [
+                    {
+                        "caption": "${1:PackageName}",
+                        "command": "edit_settings",
+                        "args": {
+                            "base_file": "\${packages}/${1:PackageName}/${2:.sublime/}${1:PackageName}.sublime-settings",
+                            "default": "// Your settings for ${1:PackageName}. See the default file to see the different options. \n{\n\t\$0\n}\n"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

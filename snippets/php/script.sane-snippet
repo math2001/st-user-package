@@ -1,0 +1,6 @@
+---
+description: 
+tabTrigger:  script
+scope:       source.php, text.html
+---
+<script${1/.+/ async /}${1/.+/src="/}$1${1/.+/.js\"/}>${0}</script>

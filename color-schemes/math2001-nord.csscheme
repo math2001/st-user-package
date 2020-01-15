@@ -1,0 +1,130 @@
+@name "Nord";
+
+@uuid D8D5E82E-3D5B-46B5-B38E-8C841C21347D;
+
+* {
+    background: #222;
+    caret: #D8DEE9;
+    foreground: #ECEFF4;
+    invisibles: #3B3A32;
+    lineHighlight: #3E3D32;
+    selection: #444;
+}
+
+comment {
+    @name "Comment";
+    foreground: #75715E;
+}
+
+string {
+    @name "String";
+    foreground: #EBCB8B;
+}
+
+constant.numeric {
+    @name "Number";
+    foreground: #B48EAD;
+}
+
+constant.language {
+    @name "Built-in constant";
+    foreground: #B48EAD;
+}
+
+constant.character, constant.other {
+    @name "User-defined constant";
+    foreground: #B48EAD;
+}
+
+variable {
+    @name "Variable";
+    fontStyle: none;
+}
+
+keyword {
+    @name "Keyword";
+    foreground: #BF616A;
+}
+
+storage {
+    @name "Storage";
+    fontStyle: none;
+    foreground: #BF616A;
+}
+
+storage.type {
+    @name "Storage type";
+    fontStyle: italic;
+    foreground: #88BFD0;
+}
+
+entity.name.class {
+    @name "Class name";
+    foreground: #A3BE8C;
+}
+
+entity.other.inherited-class {
+    @name "Inherited class";
+    fontStyle: italic ;
+    foreground: #A3BE8C;
+}
+
+entity.name.function {
+    @name "Function name";
+    fontStyle: none;
+    foreground: #A3BE8C;
+}
+
+variable.parameter {
+    @name "Function argument";
+    fontStyle: italic;
+    foreground: #D08770;
+}
+
+entity.name.tag {
+    @name "Tag name";
+    fontStyle: none;
+    foreground: #BF616A;
+}
+
+entity.other.attribute-name {
+    @name "Tag attribute";
+    fontStyle: none;
+    foreground: #A3BE8C;
+}
+
+support.function {
+    @name "Library function";
+    fontStyle: none;
+    foreground: #88BFD0;
+}
+
+support.constant {
+    @name "Library constant";
+    fontStyle: none;
+    foreground: #88BFD0;
+}
+
+support.type, support.class {
+    @name "Library class/type";
+    fontStyle: italic;
+    foreground: #88BFD0;
+}
+
+support.other.variable {
+    @name "Library variable";
+    fontStyle: none;
+}
+
+invalid {
+    @name "Invalid";
+    background: #F92672;
+    fontStyle: none;
+    foreground: #F8F8F0;
+}
+
+invalid.deprecated {
+    @name "Invalid deprecated";
+    background: #AE81FF;
+    foreground: #F8F8F0;
+}

@@ -1,0 +1,16 @@
+---
+description: connexion to bdd
+tabTrigger:  cobdd
+scope:       source.php
+---
+try {
+	\$bdd = new PDO(
+		'mysql:host=${1:local.dev};dbname=${2:table};charset=utf8', 
+		'root', 
+		'', 
+		[PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]
+	);
+}
+catch (Exception \$e) {
+	die('Erreur : ' . \$e->getMessage());
+}

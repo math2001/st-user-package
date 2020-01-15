@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[header("location: ${1:\$pageRedir}.php${2:?${3:para}=${4:value}}");]]></content>
+    <tabTrigger>header</tabTrigger>
+    <scope>source.php</scope>
+    <description></description>
+</snippet>

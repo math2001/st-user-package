@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">]]></content>
+    <tabTrigger>linkbootstrap</tabTrigger>
+    <scope>text.html</scope>
+    <description></description>
+</snippet>
