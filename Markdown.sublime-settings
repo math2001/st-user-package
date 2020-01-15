@@ -1,8 +1,0 @@
-{
-	"enable_table_editor": true,
-	"extensions":
-	[
-		"markdown"
-	],
-	"remove_trailing_whitespace_on_save": false
-}

@@ -1,7 +1,0 @@
----
-description: quit on focus lost
-tabTrigger:  
-scope:       source.python
----
-if not pygame.key.get_focused():
-	main = False

@@ -1,6 +1,0 @@
----
-description: 
-tabTrigger:  enc
-scope:       source.python
----
-# -*- encoding: utf-8 -*-

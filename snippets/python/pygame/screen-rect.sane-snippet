@@ -1,6 +1,0 @@
----
-description: Screen.rect.
-tabTrigger:  sr
-scope:       source.python
----
-Screen.rect.

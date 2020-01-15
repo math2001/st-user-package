@@ -1,9 +1,0 @@
----
-description: 
-tabTrigger:  parentfunction
-scope:       source.php
----
-${1:public }function ${2:function_name}($3) {
-	parent::$2($3);
-	$4
-}

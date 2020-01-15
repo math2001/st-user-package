@@ -1,8 +1,0 @@
----
-description: 
-tabTrigger:  big
-scope:       text.plain
----
-Ton texte : ${1:du texte}
-${1/(a)-(b)/AA-BB/}
-

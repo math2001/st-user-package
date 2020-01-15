@@ -1,6 +1,0 @@
----
-description: French a with accent
-tabTrigger:  aa
-scope:       text.plain
----
-à

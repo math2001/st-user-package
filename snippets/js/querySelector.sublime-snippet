@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[querySelector('$1')]]></content>
-    <tabTrigger>querySelector</tabTrigger>
-    <scope>source.js</scope>
-    <description>querySelector</description>
-</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[<circle cx="$1" cy="$5" r="$10" fill="${15:currentColor}" />]]></content>
-    <tabTrigger>circle</tabTrigger>
-    <scope>text.html</scope>
-    <description>SVG circle</description>
-</snippet>

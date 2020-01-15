@@ -1,6 +1,0 @@
----
-description: 
-tabTrigger:  documentation
-scope:       source.python
----
-"""$1"""

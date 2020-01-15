@@ -1,4 +1,0 @@
-{
-    "cmd": ["$file"],
-    "selector": "source.dosbatch"
-}

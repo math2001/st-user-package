@@ -1,6 +1,0 @@
----
-description:
-tabTrigger:  addEventListener
-scope:       source.js
----
-addEventListener('${2:click}', ${4})

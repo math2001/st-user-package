@@ -1,6 +1,0 @@
----
-description: 
-tabTrigger:  itself
-scope:       source.python
----
-${1:something} = $1

@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[alert('?');]]></content>
-    <tabTrigger>alertchecker</tabTrigger>
-    <scope>source.js</scope>
-    <description>alert('?', line, file)</description>
-</snippet>

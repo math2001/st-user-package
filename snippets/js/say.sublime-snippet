@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[say($1)]]></content>
-    <tabTrigger>say</tabTrigger>
-    <scope>source.js</scope>
-    <description></description>
-</snippet>

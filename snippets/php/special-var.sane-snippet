@@ -1,8 +1,0 @@
----
-description: 
-tabTrigger:  specialvar
-scope:       source.php
----
-\$post = \$_POST;
-\$session = \$_SESSION;
-\$get = \$_GET;

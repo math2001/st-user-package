@@ -1,6 +1,0 @@
----
-description: 
-tabTrigger:  rets
-scope:       source.python
----
-return self

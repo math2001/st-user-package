@@ -1,6 +1,0 @@
----
-description: debug by bgc
-tabTrigger:  debug
-scope:       source.stylus
----
-background-color lighten(${1:red}, ${2:90}%) /* debug */

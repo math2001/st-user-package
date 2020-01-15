@@ -1,6 +1,0 @@
----
-description: 
-tabTrigger:  s
-scope:       source.php
----
-\$_SESSION["${1:id}"]

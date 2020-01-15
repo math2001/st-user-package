@@ -1,5 +1,0 @@
-{
-    "cmd": ["go", "run", "$file"],
-    "selector": "source.go",
-    "file_regex": "^(.+):(\\d+): (.+)"
-}

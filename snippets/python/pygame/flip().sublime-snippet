@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[${1:pygame.}display.flip()]]></content>
-    <tabTrigger>flip</tabTrigger>
-    <scope>source.python</scope>
-    <description>pygame.display.flip()</description>
-</snippet>

@@ -1,6 +1,0 @@
----
-description: 
-tabTrigger:  bscb
-scope:       source.css
----
-box-sizing: content-box;

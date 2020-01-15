@@ -1,6 +1,0 @@
----
-description: console.log
-tabTrigger:  log
-scope:       source.coffee
----
-console.log $0

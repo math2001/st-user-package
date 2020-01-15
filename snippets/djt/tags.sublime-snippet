@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[{% $1 %}]]></content>
-    <tabTrigger>%</tabTrigger>
-    <scope>text.html.basic,</scope>
-    <description></description>
-</snippet>

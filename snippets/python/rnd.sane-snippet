@@ -1,6 +1,0 @@
----
-description: Import the randint function
-tabTrigger:  fromrnd
-scope:       source.python
----
-from random import randint as rnd

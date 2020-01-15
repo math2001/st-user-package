@@ -1,6 +1,0 @@
----
-description: Screen.screen.
-tabTrigger:  ss
-scope:       source.python
----
-Screen.screen.

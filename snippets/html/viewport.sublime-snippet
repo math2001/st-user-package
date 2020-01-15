@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[<meta name="viewport" content="width=device-width" />]]></content>
-    <tabTrigger>viewport</tabTrigger>
-    <scope>text.html.basic</scope>
-    <description></description>
-</snippet>

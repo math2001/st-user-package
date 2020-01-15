@@ -1,6 +1,0 @@
-// These settings override both User and Default settings for the MarkdownLivePreviewSyntax syntax
-{
-    "gutter": true,
-    // "rulers": [],
-    "word_wrap": true
-}

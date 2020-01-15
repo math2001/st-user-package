@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[Screen.init()]]></content>
-    <tabTrigger>Screen</tabTrigger>
-    <scope>source.python</scope>
-    <description>Init the Screen Class</description>
-</snippet>

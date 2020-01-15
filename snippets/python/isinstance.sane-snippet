@@ -1,6 +1,0 @@
----
-description: isintance
-tabTrigger:  isinstance
-scope:       source.python
----
-isinstance(${1:obj}, ${2:type})

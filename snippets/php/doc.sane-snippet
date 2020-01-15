@@ -1,8 +1,0 @@
----
-description: documentation function
-tabTrigger:  doc
-scope:       source.php
----
-/**
-* $0
-*/
