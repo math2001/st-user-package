@@ -1,0 +1,13 @@
+[
+	{
+		"args":
+		{
+			"to": "line"
+		},
+		"command": "expand_selection"
+	},
+	{
+		"args": null,
+		"command": "duplicate_line"
+	}
+]

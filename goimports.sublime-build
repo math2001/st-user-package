@@ -1,0 +1,4 @@
+{
+	"shell_cmd": "goimports -w .",
+	"selector": "source.go"
+}

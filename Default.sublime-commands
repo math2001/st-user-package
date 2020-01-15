@@ -1,0 +1,17 @@
+[
+    {
+        "caption": "View: Move To New Group",
+        "command": "new_pane"
+    },
+    {
+        "caption": "View: Close Group",
+        "command": "close_pane"
+    },
+    {
+        "caption": "View: Show Build Results",
+        "command": "show_panel",
+        "args": {
+            "panel": "output.exec"
+        }
+    }
+]

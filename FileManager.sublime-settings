@@ -1,0 +1,36 @@
+// Your settings for FileManager. See the default file to see the different options. 
+{
+    "aliases": {
+        "st": "$packages",
+        "stu": "$packages/User",
+        "des": "~/Desktop",
+        "here": "$file_path",
+        "blog": "~/code/math2001.github.io/content",
+        "cmds": "$packages/User/Default.sublime-commands"
+    },
+
+    "create_keybinding_enabled": false,
+
+    "terminals": [
+        {
+            "name": "CMD",
+            "cmd": ["cmd"],
+            "platform": "windows"
+        },
+        {
+            "name": "Terminal",
+            "cmd": ["open", "-a", "Terminal", "$cwd"],
+            "platform": "osx"
+        },
+        {
+            "name": "iTerm",
+            "cmd": ["open", "-a", "iTerm", "$cwd"],
+            "platform": "osx"
+        },
+        {
+            "name": "GNOME Terminal",
+            "cmd": ["gnome-terminal"],
+            "platform": "linux"
+        }
+    ]
+}

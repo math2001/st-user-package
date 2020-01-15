@@ -1,0 +1,67 @@
+{
+	"always_show_minimap_viewport": true,
+	"auto_complete_commit_on_tab": true,
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip"
+	],
+	"close_windows_when_empty": false,
+	"file_exclude_patterns":
+	[
+		"*.test",
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sublime-workspace"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		".venv",
+		"__pycache__",
+		"fuzzing_workdir"
+	],
+	"font_size": 10,
+	"ignored_packages":
+	[
+		"ChannelRepositoryTools",
+		"MarkdownLivePreview",
+		"Vintage"
+	],
+	"jsoncomma_on_save": true,
+	"save_on_focus_lost": true,
+	"show_line_endings": true,
+	"show_tab_close_buttons": true,
+	"translate_tabs_to_spaces": true
+}
